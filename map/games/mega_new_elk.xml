@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE game SYSTEM "game.dtd">
 <game>
-  <info name="Mega New Elk" version="1.31"/>
+  <info name="Mega New Elk" version="1.32"/>
   <loader javaClass="games.strategy.triplea.TripleA"/>
   <triplea minimumVersion="1.8"/>
   <diceSides value="6"/>
@@ -267,7 +267,7 @@
 	<territory name="Benghazi-Cyrenaica"/>
 	<territory name="Berar"/>
 	<territory name="Bergen-Vestland"/>
-	<territory name="Berlin-Cen.Germany"/>
+	<territory name="Berlin"/>
 	<territory name="Bermuda"/>
 	<territory name="Beruit-Lebanon"/>
 	<territory name="Bessarabia"/>
@@ -1959,7 +1959,7 @@
 	<connection t1="Basra" t2="Haditha-Rutbah"/>
 	<connection t1="Basra" t2="Kuwait"/>
 	<connection t1="Batavia-W.Java" t2="Surabaya-E.Java"/>
-	<connection t1="Bavaria" t2="Berlin-Cen.Germany"/>
+	<connection t1="Bavaria" t2="Berlin"/>
 	<connection t1="Bavaria" t2="Frankfurt-Hesse"/>
 	<connection t1="Bavaria" t2="Prague-Bohemia Moravia"/>
 	<connection t1="Bavaria" t2="Tyrol-S.Austria"/>
@@ -2009,13 +2009,13 @@
 	<connection t1="Bergen-Vestland" t2="Dalarna"/>
 	<connection t1="Bergen-Vestland" t2="Oslo"/>
 	<connection t1="Bergen-Vestland" t2="Trondheim"/>
-	<connection t1="Berlin-Cen.Germany" t2="Danzig-Posen"/>
-	<connection t1="Berlin-Cen.Germany" t2="Frankfurt-Hesse"/>
-	<connection t1="Berlin-Cen.Germany" t2="Hamburg-Lower Saxony"/>
-	<connection t1="Berlin-Cen.Germany" t2="Meckleburg"/>
-	<connection t1="Berlin-Cen.Germany" t2="Pomerania"/>
-	<connection t1="Berlin-Cen.Germany" t2="Prague-Bohemia Moravia"/>
-	<connection t1="Berlin-Cen.Germany" t2="Silesia"/>
+	<connection t1="Berlin" t2="Danzig-Posen"/>
+	<connection t1="Berlin" t2="Frankfurt-Hesse"/>
+	<connection t1="Berlin" t2="Hamburg-Lower Saxony"/>
+	<connection t1="Berlin" t2="Meckleburg"/>
+	<connection t1="Berlin" t2="Pomerania"/>
+	<connection t1="Berlin" t2="Prague-Bohemia Moravia"/>
+	<connection t1="Berlin" t2="Silesia"/>
 	<connection t1="Beruit-Lebanon" t2="Damascus-S.Syria"/>
 	<connection t1="Beruit-Lebanon" t2="Jordan"/>
 	<connection t1="Beruit-Lebanon" t2="Palestine"/>
@@ -4482,7 +4482,7 @@
 <attachment name="territoryAttachment" attachTo="Benghazi-Cyrenaica" 		javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>														</attachment>
 <attachment name="territoryAttachment" attachTo="Berar" 					javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>														</attachment>
 <attachment name="territoryAttachment" attachTo="Bergen-Vestland" 			javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>		</attachment>
-<attachment name="territoryAttachment" attachTo="Berlin-Cen.Germany" 		javaClass="TerritoryAttachment" type="territory">
+<attachment name="territoryAttachment" attachTo="Berlin" 		javaClass="TerritoryAttachment" type="territory">
   <option name="production" value="6"/>			
   <option name="capital" value="Germans"/>
   <option name="victoryCity" value="1"/>
@@ -5538,7 +5538,7 @@
 	<territoryOwner territory="Benghazi-Cyrenaica" 	 	 	owner="Italians"/>			<!-- -->
 	<territoryOwner territory="Berar" 	 	 	 	 	 	owner="British"/>		<!-- -->
 	<territoryOwner territory="Bergen-Vestland" 	 	 	owner="Germans"/>		<!-- -->
-	<territoryOwner territory="Berlin-Cen.Germany" 	 	 	owner="Germans"/>		<!-- -->
+	<territoryOwner territory="Berlin" 	 	 	owner="Germans"/>		<!-- -->
 	<territoryOwner territory="Bermuda" 	 	 	 	 	owner="British"/>		<!-- -->
 	<territoryOwner territory="Beruit-Lebanon" 	 	 	 	owner="British"/>		<!-- -->
 	<territoryOwner territory="Bessarabia" 	 	 	 	 	owner="Russians"/>			<!-- -->
@@ -5687,7 +5687,7 @@
 	<territoryOwner territory="Hokkaido" 	 	 	 	 	owner="Japanese"/>			<!-- -->
 	<territoryOwner territory="Hollandia-Dutch New Guinea" 	owner="ANZAC"/><!-- -->
 	<territoryOwner territory="Honduras" 	 	 	 	 	owner="Neutral_True"/>		<!-- -->
-	<territoryOwner territory="Hong Kong-Kwangtung" 	 	owner="ANZAC"/><!-- -->
+	<territoryOwner territory="Hong Kong-Kwangtung" 	 	owner="British"/><!-- -->
 	<territoryOwner territory="Honolulu-Pearl Harbor" 	 	owner="Americans"/>			<!-- -->
 	<territoryOwner territory="Hopei" 	 	 	 	 	 	owner="Japanese"/>			<!-- -->
 	<territoryOwner territory="Philadelphia-Pennsylvania" 	owner="Americans"/>			<!-- -->
@@ -6080,27 +6080,94 @@
       </ownerInitialize>
       <unitInitialize>
 	<!-- Germans -->
-	<unitPlacement unitType="factory_major" territory="Berlin-Cen.Germany" quantity="1" owner="Germans"/>
+	<unitPlacement unitType="factory_major" territory="Berlin" quantity="1" owner="Germans"/>
+	<unitPlacement unitType="airfield" territory="Berlin" quantity="1" owner="Germans"/>
+	<unitPlacement unitType="aaGun" territory="Berlin" quantity="1" owner="Germans"/>
+	<unitPlacement unitType="infantry" territory="Berlin" quantity="1" owner="Germans"/>
+	<unitPlacement unitType="artillery" territory="Berlin" quantity="1" owner="Germans"/>
+	<unitPlacement unitType="mech_infantry" territory="Berlin" quantity="1" owner="Germans"/>
+	<unitPlacement unitType="armour" territory="Berlin" quantity="1" owner="Germans"/>
+	<unitPlacement unitType="fighter" territory="Berlin" quantity="1" owner="Germans"/>
+	<unitPlacement unitType="tactical_bomber" territory="Berlin" quantity="1" owner="Germans"/>
+	<unitPlacement unitType="bomber" territory="Berlin" quantity="1" owner="Germans"/>
 	<unitPlacement unitType="factory_major" territory="Schleswig-Holstein" quantity="1" owner="Germans"/>
 	<unitPlacement unitType="harbour" territory="Schleswig-Holstein" quantity="1" owner="Germans"/>
 
 	<!-- Russians -->
 	<unitPlacement unitType="factory_major" territory="Moscow-Cen.Russia" quantity="1" owner="Russians"/>
+	<unitPlacement unitType="fighter" territory="Moscow-Cen.Russia" quantity="1" owner="Russians"/>
+            <unitPlacement unitType="airfield" territory="Moscow-Cen.Russia" quantity="1" owner="Russians"/>
+            <unitPlacement unitType="infantry" territory="Moscow-Cen.Russia" quantity="1" owner="Russians"/>
+            <unitPlacement unitType="tactical_bomber" territory="Moscow-Cen.Russia" quantity="1" owner="Russians"/>
+            <unitPlacement unitType="armour" territory="Moscow-Cen.Russia" quantity="1" owner="Russians"/>
+            <unitPlacement unitType="bomber" territory="Moscow-Cen.Russia" quantity="1" owner="Russians"/>
+            <unitPlacement unitType="aaGun" territory="Moscow-Cen.Russia" quantity="1" owner="Russians"/>
+            <unitPlacement unitType="mech_infantry" territory="Moscow-Cen.Russia" quantity="1" owner="Russians"/>
+            <unitPlacement unitType="artillery" territory="Moscow-Cen.Russia" quantity="1" owner="Russians"/>
 
 	<!-- Japanese -->
 	<unitPlacement unitType="factory_major" territory="Tokyo" quantity="1" owner="Japanese"/>
+	<unitPlacement unitType="factory_minor" territory="Kyushu" quantity="1" owner="Japanese"/>
+	<unitPlacement unitType="harbour" territory="Kyushu" quantity="1" owner="Japanese"/>
+	<unitPlacement unitType="artillery" territory="Tohoku" quantity="1" owner="Japanese"/>
+            <unitPlacement unitType="bomber" territory="Tohoku" quantity="1" owner="Japanese"/>
+            <unitPlacement unitType="mech_infantry" territory="Tohoku" quantity="1" owner="Japanese"/>
+            <unitPlacement unitType="armour" territory="Tohoku" quantity="1" owner="Japanese"/>
+	    <unitPlacement unitType="infantry" territory="Tokyo" quantity="1" owner="Japanese"/>
+            <unitPlacement unitType="tactical_bomber" territory="Tokyo" quantity="1" owner="Japanese"/>
+            <unitPlacement unitType="airfield" territory="Tokyo" quantity="1" owner="Japanese"/>
+            <unitPlacement unitType="artillery" territory="Tokyo" quantity="1" owner="Japanese"/>
+            <unitPlacement unitType="fighter" territory="Tokyo" quantity="1" owner="Japanese"/>
+            <unitPlacement unitType="aaGun" territory="Tokyo" quantity="1" owner="Japanese"/>
+            <unitPlacement unitType="harbour" territory="Tokyo" quantity="1" owner="Japanese"/>
 
 	<!-- Americans -->
 	<unitPlacement unitType="factory_major" territory="Washington D.C." quantity="1" owner="Americans"/>
+	<unitPlacement unitType="fighter" territory="Washington D.C." quantity="1" owner="Americans"/>
+            <unitPlacement unitType="airfield" territory="Washington D.C." quantity="1" owner="Americans"/>
+            <unitPlacement unitType="bomber" territory="Washington D.C." quantity="1" owner="Americans"/>
+            <unitPlacement unitType="infantry" territory="Washington D.C." quantity="1" owner="Americans"/>
+            <unitPlacement unitType="tactical_bomber" territory="Washington D.C." quantity="1" owner="Americans"/>
+            <unitPlacement unitType="artillery" territory="Washington D.C." quantity="1" owner="Americans"/>
+            <unitPlacement unitType="aaGun" territory="Washington D.C." quantity="1" owner="Americans"/>
 
 	<!-- British -->
 	<unitPlacement unitType="factory_major" territory="London-S.England" quantity="1" owner="British"/>
+	<unitPlacement unitType="fighter" territory="London-S.England" quantity="1" owner="British"/>
+            <unitPlacement unitType="infantry" territory="London-S.England" quantity="1" owner="British"/>
+            <unitPlacement unitType="bomber" territory="London-S.England" quantity="1" owner="British"/>
+            <unitPlacement unitType="aaGun" territory="London-S.England" quantity="1" owner="British"/>
+            <unitPlacement unitType="tactical_bomber" territory="London-S.England" quantity="1" owner="British"/>
+            <unitPlacement unitType="airfield" territory="London-S.England" quantity="1" owner="British"/>
+            <unitPlacement unitType="harbour" territory="London-S.England" quantity="1" owner="British"/>
+            <unitPlacement unitType="artillery" territory="London-S.England" quantity="1" owner="British"/>
+            <unitPlacement unitType="mech_infantry" territory="London-S.England" quantity="1" owner="British"/>
+            <unitPlacement unitType="armour" territory="London-S.England" quantity="1" owner="British"/>
+	    <unitPlacement unitType="harbour" territory="Scotland" quantity="1" owner="British"/>
 
 	<!-- Italians -->
 	<unitPlacement unitType="factory_minor" territory="Rome-Cen.Italy" quantity="1" owner="Italians"/>
+	<unitPlacement unitType="artillery" territory="Rome-Cen.Italy" quantity="1" owner="Italians"/>
+            <unitPlacement unitType="tactical_bomber" territory="Rome-Cen.Italy" quantity="1" owner="Italians"/>
+            <unitPlacement unitType="airfield" territory="Rome-Cen.Italy" quantity="1" owner="Italians"/>
+            <unitPlacement unitType="armour" territory="Rome-Cen.Italy" quantity="1" owner="Italians"/>
+            <unitPlacement unitType="bomber" territory="Rome-Cen.Italy" quantity="1" owner="Italians"/>
+            <unitPlacement unitType="fighter" territory="Rome-Cen.Italy" quantity="1" owner="Italians"/>
+            <unitPlacement unitType="harbour" territory="Rome-Cen.Italy" quantity="1" owner="Italians"/>
+            <unitPlacement unitType="mech_infantry" territory="Rome-Cen.Italy" quantity="1" owner="Italians"/>
 
 	<!-- ANZAC -->
 	<unitPlacement unitType="factory_minor" territory="Sydney Canberra-New South Wales" quantity="1" owner="ANZAC"/>
+	<unitPlacement unitType="fighter" territory="Sydney Canberra-New South Wales" quantity="1" owner="ANZAC"/>
+            <unitPlacement unitType="mech_infantry" territory="Sydney Canberra-New South Wales" quantity="1" owner="ANZAC"/>
+            <unitPlacement unitType="bomber" territory="Sydney Canberra-New South Wales" quantity="1" owner="ANZAC"/>
+            <unitPlacement unitType="artillery" territory="Sydney Canberra-New South Wales" quantity="1" owner="ANZAC"/>
+            <unitPlacement unitType="aaGun" territory="Sydney Canberra-New South Wales" quantity="1" owner="ANZAC"/>
+            <unitPlacement unitType="infantry" territory="Sydney Canberra-New South Wales" quantity="1" owner="ANZAC"/>
+            <unitPlacement unitType="tactical_bomber" territory="Sydney Canberra-New South Wales" quantity="1" owner="ANZAC"/>
+            <unitPlacement unitType="airfield" territory="Sydney Canberra-New South Wales" quantity="1" owner="ANZAC"/>
+            <unitPlacement unitType="harbour" territory="Sydney Canberra-New South Wales" quantity="1" owner="ANZAC"/>
+            <unitPlacement unitType="armour" territory="Sydney Canberra-New South Wales" quantity="1" owner="ANZAC"/>
 
 	<!-- French -->
 	<unitPlacement unitType="factory_minor" territory="Paris-Cen.France" quantity="1" owner="French"/>
