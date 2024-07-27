@@ -6158,6 +6158,16 @@
 
 	<!-- ANZAC -->
 	<unitPlacement unitType="factory_minor" territory="Sydney Canberra-New South Wales" quantity="1" owner="ANZAC"/>
+	<unitPlacement unitType="fighter" territory="Sydney Canberra-New South Wales" quantity="1" owner="ANZAC"/>
+            <unitPlacement unitType="mech_infantry" territory="Sydney Canberra-New South Wales" quantity="1" owner="ANZAC"/>
+            <unitPlacement unitType="bomber" territory="Sydney Canberra-New South Wales" quantity="1" owner="ANZAC"/>
+            <unitPlacement unitType="artillery" territory="Sydney Canberra-New South Wales" quantity="1" owner="ANZAC"/>
+            <unitPlacement unitType="aaGun" territory="Sydney Canberra-New South Wales" quantity="1" owner="ANZAC"/>
+            <unitPlacement unitType="infantry" territory="Sydney Canberra-New South Wales" quantity="1" owner="ANZAC"/>
+            <unitPlacement unitType="tactical_bomber" territory="Sydney Canberra-New South Wales" quantity="1" owner="ANZAC"/>
+            <unitPlacement unitType="airfield" territory="Sydney Canberra-New South Wales" quantity="1" owner="ANZAC"/>
+            <unitPlacement unitType="harbour" territory="Sydney Canberra-New South Wales" quantity="1" owner="ANZAC"/>
+            <unitPlacement unitType="armour" territory="Sydney Canberra-New South Wales" quantity="1" owner="ANZAC"/>
 
 	<!-- French -->
 	<unitPlacement unitType="factory_minor" territory="Paris-Cen.France" quantity="1" owner="French"/>
