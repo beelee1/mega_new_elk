@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE game SYSTEM "game.dtd">
 <game>
-  <info name="Mega New Elk" version="1.321"/>
+  <info name="Mega New Elk" version="1.322"/>
   <loader javaClass="games.strategy.triplea.TripleA"/>
   <triplea minimumVersion="1.8"/>
   <diceSides value="6"/>
@@ -4851,6 +4851,7 @@
          <option name="production" value="1"/>
          <option name="capital" value="French"/>
 	 <option name="victoryCity" value="1"/>
+	 <option name="originalOwner" value="French"/>
 </attachment>
 <attachment name="territoryAttachment" attachTo="Patagonia" 				javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>														</attachment>
 <attachment name="territoryAttachment" attachTo="Peking-Tientsin" 			javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>														</attachment>
@@ -5890,7 +5891,7 @@
 	<territoryOwner territory="Panama" 	 	 	 	 	 	owner="Americans"/>			<!-- -->
 	<territoryOwner territory="Panay Leyte-Visayas Is." 	owner="Americans"/>			<!-- -->
 	<territoryOwner territory="Paraguay" 	 	 	 	 	owner="Neutral_True"/>		<!-- S.America -->
-	<territoryOwner territory="Paris-Cen.France" 	 	 	owner="French"/>		<!-- -->
+	<territoryOwner territory="Paris-Cen.France" 	 	 	owner="Germans"/>		<!-- -->
 	<territoryOwner territory="Patagonia" 	 	 	 	 	owner="Neutral_True"/>		<!-- S.America -->
 	<territoryOwner territory="Peking-Tientsin" 	 	 	owner="Japanese"/>			<!-- -->
 	<territoryOwner territory="Pelelui-Palau Is." 	 	 	owner="Japanese"/>			<!-- -->
@@ -6080,22 +6081,38 @@
       </ownerInitialize>
       <unitInitialize>
 	<!-- Germans -->
-	<unitPlacement unitType="factory_major" territory="Berlin" quantity="1" owner="Germans"/>
-	<unitPlacement unitType="airfield" territory="Berlin" quantity="1" owner="Germans"/>
-	<unitPlacement unitType="aaGun" territory="Berlin" quantity="1" owner="Germans"/>
-	<unitPlacement unitType="infantry" territory="Berlin" quantity="1" owner="Germans"/>
-	<unitPlacement unitType="artillery" territory="Berlin" quantity="1" owner="Germans"/>
-	<unitPlacement unitType="mech_infantry" territory="Berlin" quantity="1" owner="Germans"/>
-	<unitPlacement unitType="armour" territory="Berlin" quantity="1" owner="Germans"/>
-	<unitPlacement unitType="fighter" territory="Berlin" quantity="1" owner="Germans"/>
-	<unitPlacement unitType="tactical_bomber" territory="Berlin" quantity="1" owner="Germans"/>
-	<unitPlacement unitType="bomber" territory="Berlin" quantity="1" owner="Germans"/>
-	<unitPlacement unitType="factory_major" territory="Schleswig-Holstein" quantity="1" owner="Germans"/>
-	<unitPlacement unitType="harbour" territory="Schleswig-Holstein" quantity="1" owner="Germans"/>
+	<unitPlacement unitType="infantry" territory="Belgium-Luxembourg" quantity="2" owner="Germans"/>
+            <unitPlacement unitType="factory_major" territory="Berlin" quantity="1" owner="Germans"/>
+            <unitPlacement unitType="airfield" territory="Berlin" quantity="1" owner="Germans"/>
+            <unitPlacement unitType="aaGun" territory="Berlin" quantity="1" owner="Germans"/>
+            <unitPlacement unitType="infantry" territory="Berlin" quantity="1" owner="Germans"/>
+            <unitPlacement unitType="artillery" territory="Berlin" quantity="1" owner="Germans"/>
+            <unitPlacement unitType="mech_infantry" territory="Berlin" quantity="1" owner="Germans"/>
+            <unitPlacement unitType="armour" territory="Berlin" quantity="1" owner="Germans"/>
+            <unitPlacement unitType="fighter" territory="Berlin" quantity="1" owner="Germans"/>
+            <unitPlacement unitType="tactical_bomber" territory="Berlin" quantity="1" owner="Germans"/>
+            <unitPlacement unitType="bomber" territory="Berlin" quantity="1" owner="Germans"/>
+            <unitPlacement unitType="infantry" territory="Bordeaux-Gascony" quantity="2" owner="Germans"/>
+            <unitPlacement unitType="infantry" territory="Brittany" quantity="2" owner="Germans"/>
+            <unitPlacement unitType="infantry" territory="Calais-Picardy" quantity="2" owner="Germans"/>
+            <unitPlacement unitType="infantry" territory="Konigsberg-E.Prussia" quantity="3" owner="Germans"/>
+            <unitPlacement unitType="artillery" territory="Konigsberg-E.Prussia" quantity="1" owner="Germans"/>
+            <unitPlacement unitType="mech_infantry" territory="Konigsberg-E.Prussia" quantity="1" owner="Germans"/>
+            <unitPlacement unitType="armour" territory="Konigsberg-E.Prussia" quantity="1" owner="Germans"/>
+            <unitPlacement unitType="infantry" territory="Kosice-Munkacs" quantity="3" owner="Germans"/>
+            <unitPlacement unitType="infantry" territory="Krakow-Lublin" quantity="3" owner="Germans"/>
+	    <unitPlacement unitType="infantry" territory="Normandy" quantity="2" owner="Germans"/>
+            <unitPlacement unitType="factory_minor" territory="Paris-Cen.France" quantity="1" owner="Germans"/>
+            <unitPlacement unitType="infantry" territory="Ploiesti-E.Romania" quantity="3" owner="Germans"/>
+            <unitPlacement unitType="infantry" territory="Poitou" quantity="2" owner="Germans"/>
+	    <unitPlacement unitType="factory_major" territory="Schleswig-Holstein" quantity="1" owner="Germans"/>
+            <unitPlacement unitType="harbour" territory="Schleswig-Holstein" quantity="1" owner="Germans"/>
+	    <unitPlacement unitType="infantry" territory="Warsaw-Cen.Poland" quantity="3" owner="Germans"/>
+	    <unitPlacement unitType="infantry" territory="Netherlands" quantity="2" owner="Germans"/>
 
 	<!-- Russians -->
 	<unitPlacement unitType="factory_major" territory="Moscow-Cen.Russia" quantity="1" owner="Russians"/>
-	<unitPlacement unitType="fighter" territory="Moscow-Cen.Russia" quantity="1" owner="Russians"/>
+            <unitPlacement unitType="fighter" territory="Moscow-Cen.Russia" quantity="1" owner="Russians"/>
             <unitPlacement unitType="airfield" territory="Moscow-Cen.Russia" quantity="1" owner="Russians"/>
             <unitPlacement unitType="infantry" territory="Moscow-Cen.Russia" quantity="1" owner="Russians"/>
             <unitPlacement unitType="tactical_bomber" territory="Moscow-Cen.Russia" quantity="1" owner="Russians"/>
@@ -6170,7 +6187,7 @@
             <unitPlacement unitType="armour" territory="Sydney Canberra-New South Wales" quantity="1" owner="ANZAC"/>
 
 	<!-- French -->
-	<unitPlacement unitType="factory_minor" territory="Paris-Cen.France" quantity="1" owner="French"/>
+	
 
 </unitInitialize>
       
@@ -6690,6 +6707,13 @@ Land Territories are changed in map.properties explained here<br>
 <br>
 <b>Sea Zones</b> are explained here<br>
 <br>https://www.axisandallies.org/forums/topic/39809/new-triplea-map-uhd-world-war-ii-global/62?_=1709335922225<br>
+<br>
+Change Log:
+<br>
+<br>
+1.322<br>
+7-27-24<br>
+Add New German Placements Victory.<br>
 <br>
 To blitz move mech_infantry with armour, you must click on them both at the same time (use CTRL to create waypoints).<br>
 Paratroopers tech enables a second combat movement phase which happens right after the first combat movement phase, and the second one only allowes movement of paratrooping infantry.<br>
