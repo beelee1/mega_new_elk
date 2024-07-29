@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE game SYSTEM "game.dtd">
 <game>
-  <info name="Mega New Elk" version="1.321"/>
+  <info name="Mega New Elk" version="1.323"/>
   <loader javaClass="games.strategy.triplea.TripleA"/>
   <triplea minimumVersion="1.8"/>
   <diceSides value="6"/>
@@ -261,7 +261,7 @@
 	<territory name="Bavaria"/>
 	<territory name="Bechuanaland"/>
 	<territory name="Belgian Congo"/>
-	<territory name="Belgium-Luxembourg"/>
+	<territory name="Belgium"/>
 	<territory name="Belgrade-Cen.Yugoslavia"/>
 	<territory name="Bengal"/>
 	<territory name="Benghazi-Cyrenaica"/>
@@ -297,7 +297,7 @@
 	<territory name="Buru"/>
 	<territory name="Buryatia"/>
 	<territory name="Cairo-Egypt"/>
-	<territory name="Calais-Picardy"/>
+	<territory name="Calais"/>
 	<territory name="Calcutta"/>
 	<territory name="Cambodia"/>
 	<territory name="Canary Is."/>
@@ -404,7 +404,7 @@
 	<territory name="Halfa"/>
 	<territory name="Halifax-Nova Scotia"/>
 	<territory name="Halmahera-Maluku Is."/>
-	<territory name="Hamburg-Lower Saxony"/>
+	<territory name="Hamburg"/>
 	<territory name="Hanoi-Tonkin"/>
 	<territory name="Harbin"/>
 	<territory name="Havana-Cuba"/>
@@ -619,7 +619,7 @@
 	<territory name="Panama"/>
 	<territory name="Panay Leyte-Visayas Is."/>
 	<territory name="Paraguay"/>
-	<territory name="Paris-Cen.France"/>
+	<territory name="Paris"/>
 	<territory name="Patagonia"/>
 	<territory name="Peking-Tientsin"/>
 	<territory name="Pelelui-Palau Is."/>
@@ -1638,12 +1638,12 @@
 	<connection t1="109 Sea Zone" t2="Wales"/>
 	<connection t1="110 A Sea Zone" t2="110 B Sea Zone"/>
 	<connection t1="110 A Sea Zone" t2="Brittany"/>
-	<connection t1="110 A Sea Zone" t2="Calais-Picardy"/>
+	<connection t1="110 A Sea Zone" t2="Calais"/>
 	<connection t1="110 A Sea Zone" t2="London-S.England"/>
 	<connection t1="110 A Sea Zone" t2="Normandy"/>
 	<connection t1="110 B Sea Zone" t2="111 A Sea Zone"/>
 	<connection t1="110 B Sea Zone" t2="112 Sea Zone"/>
-	<connection t1="110 B Sea Zone" t2="Belgium-Luxembourg"/>
+	<connection t1="110 B Sea Zone" t2="Belgium"/>
 	<connection t1="110 B Sea Zone" t2="London-S.England"/>
 	<connection t1="110 B Sea Zone" t2="N.England"/>
 	<connection t1="110 B Sea Zone" t2="Netherlands"/>
@@ -1660,7 +1660,7 @@
 	<connection t1="112 Sea Zone" t2="113 A Sea Zone"/>
 	<connection t1="112 Sea Zone" t2="125 Sea Zone"/>
 	<connection t1="112 Sea Zone" t2="Bergen-Vestland"/>
-	<connection t1="112 Sea Zone" t2="Hamburg-Lower Saxony"/>
+	<connection t1="112 Sea Zone" t2="Hamburg"/>
 	<connection t1="112 Sea Zone" t2="Juteland"/>
 	<connection t1="112 Sea Zone" t2="Schleswig-Holstein"/>
 	<connection t1="113 A Sea Zone" t2="113 B Sea Zone"/>
@@ -1839,7 +1839,7 @@
 	<connection t1="Almaty" t2="Omsk"/>
 	<connection t1="Almaty" t2="Urumchi-Kansu"/>
 	<connection t1="Alsace" t2="Baden-Wurttemburg"/>
-	<connection t1="Alsace" t2="Belgium-Luxembourg"/>
+	<connection t1="Alsace" t2="Belgium"/>
 	<connection t1="Alsace" t2="Lorraine"/>
 <!--	<connection t1="Alsace" t2="Switzerland"/>  -->
 	<connection t1="Alsace" t2="Westphalia-Rhineland"/>
@@ -1976,11 +1976,11 @@
 	<connection t1="Belgian Congo" t2="Tanganyika"/>
 	<connection t1="Belgian Congo" t2="Ubangi Sheri"/>
 	<connection t1="Belgian Congo" t2="Uganda"/>
-	<connection t1="Belgium-Luxembourg" t2="Calais-Picardy"/>
-	<connection t1="Belgium-Luxembourg" t2="Lorraine"/>
-	<connection t1="Belgium-Luxembourg" t2="Netherlands"/>
-	<connection t1="Belgium-Luxembourg" t2="Paris-Cen.France"/>
-	<connection t1="Belgium-Luxembourg" t2="Westphalia-Rhineland"/>
+	<connection t1="Belgium" t2="Calais"/>
+	<connection t1="Belgium" t2="Lorraine"/>
+	<connection t1="Belgium" t2="Netherlands"/>
+	<connection t1="Belgium" t2="Paris"/>
+	<connection t1="Belgium" t2="Westphalia-Rhineland"/>
 	<connection t1="Belgrade-Cen.Yugoslavia" t2="Bucharest-Cen.Romania"/>
 	<connection t1="Belgrade-Cen.Yugoslavia" t2="Montenegro"/>
 	<connection t1="Belgrade-Cen.Yugoslavia" t2="Sarajevo-Bosnia"/>
@@ -2011,7 +2011,7 @@
 	<connection t1="Bergen-Vestland" t2="Trondheim"/>
 	<connection t1="Berlin" t2="Danzig-Posen"/>
 	<connection t1="Berlin" t2="Frankfurt-Hesse"/>
-	<connection t1="Berlin" t2="Hamburg-Lower Saxony"/>
+	<connection t1="Berlin" t2="Hamburg"/>
 	<connection t1="Berlin" t2="Meckleburg"/>
 	<connection t1="Berlin" t2="Pomerania"/>
 	<connection t1="Berlin" t2="Prague-Bohemia Moravia"/>
@@ -2121,8 +2121,8 @@
 	<connection t1="Cairo-Egypt" t2="Kharga-Western Desert"/>
 	<connection t1="Cairo-Egypt" t2="Sinai"/>
 	<connection t1="Cairo-Egypt" t2="Upper Egypt"/>
-	<connection t1="Calais-Picardy" t2="Normandy"/>
-	<connection t1="Calais-Picardy" t2="Paris-Cen.France"/>
+	<connection t1="Calais" t2="Normandy"/>
+	<connection t1="Calais" t2="Paris"/>
 	<connection t1="Calcutta" t2="N.Burma"/>
 	<connection t1="Calcutta" t2="Orissa"/>
 <!--	<connection t1="Cambodia" t2="037 Sea Zone"/>  -->
@@ -2306,7 +2306,7 @@
 <!--	<connection t1="Fezzan" t2="Tibesti"/>	-->
 	<connection t1="Fezzan" t2="E.Algerian-Sahara"/>
 	<connection t1="Florida" t2="Mobile-Alabama"/>
-	<connection t1="Frankfurt-Hesse" t2="Hamburg-Lower Saxony"/>
+	<connection t1="Frankfurt-Hesse" t2="Hamburg"/>
 	<connection t1="Frankfurt-Hesse" t2="Westphalia-Rhineland"/>
 	<connection t1="French Dahomey" t2="Gold Coast"/>
 	<connection t1="French Dahomey" t2="Lagos-S.Nigeria"/>
@@ -2373,10 +2373,10 @@
 	<connection t1="Halfa" t2="Khartoum-Sudan"/>
 <!--	<connection t1="Halfa" t2="Tibesti"/>	-->
 	<connection t1="Halifax-Nova Scotia" t2="S.Quebec"/>
-	<connection t1="Hamburg-Lower Saxony" t2="Meckleburg"/>
-	<connection t1="Hamburg-Lower Saxony" t2="Netherlands"/>
-	<connection t1="Hamburg-Lower Saxony" t2="Schleswig-Holstein"/>
-	<connection t1="Hamburg-Lower Saxony" t2="Westphalia-Rhineland"/>
+	<connection t1="Hamburg" t2="Meckleburg"/>
+	<connection t1="Hamburg" t2="Netherlands"/>
+	<connection t1="Hamburg" t2="Schleswig-Holstein"/>
+	<connection t1="Hamburg" t2="Westphalia-Rhineland"/>
 	<connection t1="Hanoi-Tonkin" t2="Kunming"/>
 	<connection t1="Hanoi-Tonkin" t2="Kwangsi"/>
 	<connection t1="Hanoi-Tonkin" t2="Laos"/>
@@ -2654,7 +2654,7 @@
 	<connection t1="Lorestan" t2="Mosul-Kirkuk"/>
 	<connection t1="Lorestan" t2="Tehran"/>
 	<connection t1="Lorraine" t2="Orleans"/>
-	<connection t1="Lorraine" t2="Paris-Cen.France"/>
+	<connection t1="Lorraine" t2="Paris"/>
 <!--	<connection t1="Lorraine" t2="Switzerland"/>  -->
 	<connection t1="Lorraine" t2="Vichy-Rhone"/>
 	<connection t1="Los Angeles-S.California" t2="Nevada"/>
@@ -2800,7 +2800,7 @@
 	<connection t1="Nizhny Novgorod" t2="Perm"/>
 	<connection t1="Nizhny Novgorod" t2="Yaroslavl"/>
 	<connection t1="Normandy" t2="Orleans"/>
-	<connection t1="Normandy" t2="Paris-Cen.France"/>
+	<connection t1="Normandy" t2="Paris"/>
 	<connection t1="Normandy" t2="Poitou"/>
 	<connection t1="Norrland" t2="Svealand"/>
 	<connection t1="Northwest Territories" t2="Yukon"/>
@@ -2822,7 +2822,7 @@
 	<connection t1="Omsk" t2="Urumchi-Kansu"/>
 	<connection t1="Oran" t2="Ouargla"/>
 	<connection t1="Orissa" t2="Yanaon"/>
-	<connection t1="Orleans" t2="Paris-Cen.France"/>
+	<connection t1="Orleans" t2="Paris"/>
 	<connection t1="Orleans" t2="Poitou"/>
 	<connection t1="Orleans" t2="Vichy-Rhone"/>
 	<connection t1="Ottawa-Montreal" t2="S.Quebec"/>		<!-- new -->
@@ -4476,7 +4476,7 @@
 <attachment name="territoryAttachment" attachTo="Bavaria" 					javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>			</attachment>
 <attachment name="territoryAttachment" attachTo="Bechuanaland" 				javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>														</attachment>
 <attachment name="territoryAttachment" attachTo="Belgian Congo" 			javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>			</attachment>
-<attachment name="territoryAttachment" attachTo="Belgium-Luxembourg" 		javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>														</attachment>
+<attachment name="territoryAttachment" attachTo="Belgium" 		javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>														</attachment>
 <attachment name="territoryAttachment" attachTo="Belgrade-Cen.Yugoslavia"	javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>														</attachment>
 <attachment name="territoryAttachment" attachTo="Bengal" 					javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>														</attachment>
 <attachment name="territoryAttachment" attachTo="Benghazi-Cyrenaica" 		javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>														</attachment>
@@ -4516,7 +4516,7 @@
 <attachment name="territoryAttachment" attachTo="Buru" 						javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>			</attachment>
 <attachment name="territoryAttachment" attachTo="Buryatia" 					javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>														</attachment>
 <attachment name="territoryAttachment" attachTo="Cairo-Egypt" 				javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>														</attachment>
-<attachment name="territoryAttachment" attachTo="Calais-Picardy" 			javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>														</attachment>
+<attachment name="territoryAttachment" attachTo="Calais" 			javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>														</attachment>
 <attachment name="territoryAttachment" attachTo="Calcutta" 					javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>				</attachment>
 <attachment name="territoryAttachment" attachTo="Cambodia" 					javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>			</attachment>
 <attachment name="territoryAttachment" attachTo="Canary Is." 				javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>														</attachment>
@@ -4624,7 +4624,7 @@
 <attachment name="territoryAttachment" attachTo="Halfa" 					javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>		</attachment>
 <attachment name="territoryAttachment" attachTo="Halifax-Nova Scotia" 		javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>			</attachment>
 <attachment name="territoryAttachment" attachTo="Halmahera-Maluku Is." 		javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>			</attachment>
-<attachment name="territoryAttachment" attachTo="Hamburg-Lower Saxony" 		javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>														</attachment>
+<attachment name="territoryAttachment" attachTo="Hamburg" 		javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>														</attachment>
 <attachment name="territoryAttachment" attachTo="Hanoi-Tonkin" 				javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>			</attachment>
 <attachment name="territoryAttachment" attachTo="Harbin" 					javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>														</attachment>
 <attachment name="territoryAttachment" attachTo="Havana-Cuba" 				javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>														</attachment>
@@ -4847,10 +4847,11 @@
 <attachment name="territoryAttachment" attachTo="Panama" 					javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>				</attachment>
 <attachment name="territoryAttachment" attachTo="Panay Leyte-Visayas Is."	javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>			</attachment>
 <attachment name="territoryAttachment" attachTo="Paraguay" 					javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>														</attachment>
-<attachment name="territoryAttachment" attachTo="Paris-Cen.France" 			javaClass="TerritoryAttachment" type="territory">
+<attachment name="territoryAttachment" attachTo="Paris" 			javaClass="TerritoryAttachment" type="territory">
          <option name="production" value="1"/>
          <option name="capital" value="French"/>
 	 <option name="victoryCity" value="1"/>
+	 <option name="originalOwner" value="French"/>
 </attachment>
 <attachment name="territoryAttachment" attachTo="Patagonia" 				javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>														</attachment>
 <attachment name="territoryAttachment" attachTo="Peking-Tientsin" 			javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>														</attachment>
@@ -5532,7 +5533,7 @@
 	<territoryOwner territory="Bavaria" 	 	 	 	 	owner="Germans"/>		<!-- -->
 	<territoryOwner territory="Bechuanaland" 	 	 	 	owner="British"/>		<!-- -->
 	<territoryOwner territory="Belgian Congo" 	 	 	 	owner="British"/>		<!-- Belgium -->
-	<territoryOwner territory="Belgium-Luxembourg" 	 	 	owner="Germans"/>		<!-- -->
+	<territoryOwner territory="Belgium" 	 	 	owner="Germans"/>		<!-- -->
 	<territoryOwner territory="Belgrade-Cen.Yugoslavia" 	owner="Germans"/>		<!-- -->
 	<territoryOwner territory="Bengal" 	 	 	 	 	 	owner="British"/>		<!-- -->
 	<territoryOwner territory="Benghazi-Cyrenaica" 	 	 	owner="Italians"/>			<!-- -->
@@ -5568,7 +5569,7 @@
 	<territoryOwner territory="Buru" 	 	 	 	 	 	owner="ANZAC"/><!-- -->
 	<territoryOwner territory="Buryatia" 	 	 	 	 	owner="Russians"/>			<!-- -->
 	<territoryOwner territory="Cairo-Egypt" 	 	 	 	owner="British"/>		<!-- -->
-	<territoryOwner territory="Calais-Picardy" 	 	 	 	owner="Germans"/>		<!-- -->
+	<territoryOwner territory="Calais" 	 	 	 	owner="Germans"/>		<!-- -->
 	<territoryOwner territory="Calcutta" 	 	 	 	 	owner="British"/>		<!-- -->
 	<territoryOwner territory="Cambodia" 	 	 	 	 	owner="Japanese"/>			<!-- -->
 	<territoryOwner territory="Canary Is." 	 	 	 	 	owner="Neutral_True"/>		<!-- -->
@@ -5675,7 +5676,7 @@
 	<territoryOwner territory="Halfa" 	 	 	 	 	 	owner="British"/>		<!-- -->
 	<territoryOwner territory="Halifax-Nova Scotia" 	 	owner="British"/>		<!-- -->
 	<territoryOwner territory="Halmahera-Maluku Is." 	 	owner="ANZAC"/><!-- -->
-	<territoryOwner territory="Hamburg-Lower Saxony" 	 	owner="Germans"/>		<!-- -->
+	<territoryOwner territory="Hamburg" 	 	owner="Germans"/>		<!-- -->
 	<territoryOwner territory="Hanoi-Tonkin" 	 	 	 	owner="Japanese"/>			<!-- -->
 	<territoryOwner territory="Harbin" 	 	 	 	 	 	owner="Japanese"/>			<!-- -->
 	<territoryOwner territory="Havana-Cuba" 	 	 	 	owner="Americans"/>			<!-- -->
@@ -5890,7 +5891,7 @@
 	<territoryOwner territory="Panama" 	 	 	 	 	 	owner="Americans"/>			<!-- -->
 	<territoryOwner territory="Panay Leyte-Visayas Is." 	owner="Americans"/>			<!-- -->
 	<territoryOwner territory="Paraguay" 	 	 	 	 	owner="Neutral_True"/>		<!-- S.America -->
-	<territoryOwner territory="Paris-Cen.France" 	 	 	owner="French"/>		<!-- -->
+	<territoryOwner territory="Paris" 	 	 	owner="Germans"/>		<!-- -->
 	<territoryOwner territory="Patagonia" 	 	 	 	 	owner="Neutral_True"/>		<!-- S.America -->
 	<territoryOwner territory="Peking-Tientsin" 	 	 	owner="Japanese"/>			<!-- -->
 	<territoryOwner territory="Pelelui-Palau Is." 	 	 	owner="Japanese"/>			<!-- -->
@@ -6080,22 +6081,38 @@
       </ownerInitialize>
       <unitInitialize>
 	<!-- Germans -->
-	<unitPlacement unitType="factory_major" territory="Berlin" quantity="1" owner="Germans"/>
-	<unitPlacement unitType="airfield" territory="Berlin" quantity="1" owner="Germans"/>
-	<unitPlacement unitType="aaGun" territory="Berlin" quantity="1" owner="Germans"/>
-	<unitPlacement unitType="infantry" territory="Berlin" quantity="1" owner="Germans"/>
-	<unitPlacement unitType="artillery" territory="Berlin" quantity="1" owner="Germans"/>
-	<unitPlacement unitType="mech_infantry" territory="Berlin" quantity="1" owner="Germans"/>
-	<unitPlacement unitType="armour" territory="Berlin" quantity="1" owner="Germans"/>
-	<unitPlacement unitType="fighter" territory="Berlin" quantity="1" owner="Germans"/>
-	<unitPlacement unitType="tactical_bomber" territory="Berlin" quantity="1" owner="Germans"/>
-	<unitPlacement unitType="bomber" territory="Berlin" quantity="1" owner="Germans"/>
-	<unitPlacement unitType="factory_major" territory="Schleswig-Holstein" quantity="1" owner="Germans"/>
-	<unitPlacement unitType="harbour" territory="Schleswig-Holstein" quantity="1" owner="Germans"/>
+	<unitPlacement unitType="infantry" territory="Belgium" quantity="2" owner="Germans"/>
+            <unitPlacement unitType="factory_major" territory="Berlin" quantity="1" owner="Germans"/>
+            <unitPlacement unitType="airfield" territory="Berlin" quantity="1" owner="Germans"/>
+            <unitPlacement unitType="aaGun" territory="Berlin" quantity="1" owner="Germans"/>
+            <unitPlacement unitType="infantry" territory="Berlin" quantity="1" owner="Germans"/>
+            <unitPlacement unitType="artillery" territory="Berlin" quantity="1" owner="Germans"/>
+            <unitPlacement unitType="mech_infantry" territory="Berlin" quantity="1" owner="Germans"/>
+            <unitPlacement unitType="armour" territory="Berlin" quantity="1" owner="Germans"/>
+            <unitPlacement unitType="fighter" territory="Berlin" quantity="1" owner="Germans"/>
+            <unitPlacement unitType="tactical_bomber" territory="Berlin" quantity="1" owner="Germans"/>
+            <unitPlacement unitType="bomber" territory="Berlin" quantity="1" owner="Germans"/>
+            <unitPlacement unitType="infantry" territory="Bordeaux-Gascony" quantity="2" owner="Germans"/>
+            <unitPlacement unitType="infantry" territory="Brittany" quantity="2" owner="Germans"/>
+            <unitPlacement unitType="infantry" territory="Calais" quantity="2" owner="Germans"/>
+            <unitPlacement unitType="infantry" territory="Konigsberg-E.Prussia" quantity="3" owner="Germans"/>
+            <unitPlacement unitType="artillery" territory="Konigsberg-E.Prussia" quantity="1" owner="Germans"/>
+            <unitPlacement unitType="mech_infantry" territory="Konigsberg-E.Prussia" quantity="1" owner="Germans"/>
+            <unitPlacement unitType="armour" territory="Konigsberg-E.Prussia" quantity="1" owner="Germans"/>
+            <unitPlacement unitType="infantry" territory="Kosice-Munkacs" quantity="3" owner="Germans"/>
+            <unitPlacement unitType="infantry" territory="Krakow-Lublin" quantity="3" owner="Germans"/>
+	    <unitPlacement unitType="infantry" territory="Normandy" quantity="2" owner="Germans"/>
+            <unitPlacement unitType="factory_minor" territory="Paris" quantity="1" owner="Germans"/>
+            <unitPlacement unitType="infantry" territory="Ploiesti-E.Romania" quantity="3" owner="Germans"/>
+            <unitPlacement unitType="infantry" territory="Poitou" quantity="2" owner="Germans"/>
+	    <unitPlacement unitType="factory_major" territory="Schleswig-Holstein" quantity="1" owner="Germans"/>
+            <unitPlacement unitType="harbour" territory="Schleswig-Holstein" quantity="1" owner="Germans"/>
+	    <unitPlacement unitType="infantry" territory="Warsaw-Cen.Poland" quantity="3" owner="Germans"/>
+	    <unitPlacement unitType="infantry" territory="Netherlands" quantity="2" owner="Germans"/>
 
 	<!-- Russians -->
 	<unitPlacement unitType="factory_major" territory="Moscow-Cen.Russia" quantity="1" owner="Russians"/>
-	<unitPlacement unitType="fighter" territory="Moscow-Cen.Russia" quantity="1" owner="Russians"/>
+            <unitPlacement unitType="fighter" territory="Moscow-Cen.Russia" quantity="1" owner="Russians"/>
             <unitPlacement unitType="airfield" territory="Moscow-Cen.Russia" quantity="1" owner="Russians"/>
             <unitPlacement unitType="infantry" territory="Moscow-Cen.Russia" quantity="1" owner="Russians"/>
             <unitPlacement unitType="tactical_bomber" territory="Moscow-Cen.Russia" quantity="1" owner="Russians"/>
@@ -6170,7 +6187,7 @@
             <unitPlacement unitType="armour" territory="Sydney Canberra-New South Wales" quantity="1" owner="ANZAC"/>
 
 	<!-- French -->
-	<unitPlacement unitType="factory_minor" territory="Paris-Cen.France" quantity="1" owner="French"/>
+	
 
 </unitInitialize>
       
@@ -6690,6 +6707,13 @@ Land Territories are changed in map.properties explained here<br>
 <br>
 <b>Sea Zones</b> are explained here<br>
 <br>https://www.axisandallies.org/forums/topic/39809/new-triplea-map-uhd-world-war-ii-global/62?_=1709335922225<br>
+<br>
+Change Log:
+<br>
+<br>
+1.322<br>
+7-27-24<br>
+Add New German Placements Victory.<br>
 <br>
 To blitz move mech_infantry with armour, you must click on them both at the same time (use CTRL to create waypoints).<br>
 Paratroopers tech enables a second combat movement phase which happens right after the first combat movement phase, and the second one only allowes movement of paratrooping infantry.<br>
