@@ -1,10 +1,856 @@
 <?xml version="1.0"?>
 <!DOCTYPE game SYSTEM "game.dtd">
 <game>
-  <info name="Mega New Elk" version="1.325"/>
+  <info name="Mega New Elk" version="1.327"/>
   <loader javaClass="games.strategy.triplea.TripleA"/>
   <triplea minimumVersion="1.8"/>
   <diceSides value="6"/>
+  <variableList>
+    <variable name="SeaZones">
+	  <element name="000 A Sea Zone"/>
+	  <element name="000 B Sea Zone"/>
+	  <element name="001 A Sea Zone"/>
+	  <element name="001 B Sea Zone"/>
+	  <element name="002 Sea Zone"/>
+	  <element name="003 A Sea Zone"/>
+	  <element name="003 B Sea Zone"/>
+	  <element name="004 Sea Zone"/>
+ 	  <element name="005 A Sea Zone"/>
+	  <element name="005 B Sea Zone"/>
+	  <element name="006 A Sea Zone"/>
+	  <element name="006 B Sea Zone"/>
+	  <element name="006 C Sea Zone"/>
+	  <element name="007 A Sea Zone"/>
+	  <element name="007 B Sea Zone"/>
+	  <element name="007 C Sea Zone"/>
+	  <element name="008 Sea Zone"/>
+	  <element name="009 Sea Zone"/>
+	  <element name="010 A Sea Zone"/>
+	  <element name="010 B Sea Zone"/>
+	  <element name="011 Sea Zone"/>
+	  <element name="012 Sea Zone"/>
+	  <element name="013 Sea Zone"/>
+	  <element name="014 Sea Zone"/>
+	  <element name="015 Sea Zone"/>
+	  <element name="016 A Sea Zone"/>
+	  <element name="016 B Sea Zone"/>
+	  <element name="017 A Sea Zone"/>
+	  <element name="017 B Sea Zone"/>
+	  <element name="018 Sea Zone"/>
+	  <element name="019 A Sea Zone"/>
+	  <element name="019 B Sea Zone"/>
+	  <element name="020 Sea Zone"/>
+	  <element name="021 A Sea Zone"/>
+	  <element name="021 B Sea Zone"/>
+	  <element name="022 A Sea Zone"/>
+	  <element name="022 B Sea Zone"/>
+	  <element name="023 Sea Zone"/>
+	  <element name="024 Sea Zone"/>
+	  <element name="025 A Sea Zone"/>
+	  <element name="025 B Sea Zone"/>
+	  <element name="026 A Sea Zone"/>
+	  <element name="026 B Sea Zone"/>
+	  <element name="027 Sea Zone"/>
+	  <element name="028 Sea Zone"/>
+	  <element name="029 Sea Zone"/>
+	  <element name="030 A Sea Zone"/>
+	  <element name="030 B Sea Zone"/>
+	  <element name="031 A Sea Zone"/>
+	  <element name="031 B Sea Zone"/>
+	  <element name="032 A Sea Zone"/>
+	  <element name="032 B Sea Zone"/>
+	  <element name="033 A Sea Zone"/>
+	  <element name="033 B Sea Zone"/>
+	  <element name="034 A Sea Zone"/>
+	  <element name="034 B Sea Zone"/>
+	  <element name="035 A Sea Zone"/>
+	  <element name="035 B Sea Zone"/>
+	  <element name="036 A Sea Zone"/>
+	  <element name="036 B Sea Zone"/>
+	  <element name="037 Sea Zone"/>
+	  <element name="038 A Sea Zone"/>
+	  <element name="038 B Sea Zone"/>
+	  <element name="039 A Sea Zone"/>
+	  <element name="039 B Sea Zone"/>
+	  <element name="040 Sea Zone"/>
+	  <element name="041 A Sea Zone"/>
+	  <element name="041 B Sea Zone"/>
+	  <element name="041 C Sea Zone"/>
+	  <element name="042 A Sea Zone"/>
+	  <element name="042 B Sea Zone"/>
+	  <element name="043 A Sea Zone"/>
+	  <element name="043 B Sea Zone"/>
+	  <element name="044 A Sea Zone"/>
+	  <element name="044 B Sea Zone"/>
+	  <element name="045 A Sea Zone"/>
+	  <element name="045 B Sea Zone"/>
+	  <element name="045 C Sea Zone"/>
+	  <element name="046 A Sea Zone"/>
+	  <element name="046 B Sea Zone"/>
+	  <element name="047 Sea Zone"/>
+	  <element name="048 Sea Zone"/>
+	  <element name="049 Sea Zone"/>
+	  <element name="050 Sea Zone"/>
+	  <element name="051 Sea Zone"/>
+	  <element name="052 Sea Zone"/>
+	  <element name="053 Sea Zone"/>
+	  <element name="054 Sea Zone"/>
+	  <element name="055 Sea Zone"/>
+	  <element name="056 Sea Zone"/>
+	  <element name="057 Sea Zone"/>
+	  <element name="058 Sea Zone"/>
+	  <element name="059 Sea Zone"/>
+	  <element name="060 Sea Zone"/>
+	  <element name="061 Sea Zone"/>
+	  <element name="062 Sea Zone"/>
+	  <element name="063 Sea Zone"/>
+	  <element name="064 Sea Zone"/>
+	  <element name="065 Sea Zone"/>
+	  <element name="066 Sea Zone"/>
+	  <element name="067 Sea Zone"/>
+	  <element name="068 Sea Zone"/>
+	  <element name="069 Sea Zone"/>
+	  <element name="070 Sea Zone"/>
+	  <element name="071 A Sea Zone"/>
+	  <element name="071 B Sea Zone"/>
+	  <element name="072 A Sea Zone"/>
+	  <element name="072 B Sea Zone"/>
+	  <element name="072 C Sea Zone"/>
+	  <element name="073 Sea Zone"/>
+	  <element name="074 Sea Zone"/>
+	  <element name="075 Sea Zone"/>
+	  <element name="076 Sea Zone"/>
+	  <element name="077 Sea Zone"/>
+	  <element name="078 Sea Zone"/>
+	  <element name="079 A Sea Zone"/>
+	  <element name="079 B Sea Zone"/>
+	  <element name="079 C Sea Zone"/>
+	  <element name="080 A Sea Zone"/>
+	  <element name="080 B Sea Zone"/>
+	  <element name="081 Sea Zone"/>
+	  <element name="082 Sea Zone"/>
+	  <element name="083 Sea Zone"/>
+	  <element name="084 Sea Zone"/>
+	  <element name="085 Sea Zone"/>
+	  <element name="086 Sea Zone"/>
+	  <element name="087 A Sea Zone"/>
+	  <element name="087 B Sea Zone"/>
+	  <element name="087 C Sea Zone"/>
+	  <element name="088 A Sea Zone"/>
+	  <element name="088 B Sea Zone"/>
+	  <element name="089 A Sea Zone"/>
+	  <element name="089 B Sea Zone"/>
+	  <element name="089 C Sea Zone"/>
+	  <element name="089 D Sea Zone"/>
+	  <element name="090 Sea Zone"/>
+	  <element name="091 A Sea Zone"/>
+	  <element name="091 B Sea Zone"/>
+	  <element name="092 Sea Zone"/>
+	  <element name="093 Sea Zone"/>
+	  <element name="094 Sea Zone"/>
+	  <element name="095 A Sea Zone"/>
+	  <element name="095 B Sea Zone"/>
+	  <element name="096 A Sea Zone"/>
+	  <element name="096 B Sea Zone"/>
+	  <element name="097 A Sea Zone"/>
+	  <element name="097 B Sea Zone"/>
+	  <element name="098 Sea Zone"/>
+	  <element name="099 A Sea Zone"/>
+	  <element name="099 B Sea Zone"/>
+	  <element name="100 A Sea Zone"/>
+	  <element name="100 B Sea Zone"/>
+	  <element name="100 C Sea Zone"/>
+	  <element name="100 D Sea Zone"/>
+	  <element name="101 A Sea Zone"/>
+	  <element name="101 B Sea Zone"/>
+	  <element name="101 C Sea Zone"/>
+	  <element name="102 Sea Zone"/>
+	  <element name="103 Sea Zone"/>
+	  <element name="104 Sea Zone"/>
+	  <element name="105 Sea Zone"/>
+	  <element name="106 Sea Zone"/>
+	  <element name="107 Sea Zone"/>
+	  <element name="108 Sea Zone"/>
+	  <element name="109 Sea Zone"/>
+	  <element name="110 A Sea Zone"/>
+	  <element name="110 B Sea Zone"/>
+	  <element name="111 A Sea Zone"/>
+	  <element name="111 B Sea Zone"/>
+	  <element name="112 Sea Zone"/>
+	  <element name="113 A Sea Zone"/>
+	  <element name="113 B Sea Zone"/>
+	  <element name="114 Sea Zone"/>
+	  <element name="115 Sea Zone"/>
+	  <element name="116 Sea Zone"/>
+	  <element name="117 Sea Zone"/>
+	  <element name="118 Sea Zone"/>
+	  <element name="119 Sea Zone"/>
+	  <element name="120 Sea Zone"/>
+	  <element name="121 A Sea Zone"/>
+	  <element name="121 B Sea Zone"/>
+	  <element name="122 Sea Zone"/>
+	  <element name="123 Sea Zone"/>
+	  <element name="124 Sea Zone"/>
+	  <element name="125 Sea Zone"/>
+	  <element name="126 Sea Zone"/>
+	  <element name="127 A Sea Zone"/>
+	  <element name="127 B Sea Zone"/>
+	  <element name="128 Sea Zone"/>
+	  <element name="129 Sea Zone"/>
+    </variable>
+    <variable name="LandZones0">
+	  <element name="Chile"/>
+	  <element name="Himalayas"/>
+	  <element name="Lhasa-E.Tibet"/>
+	  <element name="Prypriat"/>
+	  <element name="Switzerland"/>
+	  <element name="Tenere"/>
+	  <element name="Tibesti"/>
+	  <element name="W.Tibet"/>
+    </variable>
+    <variable name="LandZones1">
+	  <element name="Acapulco-Chiapas"/>
+	  <element name="Adana"/>
+	  <element name="Addis Ababa"/>
+	  <element name="Adelaide-S.Australia"/>
+	  <element name="Aden-Yemen"/>
+	  <element name="Agana-Guam"/>
+	  <element name="Akmolinsk"/>
+	  <element name="Aksu-Tarim"/>
+	  <element name="Aktau"/>
+	  <element name="Aktobe"/>
+	  <element name="Al Fishir"/>
+	  <element name="Al Hasa"/>
+	  <element name="Al Hasakah"/>
+	  <element name="Al Kufrah"/>
+	  <element name="Albania"/>
+	  <element name="Alberta"/>
+	  <element name="Aleppo-Deir ez Zor"/>
+	  <element name="Algarve"/>
+	  <element name="Alice Springs-Outback"/>
+	  <element name="Almaty"/>
+	  <element name="Amapa-Brazilian Guiana"/>
+	  <element name="Amazonas"/>
+	  <element name="Ambon"/>
+	  <element name="Amur"/>
+	  <element name="Anadyr"/>
+	  <element name="Andalusia"/>
+	  <element name="Andaman Is."/>
+	  <element name="Angola"/>
+	  <element name="Anhwei"/>
+	  <element name="Ankara"/>
+	  <element name="Antalya"/>
+	  <element name="Aragon-Catalonia"/>
+	  <element name="Ascension Is."/>
+	  <element name="Asir"/>
+	  <element name="Astrakhan"/>
+	  <element name="Asturias"/>
+	  <element name="Atyrau"/>
+	  <element name="Auckland-N.New Zealand"/>
+	  <element name="Azores Is."/>
+	  <element name="Baffin Is."/>
+	  <element name="Baghdad"/>
+	  <element name="Bahamas"/>
+	  <element name="Bahia-Norde Este"/>
+	  <element name="Baja-Sonora"/>
+ 	  <element name="Bali-Sunda Is."/>
+	  <element name="Barat Daya Is."/>
+	  <element name="Basra"/>
+	  <element name="Bechuanaland"/>
+	  <element name="Belgian Congo"/>
+	  <element name="Bengal"/>
+	  <element name="Benghazi-Cyrenaica"/>
+	  <element name="Berar"/>
+	  <element name="Bergen-Vestland"/>
+	  <element name="Bermuda"/>
+	  <element name="Beruit-Lebanon"/>
+	  <element name="Bessarabia"/>
+	  <element name="Bethel"/>
+	  <element name="Bhutan"/>
+	  <element name="Bhuyant Uhaa"/>
+	  <element name="Bialystok"/>
+	  <element name="Bogata-Colombia"/>
+	  <element name="Bolivia"/>
+	  <element name="Bona"/>
+	  <element name="Boran"/>
+	  <element name="Bratsk"/>
+	  <element name="Brest"/>
+	  <element name="Brisbane-Queensland"/>
+	  <element name="British Guiana"/>
+	  <element name="British Honduras"/>
+	  <element name="British Somaliland"/>
+	  <element name="Broome-Exmouth"/>
+	  <element name="Buenos Aires"/>
+	  <element name="Buru"/>
+	  <element name="Buryatia"/>
+	  <element name="Cairo-Egypt"/>
+	  <element name="Cambodia"/>
+	  <element name="Canary Is."/>
+	  <element name="Cape Town"/>
+	  <element name="Cape Verde Is."/>
+	  <element name="Cape of Good Hope"/>
+	  <element name="Caracas-Venezuela"/>
+	  <element name="Castille-Leon"/>
+	  <element name="Cayman Is."/>
+	  <element name="Cen.Mongolia"/>
+	  <element name="Ceylon"/>
+	  <element name="Chad"/>
+	  <element name="Chahar"/>
+	  <element name="Chelyabinsk"/>
+	  <element name="Chersky"/>
+	  <element name="Chiang Mai"/>
+	  <element name="Chihuahua-Durango"/>
+	  <element name="Christchurch-S.New Zealand"/>
+	  <element name="Christmas Is."/>
+	  <element name="Chukotka"/>
+	  <element name="Comoros"/>
+	  <element name="Cook Is."/>
+	  <element name="Corregidor-Mindoro Is."/>
+	  <element name="Corsica"/>
+	  <element name="Costa"/>
+	  <element name="Crete"/>
+	  <element name="Croatia"/>
+	  <element name="Cyprus"/>
+	  <element name="Da Nang-Annam"/>
+	  <element name="Dakar"/>
+	  <element name="Dalarna"/>
+	  <element name="Dalmatia"/>
+	  <element name="Damascus-S.Syria"/>
+	  <element name="Danakil"/>
+	  <element name="Dar es Salaam-Zanzibar"/>
+	  <element name="Darfur"/>
+	  <element name="Darwin-Northern Territory"/>
+	  <element name="Demyansk"/>
+	  <element name="Diyarbakir"/>
+	  <element name="Dodecanese Is."/>
+	  <element name="Dutch Guiana"/>
+	  <element name="Dutch Harbor-Aleutian Is."/>
+	  <element name="Dzavhan"/>
+	  <element name="E.British Columbia"/>
+	  <element name="E.Tripolitania"/>
+	  <element name="Ecuador"/>
+	  <element name="Eire"/>
+	  <element name="El Alamein-Alexandria"/>
+	  <element name="El Salvador"/>
+	  <element name="Ellice Is."/>
+	  <element name="Eritrea"/>
+	  <element name="Erzurum"/>
+	  <element name="Estonia"/>
+	  <element name="Evenkia"/>
+	  <element name="Extramadura"/>
+	  <element name="Fairbanks"/>
+	  <element name="Falkland Is."/>
+	  <element name="Fars"/>
+	  <element name="Fezzan"/>
+	  <element name="Fiji"/>
+	  <element name="French Dahomey"/>
+	  <element name="Cameroon"/>
+	  <element name="French Guiana"/>
+	  <element name="French Guinea"/>
+	  <element name="French Somaliland"/>
+	  <element name="Gabon"/>
+	  <element name="Galapagos Is."/>
+	  <element name="Galicia"/>
+	  <element name="Gibraltar"/>
+	  <element name="Gilan"/>
+	  <element name="Gizhiga"/>
+	  <element name="Gold Coast"/>
+	  <element name="Gotland"/>
+	  <element name="Gran Chaco"/>
+	  <element name="Grand Erg"/>
+	  <element name="Greenland"/>
+	  <element name="Grodno"/>
+	  <element name="Guatemala"/>
+	  <element name="Gujarat"/>
+	  <element name="Haditha-Rutbah"/>
+	  <element name="Haikou-Hainan"/>
+	  <element name="Hail"/>
+	  <element name="Hailar-Hsingan"/>
+	  <element name="Halfa"/>
+	  <element name="Halifax-Nova Scotia"/>
+	  <element name="Halmahera-Maluku Is."/>
+	  <element name="Harbin"/>
+	  <element name="Herat"/>
+	  <element name="Honduras"/>
+	  <element name="Hopei"/>
+	  <element name="Hunan"/>
+	  <element name="Hyderabad"/>
+	  <element name="Iceland"/>
+	  <element name="Irkutsk"/>
+	  <element name="Isfahan"/>
+	  <element name="Istanbul"/>
+	  <element name="Istria"/>
+	  <element name="Italian Somaliland"/>
+	  <element name="Ivory Coast"/>
+	  <element name="Iwo Jima-Bonin Is."/>
+	  <element name="Johnston Is."/>
+	  <element name="Jordan"/>
+	  <element name="Juba-S.Sudan"/>
+	  <element name="Juneau"/>
+	  <element name="Juteland"/>
+	  <element name="Kabul"/>
+	  <element name="Kalahari"/>
+	  <element name="Kamchatka"/>
+	  <element name="Kanchow"/>
+	  <element name="Kandahar"/>
+	  <element name="Karelia"/>
+	  <element name="Kashmire"/>
+	  <element name="Katanga"/>
+	  <element name="Kenya"/>
+	  <element name="Kerman"/>
+	  <element name="Khabarovsk"/>
+	  <element name="Khanty-Mansiysk"/>
+	  <element name="Kharga-Western Desert"/>
+	  <element name="Khartoum-Sudan"/>
+	  <element name="Kherson"/>
+	  <element name="Khorasan"/>
+	  <element name="Kilwa"/>
+	  <element name="King Salmon-Aleut Pen."/>
+	  <element name="Kirov"/>
+	  <element name="Kjolen"/>
+	  <element name="Kodiak Is."/>
+	  <element name="Kolyma"/>
+	  <element name="Komi"/>
+	  <element name="Konduz"/>
+	  <element name="Konya"/>
+	  <element name="Koryak"/>
+	  <element name="Kosice-Munkacs"/>
+	  <element name="Kra-Buri"/>
+	  <element name="Krasnodar"/>
+	  <element name="Krasnoyarsk"/>
+	  <element name="Kunming"/>
+	  <element name="Kurdistan"/>
+	  <element name="Kurgan"/>
+	  <element name="Kursk-Vorozneh"/>
+	  <element name="Kuwait"/>
+	  <element name="Kwajalein-Marshall Is."/>
+	  <element name="Kweichow"/>
+	  <element name="Kyrgyzstan-Tajikistan"/>
+	  <element name="Labrador"/>
+	  <element name="Lagos-S.Nigeria"/>
+	  <element name="Lanzhou"/>
+	  <element name="Laos"/>
+	  <element name="Lapland"/>
+	  <element name="Lashio-Shan State"/>
+	  <element name="Latgale"/>
+	  <element name="Latvia"/>
+	  <element name="Leeward Is."/>
+	  <element name="Leopoldville-Kinshasa"/>
+	  <element name="Liberia"/>
+	  <element name="Lindi"/>
+	  <element name="Line Is."/>
+	  <element name="Lisbon"/>
+	  <element name="Lithuania"/>
+	  <element name="Lorestan"/>
+	  <element name="Lucknow-Oudh"/>
+	  <element name="Lviv"/>
+	  <element name="Madagascar"/>
+	  <element name="Madeira Is."/>
+	  <element name="Madrid-Cen.Spain"/>
+	  <element name="Magadan"/>
+	  <element name="Majorca"/>
+	  <element name="Maldives"/>
+	  <element name="Timbuktu-Mali"/>
+	  <element name="Malta"/>
+	  <element name="Manado-N.Celebs"/>
+	  <element name="W.Nunavut"/>
+	  <element name="Manchuria-Manchukuo"/>
+	  <element name="Maputo-S.Mozambique"/>
+	  <element name="Maracaju"/>
+	  <element name="Mato Grosso"/>
+	  <element name="Mauritania"/>
+	  <element name="Mazandaran"/>
+	  <element name="Mecca"/>
+	  <element name="Medina-Jeddah"/>
+	  <element name="Melbourne-Victoria"/>
+	  <element name="Mexico City"/>
+	  <element name="Milan-N.Italy"/>
+	  <element name="Mogadishu"/>
+	  <element name="Mogilev"/>
+	  <element name="Moldavia"/>
+	  <element name="Montenegro"/>
+	  <element name="Monterrey"/>
+	  <element name="Morocco"/>
+	  <element name="Mosul-Kirkuk"/>
+	  <element name="Mozhaysk-Kaluga"/>
+	  <element name="Murmansk"/>
+	  <element name="Muscat"/>
+	  <element name="N.Burma"/>
+	  <element name="N.England"/>
+	  <element name="N.Ireland"/>
+	  <element name="N.Nigeria"/>
+	  <element name="N.Ontario"/>
+	  <element name="N.Quebec"/>
+	  <element name="N.Rhodesia"/>
+	  <element name="N.Sakhalin"/>
+	  <element name="Nafud"/>
+	  <element name="Nagpur"/>
+	  <element name="Nunavut"/>
+	  <element name="Naples-S.Italy"/>
+	  <element name="Narvik"/>
+	  <element name="Natal"/>
+	  <element name="Navarre"/>
+	  <element name="Nejd"/>
+	  <element name="Nenetsia"/>
+	  <element name="Nepal"/>
+	  <element name="S.Quebec"/>
+	  <element name="New Caledonia Is."/>
+	  <element name="New Hebrides Is."/>
+	  <element name="Niamey"/>
+	  <element name="Nicaragua"/>
+	  <element name="Nome"/>
+	  <element name="Norrland"/>
+	  <element name="Norte"/>
+	  <element name="Northwest Territories"/>
+	  <element name="Novgorod"/>
+	  <element name="Ogoden"/>
+	  <element name="Olgiy"/>
+	  <element name="Oman"/>
+	  <element name="Omsk"/>
+	  <element name="Oran"/>
+	  <element name="Orissa"/>
+	  <element name="Ottawa-Montreal"/>
+	  <element name="Ouargla"/>
+	  <element name="Palawan"/>
+	  <element name="Palestine"/>
+	  <element name="Palmyra Atoll"/>
+	  <element name="Pampas"/>
+	  <element name="Paraguay"/>
+	  <element name="Patagonia"/>
+	  <element name="Pelelui-Palau Is."/>
+	  <element name="Peleponnese"/>
+	  <element name="Perth-W.Australia"/>
+	  <element name="Peru"/>
+	  <element name="Phoenix Is."/>
+	  <element name="Ploiesti-E.Romania"/>
+	  <element name="Port Au Prince-Haiti"/>
+	  <element name="Portuguese Guinea"/>
+	  <element name="Praetoria"/>
+	  <element name="Primorsky"/>
+	  <element name="Prinsk"/>
+	  <element name="Pskov"/>
+	  <element name="Punjab"/>
+	  <element name="Qatar"/>
+	  <element name="Quebec City-C.Quebec"/>
+	  <element name="Quelimane-N.Mozambique"/>
+	  <element name="Rabaul-New Britain Is."/>
+	  <element name="Rajputana"/>
+	  <element name="Rangoon-S.Burma"/>
+	  <element name="Rio De Janeiro-Sao Paulo"/>
+	  <element name="Rio De Oro"/>
+	  <element name="Rio Grande Du Sol"/>
+	  <element name="Riyadh"/>
+	  <element name="Rub Al Kali"/>
+	  <element name="Ryazan"/>
+	  <element name="Rzesow"/>
+	  <element name="Rzhev"/>
+	  <element name="S.Hijaz"/>
+	  <element name="S.Rhodesia"/>
+	  <element name="S.Sakhalin"/>
+	  <element name="Saipan-Mariana Is."/>
+	  <element name="Sakha"/>
+	  <element name="Samoan Is."/>
+	  <element name="San Juan-Puerto Rico"/>
+	  <element name="Sansapor-Vogelkop Pen."/>
+	  <element name="Santo Domingo-Domenica"/>
+	  <element name="Sarajevo-Bosnia"/>
+	  <element name="Sardinia"/>
+	  <element name="Savo-Ostrobothnia"/>
+	  <element name="Scotland"/>
+	  <element name="Seychelles"/>
+	  <element name="Shensi"/>
+	  <element name="Shetland Is."/>
+	  <element name="Shikoku"/>
+	  <element name="Siberia"/>
+	  <element name="Sicily"/>
+	  <element name="Sierra Leone"/>
+	  <element name="Sikang"/>
+	  <element name="Silesia"/>
+	  <element name="Sinai"/>
+	  <element name="Sinaloa-Guadalajara"/>
+	  <element name="Sinkiang"/>
+	  <element name="Sistan-Baluchestan"/>
+	  <element name="Sitka"/>
+	  <element name="Siuyuyan"/>
+	  <element name="Slovakia"/>
+	  <element name="Slovenia-N.Croatia"/>
+	  <element name="Smyrna"/>
+	  <element name="Society Is."/>
+	  <element name="Socotra"/>
+	  <element name="Southwest Africa"/>
+	  <element name="Spanish Gabon"/>
+	  <element name="St.Johns-Newfoundland"/>
+	  <element name="Stavropol"/>
+	  <element name="Svalbard"/>
+	  <element name="Svealand"/>
+	  <element name="Tanganyika"/>
+	  <element name="Tangier"/>
+	  <element name="Tanimbar Is."/>
+	  <element name="Tarawa-Gilbert Is."/>
+	  <element name="Tasmania"/>
+	  <element name="Taymyr"/>
+	  <element name="Tehran"/>
+	  <element name="Thessaloniki"/>
+	  <element name="Thrace"/>
+	  <element name="W.Algerian-Sahara"/>
+	  <element name="E.Algerian-Sahara"/>
+	  <element name="Timor"/>
+	  <element name="Tobruk"/>
+	  <element name="Tomsk"/>
+	  <element name="Toronto-S.Ontario"/>
+	  <element name="Transdanubia"/>
+	  <element name="Transylvania"/>
+	  <element name="Trebizond"/>
+	  <element name="Tripoli-W.Tripolitania"/>
+	  <element name="Troms-Finnmark"/>
+	  <element name="Trondheim"/>
+	  <element name="Trucial Coast"/>
+	  <element name="Tsagaan Olom"/>
+	  <element name="Tsinghai"/>
+	  <element name="Tula"/>
+	  <element name="Turkmenistan"/>
+	  <element name="Tver"/>
+	  <element name="Tyumen"/>
+	  <element name="Ubangi Sheri"/>
+	  <element name="Udon Thani"/>
+	  <element name="Uelen"/>
+	  <element name="Uganda"/>
+	  <element name="Ulaanbaatar"/>
+	  <element name="Upper Egypt"/>
+	  <element name="Upper Volta"/>
+	  <element name="Uruguay"/>
+	  <element name="Urumchi-Kansu"/>
+	  <element name="Uzbekistan"/>
+	  <element name="Valencia"/>
+	  <element name="Vancouver-W.British Columbia"/>
+	  <element name="Varna"/>
+	  <element name="Veracruz"/>
+	  <element name="Victoria"/>
+	  <element name="Vilna"/>
+	  <element name="Vitebsk"/>
+	  <element name="Vologda"/>
+	  <element name="Vyborg"/>
+	  <element name="Wales"/>
+	  <element name="Windhoek"/>
+	  <element name="Windward Is."/>
+	  <element name="Winnipeg"/>
+	  <element name="Yakutia"/>
+	  <element name="Yakutsk"/>
+	  <element name="Yamalia"/>
+	  <element name="Yanaon"/>
+	  <element name="Yaroslavl"/>
+	  <element name="Yucatan"/>
+	  <element name="Yukon"/>
+	  <element name="Yunnan"/>
+	  <element name="Yuzhny-Novaya Zemlya"/>
+    </variable>
+    <variable name="LandZones2">
+	  <element name="Algiers"/>
+	  <element name="Alsace"/>
+	  <element name="Anchorage"/>
+	  <element name="Archangelsk"/>
+	  <element name="Athens-Cen.Greece"/>
+	  <element name="Bangkok-Siam"/>
+	  <element name="Belgium"/>
+	  <element name="Belgrade-Cen.Yugoslavia"/>
+	  <element name="Bordeaux-Gascony"/>
+	  <element name="Brittany"/>
+ 	  <element name="Bryansk"/>
+	  <element name="Budapest-N.Hungary"/>
+ 	  <element name="Calais"/>
+	  <element name="Chengdu-Szechwan"/>
+	  <element name="Chernihiv"/>
+	  <!-- <element name="Chungking"/> Chinese -->
+	  <element name="Copenhagen-Denmark"/>
+	  <element name="Crimea"/>
+	  <element name="Dagestan"/>
+	  <element name="Danzig-Posen"/>
+	  <element name="Dovao-Mindonao"/>
+	  <element name="Guadalcanal-Solomon Is."/>
+	  <element name="Haichow-Lunghai"/>
+	  <element name="Hanoi-Tonkin"/>
+	  <element name="Helsinki"/>
+	  <element name="Hiroshima"/>
+	  <element name="Hokkaido"/>
+	  <element name="Hollandia-Dutch New Guinea"/>
+	  <element name="Jehol-Rehe"/>
+	  <element name="Karachi"/>
+	  <element name="Kazan"/>
+	  <element name="Kendari-E.Celebs"/>
+	  <element name="Kharkiv"/>
+	  <element name="Kiangsi"/>
+	  <element name="Konigsberg-E.Prussia"/>
+	  <element name="Krakow-Lublin"/>
+	  <element name="Kuybysev"/>
+	  <element name="Kwangsi"/>
+	  <element name="Lorraine"/>
+	  <element name="Madras"/>
+	  <element name="Makassar-S.Celebs"/>
+	  <element name="Mariupol"/>
+	  <element name="Marquesas Is."/>
+	  <element name="Minsk"/>
+	  <element name="N.Korea-Chosen"/>
+	  <element name="Netherlands"/>
+	  <element name="Nizhny Novgorod"/>
+	  <element name="Normandy"/>
+	  <element name="Odesa-Mykoliav"/>
+	  <element name="Oslo"/>
+	  <element name="Panama"/>
+	  <element name="Panay Leyte-Visayas Is."/>
+	  <element name="Peking-Tientsin"/>
+	  <element name="Perm"/>
+	  <element name="Poitou"/>
+	  <element name="Pomerania"/>
+	  <element name="Prague-Bohemia Moravia"/>
+	  <element name="Provence-Marseille"/>
+	  <element name="Rostov"/>
+	  <element name="Saigon-Cochinchina"/>
+	  <element name="Salamaua Lae-New Guinea"/>
+	  <element name="Santiago-Guantanamo"/>
+	  <element name="Sarawak-N.Borneo"/>
+	  <element name="Shangtung"/>
+	  <element name="Sofia-W.Bulgaria"/>
+	  <element name="Surabaya-E.Java"/>
+	  <element name="Taipei-Formosa"/>
+	  <element name="Tbilisi-Georgia"/>
+	  <element name="Tohoku"/>
+	  <element name="Toulouse-Occitania"/>
+	  <element name="Tunis-Tunisia"/>
+	  <element name="Tyrol-S.Austria"/>
+	  <element name="Venice-Trieste"/>
+	  <element name="Vichy-Rhone"/>
+	  <element name="Vladivostok"/>
+	  <element name="Wake Is."/>
+	  <element name="Wallachia"/>
+	  <element name="Wuhan"/>
+    </variable>
+    <variable name="LandZones3">
+	  <element name="Arizona-New Mexico"/>
+	  <element name="Atlanta-Georgia"/>
+	  <element name="Batavia-W.Java"/>
+	  <element name="Bombay"/>
+	  <element name="Bucharest-Cen.Romania"/>
+	  <element name="Charlotte-Carolina"/>
+	  <element name="Chubu"/>
+	  <element name="Colorado"/>
+	  <element name="Dakota"/>
+	  <element name="Grozny-Chechnya"/>
+	  <element name="Havana-Cuba"/>
+	  <element name="Hawaiian Is."/>
+	  <element name="Hong Kong-Kwangtung"/>
+	  <element name="Idaho"/>
+	  <element name="Jamaica"/>
+	  <element name="Kansas-Oklahoma"/>
+	  <element name="Kentucky-Tennessee"/>
+	  <element name="Kyiv-Cen.Ukraine"/>
+	  <element name="Kyoto-Osaka"/>
+	  <element name="Malaya"/>
+	  <element name="Manila-Luzon"/>
+	  <element name="Meckleburg"/>
+	  <element name="Medan-W.Sumatra"/>
+	  <element name="Michigan-Indiana"/>
+	  <element name="Midway Is."/>
+	  <element name="Mobile-Alabama"/>
+	  <element name="Montana"/>
+	  <element name="Mukden-Port Arthur"/>
+	  <element name="Nanking"/>
+	  <element name="Nebraska"/>
+	  <element name="Nevada"/>
+	  <!-- <element name="New Delhi"/> UK_Pacific -->
+	  <element name="New Orleans-Louisiana"/>
+	  <element name="Novosibirsk"/>
+	  <element name="Ohio"/>
+	  <element name="Okinawa-Ryukyu Is."/>
+	  <element name="Orleans"/>
+	  <element name="Palembang-S.Sumatra"/>
+	  <element name="Port Moresby-Papua"/>
+	  <element name="Portland-Oregon"/>
+	  <element name="S.Korea-Chosen"/>
+	  <element name="Sacramento-N.California"/>
+	  <element name="Schleswig-Holstein"/>
+	  <element name="Seattle-Washington"/>
+	  <element name="Shanghai-Kiangsu"/>
+	  <element name="Smolensk"/>
+	  <element name="St.Louis-Arkansas"/>
+	  <element name="Stockholm"/>
+	  <element name="Tarakan-E.Borneo"/>
+	  <element name="Truk-Coraline Is."/>
+	  <element name="Utah"/>
+	  <element name="Vienna-N.Austria"/>
+	  <element name="Warsaw-Cen.Poland"/>
+	  <element name="Wisconsin-Minnesota"/>
+	  <element name="Wyoming"/>
+    </variable>
+    <variable name="LandZones4">
+ 	  <element name="Baden-Wurttemburg"/>
+ 	  <element name="Baku-Azerbaijan"/>
+ 	  <element name="Balikpapan-S.Borneo"/>
+ 	  <element name="Bavaria"/>
+ 	  <element name="Boston-New England"/>
+ 	  <element name="Calcutta"/>
+ 	  <element name="Charleston-Savannah"/>
+ 	  <element name="Florida"/>
+ 	  <element name="Frankfurt-Hesse"/>
+ 	  <element name="Hamburg"/>
+ 	  <element name="Honolulu-Pearl Harbor"/>
+ 	  <element name="Philadelphia-Pennsylvania"/>
+ 	  <element name="Kyushu"/>
+ 	  <element name="Leningrad"/>
+ 	  <element name="Los Angeles-S.California"/>
+ 	  <element name="Singapore-Malacca"/>
+ 	  <element name="Stalingrad-Volga"/>
+ 	  <element name="Texas"/>
+ 	  <element name="Virginia"/>
+    </variable>
+    <variable name="LandZones5">
+ 	  <element name="Chicago"/>
+ 	  <element name="New York-New Jersey"/>
+ 	  <!-- <element name="Paris"/> French -->
+ 	  <!-- <element name="Rome-Cen.Italy"/> Italians -->
+ 	  <element name="San Francisco-Cen.California"/>
+ 	  <element name="Westphalia-Rhineland"/>
+    </variable>
+    <variable name="LandZones6">
+ 	  <element name="Berlin"/>
+	  <element name="London-S.England"/>
+	  <element name="Moscow-Cen.Russia"/>
+	  <element name="Sydney Canberra-New South Wales"/>
+	  <element name="Tokyo"/>
+	  <element name="Washington D.C."/>
+    </variable>
+    <variable name="AllPlayers">
+	  <element name="Germans"/>
+	  <element name="British"/>
+	  <element name="Russians"/>
+	  <element name="ANZAC"/>
+	  <element name="Japanese"/>
+	  <element name="Americans"/>
+	  <element name="French"/>
+	  <element name="Italians"/>
+	  <element name="UK_Pacific"/>
+	  <element name="Chinese"/>
+    </variable>
+    <variable name="CapitalZones">
+ 	  <element name="$LandZones6$"/>
+ 	  <element name="Paris"/> <!-- French -->
+ 	  <element name="Rome-Cen.Italy"/> <!-- Italians -->
+	  <element name="New Delhi"/> <!-- UK_Pacific -->
+	  <element name="Chungking"/> <!-- Chinese -->
+    </variable>
+    <variable name="ChineseOwner">
+	  <element name="Haichow-Lunghai"/>
+	  <element name="Harbin"/>
+	  <element name="Hopei"/>
+	  <element name="Jehol-Rehe"/>
+	  <element name="Manchuria-Manchukuo"/>
+	  <element name="Mukden-Port Arthur"/>
+	  <element name="Nanking"/>
+	  <element name="Peking-Tientsin"/>
+	  <element name="Shanghai-Kiangsu"/>
+	  <element name="Shangtung"/>
+	  <element name="Wuhan"/>
+    </variable>
+  </variableList>
   <map>
 
     <!-- Territory Definitions 190 SZ & 606 Land = 796 -->
@@ -4214,878 +5060,68 @@
       <option name="maxAAattacks" value="3"/>
     </attachment>
     <!-- Territory Attachments -->
-    <attachment name="territoryAttachment" attachTo="000 A Sea Zone"	javaClass="TerritoryAttachment" type="territory">	<option name="production" value="0"/>	<option name="blockadeZone" value="false"/>	</attachment>
-<attachment name="territoryAttachment" attachTo="000 B Sea Zone"	javaClass="TerritoryAttachment" type="territory">	<option name="production" value="0"/>	<option name="blockadeZone" value="false"/>	</attachment>
-<attachment name="territoryAttachment" attachTo="001 A Sea Zone"	javaClass="TerritoryAttachment" type="territory">	<option name="production" value="0"/>	<option name="blockadeZone" value="false"/>	</attachment>
-<attachment name="territoryAttachment" attachTo="001 B Sea Zone"	javaClass="TerritoryAttachment" type="territory">	<option name="production" value="0"/>	<option name="blockadeZone" value="false"/>	</attachment>
-<attachment name="territoryAttachment" attachTo="002 Sea Zone"		javaClass="TerritoryAttachment" type="territory">	<option name="production" value="0"/>	<option name="blockadeZone" value="false"/>	</attachment>
-<attachment name="territoryAttachment" attachTo="003 A Sea Zone"	javaClass="TerritoryAttachment" type="territory">	<option name="production" value="0"/>	<option name="blockadeZone" value="false"/>	</attachment>
-<attachment name="territoryAttachment" attachTo="003 B Sea Zone"	javaClass="TerritoryAttachment" type="territory">	<option name="production" value="0"/>												</attachment>
-<attachment name="territoryAttachment" attachTo="004 Sea Zone" 		javaClass="TerritoryAttachment" type="territory">	<option name="production" value="0"/>	<option name="blockadeZone" value="false"/>	</attachment>
-<attachment name="territoryAttachment" attachTo="005 A Sea Zone"	javaClass="TerritoryAttachment" type="territory">	<option name="production" value="0"/>	<option name="blockadeZone" value="false"/>	</attachment>
-<attachment name="territoryAttachment" attachTo="005 B Sea Zone"	javaClass="TerritoryAttachment" type="territory">	<option name="production" value="0"/>	<option name="blockadeZone" value="false"/>	</attachment>
-<attachment name="territoryAttachment" attachTo="006 A Sea Zone"	javaClass="TerritoryAttachment" type="territory">
-  <option name="production" value="0"/>
-  <option name="blockadeZone" value="false"/>
-</attachment>
-<attachment name="territoryAttachment" attachTo="006 B Sea Zone"	javaClass="TerritoryAttachment" type="territory">	<option name="production" value="0"/>	<option name="blockadeZone" value="false"/>	</attachment>
-<attachment name="territoryAttachment" attachTo="006 C Sea Zone"	javaClass="TerritoryAttachment" type="territory">	<option name="production" value="0"/>	<option name="blockadeZone" value="false"/>	</attachment>
-<attachment name="territoryAttachment" attachTo="007 A Sea Zone"	javaClass="TerritoryAttachment" type="territory">	<option name="production" value="0"/>												</attachment>
-<attachment name="territoryAttachment" attachTo="007 B Sea Zone"	javaClass="TerritoryAttachment" type="territory">	<option name="production" value="0"/>												</attachment>
-<attachment name="territoryAttachment" attachTo="007 C Sea Zone"	javaClass="TerritoryAttachment" type="territory">	<option name="production" value="0"/>												</attachment>
-<attachment name="territoryAttachment" attachTo="008 Sea Zone" 		javaClass="TerritoryAttachment" type="territory">	<option name="production" value="0"/>	<option name="blockadeZone" value="false"/>	</attachment>
-<attachment name="territoryAttachment" attachTo="009 Sea Zone" 		javaClass="TerritoryAttachment" type="territory">	<option name="production" value="0"/>												</attachment>
-<attachment name="territoryAttachment" attachTo="010 A Sea Zone"	javaClass="TerritoryAttachment" type="territory">	<option name="production" value="0"/>	<option name="blockadeZone" value="false"/>	</attachment>
-<attachment name="territoryAttachment" attachTo="010 B Sea Zone"	javaClass="TerritoryAttachment" type="territory">	<option name="production" value="0"/>	<option name="blockadeZone" value="false"/>	</attachment>
-<attachment name="territoryAttachment" attachTo="011 Sea Zone" 		javaClass="TerritoryAttachment" type="territory">	<option name="production" value="0"/>												</attachment>
-<attachment name="territoryAttachment" attachTo="012 Sea Zone" 		javaClass="TerritoryAttachment" type="territory">	<option name="production" value="0"/>												</attachment>
-<attachment name="territoryAttachment" attachTo="013 Sea Zone" 		javaClass="TerritoryAttachment" type="territory">	<option name="production" value="0"/>												</attachment>
-<attachment name="territoryAttachment" attachTo="014 Sea Zone" 		javaClass="TerritoryAttachment" type="territory">	<option name="production" value="0"/>												</attachment>
-<attachment name="territoryAttachment" attachTo="015 Sea Zone" 		javaClass="TerritoryAttachment" type="territory">	<option name="production" value="0"/>												</attachment>
-<attachment name="territoryAttachment" attachTo="016 A Sea Zone"	javaClass="TerritoryAttachment" type="territory">	<option name="production" value="0"/>												</attachment>
-<attachment name="territoryAttachment" attachTo="016 B Sea Zone"	javaClass="TerritoryAttachment" type="territory">	<option name="production" value="0"/>												</attachment>
-<attachment name="territoryAttachment" attachTo="017 A Sea Zone"	javaClass="TerritoryAttachment" type="territory">	<option name="production" value="0"/>	<option name="blockadeZone" value="false"/>	</attachment>
-<attachment name="territoryAttachment" attachTo="017 B Sea Zone"	javaClass="TerritoryAttachment" type="territory">	<option name="production" value="0"/>	<option name="blockadeZone" value="false"/>	</attachment>
-<attachment name="territoryAttachment" attachTo="018 Sea Zone" 		javaClass="TerritoryAttachment" type="territory">	<option name="production" value="0"/>												</attachment>
-<attachment name="territoryAttachment" attachTo="019 A Sea Zone"	javaClass="TerritoryAttachment" type="territory">	<option name="production" value="0"/>	<option name="blockadeZone" value="false"/>	</attachment>
-<attachment name="territoryAttachment" attachTo="019 B Sea Zone"	javaClass="TerritoryAttachment" type="territory">	<option name="production" value="0"/>	<option name="blockadeZone" value="false"/>	</attachment>
-<attachment name="territoryAttachment" attachTo="020 Sea Zone" 		javaClass="TerritoryAttachment" type="territory">	<option name="production" value="0"/>	<option name="blockadeZone" value="false"/>	</attachment>
-<attachment name="territoryAttachment" attachTo="021 A Sea Zone"	javaClass="TerritoryAttachment" type="territory">	<option name="production" value="0"/>	<option name="blockadeZone" value="false"/>	</attachment>
-<attachment name="territoryAttachment" attachTo="021 B Sea Zone"	javaClass="TerritoryAttachment" type="territory">	<option name="production" value="0"/>	<option name="blockadeZone" value="false"/>	</attachment>
-<attachment name="territoryAttachment" attachTo="022 A Sea Zone"	javaClass="TerritoryAttachment" type="territory">	<option name="production" value="0"/>	<option name="blockadeZone" value="false"/>	</attachment>
-<attachment name="territoryAttachment" attachTo="022 B Sea Zone"	javaClass="TerritoryAttachment" type="territory">	<option name="production" value="0"/>	<option name="blockadeZone" value="false"/>	</attachment>
-<attachment name="territoryAttachment" attachTo="023 Sea Zone" 		javaClass="TerritoryAttachment" type="territory">	<option name="production" value="0"/>	<option name="blockadeZone" value="false"/>	</attachment>
-<attachment name="territoryAttachment" attachTo="024 Sea Zone" 		javaClass="TerritoryAttachment" type="territory">	<option name="production" value="0"/>												</attachment>
-<attachment name="territoryAttachment" attachTo="025 A Sea Zone"	javaClass="TerritoryAttachment" type="territory">	<option name="production" value="0"/>	<option name="blockadeZone" value="false"/>	</attachment>
-<attachment name="territoryAttachment" attachTo="025 B Sea Zone"	javaClass="TerritoryAttachment" type="territory">	<option name="production" value="0"/>	<option name="blockadeZone" value="false"/>	</attachment>
-<attachment name="territoryAttachment" attachTo="026 A Sea Zone"	javaClass="TerritoryAttachment" type="territory">	<option name="production" value="0"/>	<option name="blockadeZone" value="false"/>	</attachment>
-<attachment name="territoryAttachment" attachTo="026 B Sea Zone"	javaClass="TerritoryAttachment" type="territory">	<option name="production" value="0"/>	<option name="blockadeZone" value="false"/>	</attachment>
-<attachment name="territoryAttachment" attachTo="027 Sea Zone" 		javaClass="TerritoryAttachment" type="territory">	<option name="production" value="0"/>												</attachment>
-<attachment name="territoryAttachment" attachTo="028 Sea Zone" 		javaClass="TerritoryAttachment" type="territory">	<option name="production" value="0"/>												</attachment>
-<attachment name="territoryAttachment" attachTo="029 Sea Zone" 		javaClass="TerritoryAttachment" type="territory">	<option name="production" value="0"/>	<option name="blockadeZone" value="false"/>	</attachment>
-<attachment name="territoryAttachment" attachTo="030 A Sea Zone"	javaClass="TerritoryAttachment" type="territory">	<option name="production" value="0"/>	<option name="blockadeZone" value="false"/>	</attachment>
-<attachment name="territoryAttachment" attachTo="030 B Sea Zone"	javaClass="TerritoryAttachment" type="territory">	<option name="production" value="0"/>	<option name="blockadeZone" value="false"/>	</attachment>
-<attachment name="territoryAttachment" attachTo="031 A Sea Zone"	javaClass="TerritoryAttachment" type="territory">	<option name="production" value="0"/>	<option name="blockadeZone" value="false"/>	</attachment>
-<attachment name="territoryAttachment" attachTo="031 B Sea Zone"	javaClass="TerritoryAttachment" type="territory">	<option name="production" value="0"/>	<option name="blockadeZone" value="false"/>	</attachment>
-<attachment name="territoryAttachment" attachTo="032 A Sea Zone"	javaClass="TerritoryAttachment" type="territory">	<option name="production" value="0"/>	<option name="blockadeZone" value="false"/>	</attachment>
-<attachment name="territoryAttachment" attachTo="032 B Sea Zone"	javaClass="TerritoryAttachment" type="territory">	<option name="production" value="0"/>	<option name="blockadeZone" value="false"/>	</attachment>
-<attachment name="territoryAttachment" attachTo="033 A Sea Zone"	javaClass="TerritoryAttachment" type="territory">	<option name="production" value="0"/>	<option name="blockadeZone" value="false"/>	</attachment>
-<attachment name="territoryAttachment" attachTo="033 B Sea Zone"	javaClass="TerritoryAttachment" type="territory">	<option name="production" value="0"/>	<option name="blockadeZone" value="false"/>	</attachment>
-<attachment name="territoryAttachment" attachTo="034 A Sea Zone"	javaClass="TerritoryAttachment" type="territory">	<option name="production" value="0"/>	<option name="blockadeZone" value="false"/>	</attachment>
-<attachment name="territoryAttachment" attachTo="034 B Sea Zone"	javaClass="TerritoryAttachment" type="territory">	<option name="production" value="0"/>	<option name="blockadeZone" value="false"/>	</attachment>
-<attachment name="territoryAttachment" attachTo="035 A Sea Zone"	javaClass="TerritoryAttachment" type="territory">	<option name="production" value="0"/>	<option name="blockadeZone" value="false"/>	</attachment>
-<attachment name="territoryAttachment" attachTo="035 B Sea Zone"	javaClass="TerritoryAttachment" type="territory">	<option name="production" value="0"/>	<option name="blockadeZone" value="false"/>	</attachment>
-<attachment name="territoryAttachment" attachTo="036 A Sea Zone"	javaClass="TerritoryAttachment" type="territory">	<option name="production" value="0"/>	<option name="blockadeZone" value="false"/>	</attachment>
-<attachment name="territoryAttachment" attachTo="036 B Sea Zone"	javaClass="TerritoryAttachment" type="territory">	<option name="production" value="0"/>	<option name="blockadeZone" value="false"/>	</attachment>
-<attachment name="territoryAttachment" attachTo="037 Sea Zone" 		javaClass="TerritoryAttachment" type="territory">	<option name="production" value="0"/>	<option name="blockadeZone" value="false"/>	</attachment>
-<attachment name="territoryAttachment" attachTo="038 A Sea Zone"	javaClass="TerritoryAttachment" type="territory">	<option name="production" value="0"/>	<option name="blockadeZone" value="false"/>	</attachment>
-<attachment name="territoryAttachment" attachTo="038 B Sea Zone"	javaClass="TerritoryAttachment" type="territory">	<option name="production" value="0"/>	<option name="blockadeZone" value="false"/>	</attachment>
-<attachment name="territoryAttachment" attachTo="039 A Sea Zone"	javaClass="TerritoryAttachment" type="territory">	<option name="production" value="0"/>	<option name="blockadeZone" value="false"/>	</attachment>
-<attachment name="territoryAttachment" attachTo="039 B Sea Zone"	javaClass="TerritoryAttachment" type="territory">	<option name="production" value="0"/>	<option name="blockadeZone" value="false"/>	</attachment>
-<attachment name="territoryAttachment" attachTo="040 Sea Zone" 		javaClass="TerritoryAttachment" type="territory">	<option name="production" value="0"/>												</attachment>
-<attachment name="territoryAttachment" attachTo="041 A Sea Zone"	javaClass="TerritoryAttachment" type="territory">	<option name="production" value="0"/>	<option name="blockadeZone" value="false"/>	</attachment>
-<attachment name="territoryAttachment" attachTo="041 B Sea Zone"	javaClass="TerritoryAttachment" type="territory">	<option name="production" value="0"/>	<option name="blockadeZone" value="false"/>	</attachment>
-<attachment name="territoryAttachment" attachTo="041 C Sea Zone"	javaClass="TerritoryAttachment" type="territory">	<option name="production" value="0"/>	<option name="blockadeZone" value="false"/>	</attachment>
-<attachment name="territoryAttachment" attachTo="042 A Sea Zone"	javaClass="TerritoryAttachment" type="territory">	<option name="production" value="0"/>	<option name="blockadeZone" value="false"/>	</attachment>
-<attachment name="territoryAttachment" attachTo="042 B Sea Zone"	javaClass="TerritoryAttachment" type="territory">	<option name="production" value="0"/>	<option name="blockadeZone" value="false"/>	</attachment>
-<attachment name="territoryAttachment" attachTo="043 A Sea Zone"	javaClass="TerritoryAttachment" type="territory">	<option name="production" value="0"/>	<option name="blockadeZone" value="false"/>	</attachment>
-<attachment name="territoryAttachment" attachTo="043 B Sea Zone"	javaClass="TerritoryAttachment" type="territory">	<option name="production" value="0"/>	<option name="blockadeZone" value="false"/>	</attachment>
-<attachment name="territoryAttachment" attachTo="044 A Sea Zone"	javaClass="TerritoryAttachment" type="territory">	<option name="production" value="0"/>	<option name="blockadeZone" value="false"/>	</attachment>
-<attachment name="territoryAttachment" attachTo="044 B Sea Zone"	javaClass="TerritoryAttachment" type="territory">	<option name="production" value="0"/>	<option name="blockadeZone" value="false"/>	</attachment>
-<attachment name="territoryAttachment" attachTo="045 A Sea Zone"	javaClass="TerritoryAttachment" type="territory">	<option name="production" value="0"/>	<option name="blockadeZone" value="false"/>	</attachment>
-<attachment name="territoryAttachment" attachTo="045 B Sea Zone"	javaClass="TerritoryAttachment" type="territory">	<option name="production" value="0"/>	<option name="blockadeZone" value="false"/>	</attachment>
-<attachment name="territoryAttachment" attachTo="045 C Sea Zone"	javaClass="TerritoryAttachment" type="territory">	<option name="production" value="0"/>	<option name="blockadeZone" value="false"/>	</attachment>
-<attachment name="territoryAttachment" attachTo="046 A Sea Zone" 	javaClass="TerritoryAttachment" type="territory">	<option name="production" value="0"/>	<option name="blockadeZone" value="false"/>	</attachment>
-<attachment name="territoryAttachment" attachTo="046 B Sea Zone" 	javaClass="TerritoryAttachment" type="territory">	<option name="production" value="0"/>	<option name="blockadeZone" value="false"/>	</attachment>
-<attachment name="territoryAttachment" attachTo="047 Sea Zone" 		javaClass="TerritoryAttachment" type="territory">	<option name="production" value="0"/>	<option name="blockadeZone" value="false"/>	</attachment>
-<attachment name="territoryAttachment" attachTo="048 Sea Zone" 		javaClass="TerritoryAttachment" type="territory">	<option name="production" value="0"/>	<option name="blockadeZone" value="false"/>	</attachment>
-<attachment name="territoryAttachment" attachTo="049 Sea Zone" 		javaClass="TerritoryAttachment" type="territory">	<option name="production" value="0"/>	<option name="blockadeZone" value="false"/>	</attachment>
-<attachment name="territoryAttachment" attachTo="050 Sea Zone" 		javaClass="TerritoryAttachment" type="territory">	<option name="production" value="0"/>	<option name="blockadeZone" value="false"/>	</attachment>
-<attachment name="territoryAttachment" attachTo="051 Sea Zone" 		javaClass="TerritoryAttachment" type="territory">	<option name="production" value="0"/>	<option name="blockadeZone" value="false"/>	</attachment>
-<attachment name="territoryAttachment" attachTo="052 Sea Zone" 		javaClass="TerritoryAttachment" type="territory">	<option name="production" value="0"/>												</attachment>
-<attachment name="territoryAttachment" attachTo="053 Sea Zone" 		javaClass="TerritoryAttachment" type="territory">	<option name="production" value="0"/>	<option name="blockadeZone" value="false"/>	</attachment>
-<attachment name="territoryAttachment" attachTo="054 Sea Zone" 		javaClass="TerritoryAttachment" type="territory">	<option name="production" value="0"/>	<option name="blockadeZone" value="false"/>	</attachment>
-<attachment name="territoryAttachment" attachTo="055 Sea Zone" 		javaClass="TerritoryAttachment" type="territory">	<option name="production" value="0"/>	<option name="blockadeZone" value="false"/>	</attachment>
-<attachment name="territoryAttachment" attachTo="056 Sea Zone" 		javaClass="TerritoryAttachment" type="territory">	<option name="production" value="0"/>	<option name="blockadeZone" value="false"/>	</attachment>
-<attachment name="territoryAttachment" attachTo="057 Sea Zone" 		javaClass="TerritoryAttachment" type="territory">	<option name="production" value="0"/>												</attachment>
-<attachment name="territoryAttachment" attachTo="058 Sea Zone" 		javaClass="TerritoryAttachment" type="territory">	<option name="production" value="0"/>												</attachment>
-<attachment name="territoryAttachment" attachTo="059 Sea Zone" 		javaClass="TerritoryAttachment" type="territory">	<option name="production" value="0"/>												</attachment>
-<attachment name="territoryAttachment" attachTo="060 Sea Zone" 		javaClass="TerritoryAttachment" type="territory">	<option name="production" value="0"/>												</attachment>
-<attachment name="territoryAttachment" attachTo="061 Sea Zone" 		javaClass="TerritoryAttachment" type="territory">	<option name="production" value="0"/>	<option name="blockadeZone" value="false"/>	</attachment>
-<attachment name="territoryAttachment" attachTo="062 Sea Zone" 		javaClass="TerritoryAttachment" type="territory">	<option name="production" value="0"/>	<option name="blockadeZone" value="false"/>	</attachment>
-<attachment name="territoryAttachment" attachTo="063 Sea Zone" 		javaClass="TerritoryAttachment" type="territory">	<option name="production" value="0"/>	<option name="blockadeZone" value="false"/>	</attachment>
-<attachment name="territoryAttachment" attachTo="064 Sea Zone" 		javaClass="TerritoryAttachment" type="territory">	<option name="production" value="0"/>	<option name="blockadeZone" value="false"/>	</attachment>
-<attachment name="territoryAttachment" attachTo="065 Sea Zone" 		javaClass="TerritoryAttachment" type="territory">	<option name="production" value="0"/>	<option name="blockadeZone" value="false"/>	</attachment>
-<attachment name="territoryAttachment" attachTo="066 Sea Zone" 		javaClass="TerritoryAttachment" type="territory">	<option name="production" value="0"/>	<option name="blockadeZone" value="false"/>	</attachment>
-<attachment name="territoryAttachment" attachTo="067 Sea Zone" 		javaClass="TerritoryAttachment" type="territory">	<option name="production" value="0"/>	<option name="blockadeZone" value="false"/>	</attachment>
-<attachment name="territoryAttachment" attachTo="068 Sea Zone" 		javaClass="TerritoryAttachment" type="territory">	<option name="production" value="0"/>												</attachment>
-<attachment name="territoryAttachment" attachTo="069 Sea Zone" 		javaClass="TerritoryAttachment" type="territory">	<option name="production" value="0"/>												</attachment>
-<attachment name="territoryAttachment" attachTo="070 Sea Zone" 		javaClass="TerritoryAttachment" type="territory">	<option name="production" value="0"/>	<option name="blockadeZone" value="false"/>	</attachment>
-<attachment name="territoryAttachment" attachTo="071 A Sea Zone"	javaClass="TerritoryAttachment" type="territory">	<option name="production" value="0"/>	<option name="blockadeZone" value="false"/>	</attachment>
-<attachment name="territoryAttachment" attachTo="071 B Sea Zone"	javaClass="TerritoryAttachment" type="territory">	<option name="production" value="0"/>	<option name="blockadeZone" value="false"/>	</attachment>
-<attachment name="territoryAttachment" attachTo="072 A Sea Zone"	javaClass="TerritoryAttachment" type="territory">	<option name="production" value="0"/>	<option name="blockadeZone" value="false"/>	</attachment>
-<attachment name="territoryAttachment" attachTo="072 B Sea Zone"	javaClass="TerritoryAttachment" type="territory">	<option name="production" value="0"/>	<option name="blockadeZone" value="false"/>	</attachment>
-<attachment name="territoryAttachment" attachTo="072 C Sea Zone"	javaClass="TerritoryAttachment" type="territory">	<option name="production" value="0"/>	<option name="blockadeZone" value="false"/>	</attachment>
-<attachment name="territoryAttachment" attachTo="073 Sea Zone" 		javaClass="TerritoryAttachment" type="territory">	<option name="production" value="0"/>												</attachment>
-<attachment name="territoryAttachment" attachTo="074 Sea Zone" 		javaClass="TerritoryAttachment" type="territory">	<option name="production" value="0"/>												</attachment>
-<attachment name="territoryAttachment" attachTo="075 Sea Zone" 		javaClass="TerritoryAttachment" type="territory">	<option name="production" value="0"/>												</attachment>
-<attachment name="territoryAttachment" attachTo="076 Sea Zone" 		javaClass="TerritoryAttachment" type="territory">	<option name="production" value="0"/>	<option name="blockadeZone" value="false"/>	</attachment>
-<attachment name="territoryAttachment" attachTo="077 Sea Zone" 		javaClass="TerritoryAttachment" type="territory">	<option name="production" value="0"/>												</attachment>
-<attachment name="territoryAttachment" attachTo="078 Sea Zone" 		javaClass="TerritoryAttachment" type="territory">	<option name="production" value="0"/>												</attachment>
-<attachment name="territoryAttachment" attachTo="079 A Sea Zone"	javaClass="TerritoryAttachment" type="territory">	<option name="production" value="0"/>	<option name="blockadeZone" value="false"/>	</attachment>
-<attachment name="territoryAttachment" attachTo="079 B Sea Zone"	javaClass="TerritoryAttachment" type="territory">	<option name="production" value="0"/>	<option name="blockadeZone" value="false"/>	</attachment>
-<attachment name="territoryAttachment" attachTo="079 C Sea Zone"	javaClass="TerritoryAttachment" type="territory">	<option name="production" value="0"/>	<option name="blockadeZone" value="false"/>	</attachment>
-<attachment name="territoryAttachment" attachTo="080 A Sea Zone"	javaClass="TerritoryAttachment" type="territory">	<option name="production" value="0"/>	<option name="blockadeZone" value="false"/>	</attachment>
-<attachment name="territoryAttachment" attachTo="080 B Sea Zone"	javaClass="TerritoryAttachment" type="territory">	<option name="production" value="0"/>	<option name="blockadeZone" value="false"/>	</attachment>
-<attachment name="territoryAttachment" attachTo="081 Sea Zone" 		javaClass="TerritoryAttachment" type="territory">	<option name="production" value="0"/>	<option name="blockadeZone" value="false"/>	</attachment>
-<attachment name="territoryAttachment" attachTo="082 Sea Zone" 		javaClass="TerritoryAttachment" type="territory">	<option name="production" value="0"/>	<option name="blockadeZone" value="false"/>	</attachment>
-<attachment name="territoryAttachment" attachTo="083 Sea Zone" 		javaClass="TerritoryAttachment" type="territory">	<option name="production" value="0"/>	<option name="blockadeZone" value="false"/>	</attachment>
-<attachment name="territoryAttachment" attachTo="084 Sea Zone" 		javaClass="TerritoryAttachment" type="territory">	<option name="production" value="0"/>												</attachment>
-<attachment name="territoryAttachment" attachTo="085 Sea Zone" 		javaClass="TerritoryAttachment" type="territory">	<option name="production" value="0"/>	<option name="blockadeZone" value="false"/>	</attachment>
-<attachment name="territoryAttachment" attachTo="086 Sea Zone" 		javaClass="TerritoryAttachment" type="territory">	<option name="production" value="0"/>	<option name="blockadeZone" value="false"/>	</attachment>
-<attachment name="territoryAttachment" attachTo="087 A Sea Zone"	javaClass="TerritoryAttachment" type="territory">	<option name="production" value="0"/>	<option name="blockadeZone" value="false"/>	</attachment>
-<attachment name="territoryAttachment" attachTo="087 B Sea Zone"	javaClass="TerritoryAttachment" type="territory">	<option name="production" value="0"/>	<option name="blockadeZone" value="false"/>	</attachment>
-<attachment name="territoryAttachment" attachTo="087 C Sea Zone"	javaClass="TerritoryAttachment" type="territory">	<option name="production" value="0"/>	<option name="blockadeZone" value="false"/>	</attachment>
-<attachment name="territoryAttachment" attachTo="088 A Sea Zone"	javaClass="TerritoryAttachment" type="territory">	<option name="production" value="0"/>	<option name="blockadeZone" value="false"/>	</attachment>
-<attachment name="territoryAttachment" attachTo="088 B Sea Zone"	javaClass="TerritoryAttachment" type="territory">	<option name="production" value="0"/>	<option name="blockadeZone" value="false"/>	</attachment>
-<attachment name="territoryAttachment" attachTo="089 A Sea Zone"	javaClass="TerritoryAttachment" type="territory">	<option name="production" value="0"/>	<option name="blockadeZone" value="false"/>	</attachment>
-<attachment name="territoryAttachment" attachTo="089 B Sea Zone"	javaClass="TerritoryAttachment" type="territory">	<option name="production" value="0"/>	<option name="blockadeZone" value="false"/>	</attachment>
-<attachment name="territoryAttachment" attachTo="089 C Sea Zone"	javaClass="TerritoryAttachment" type="territory">	<option name="production" value="0"/>	<option name="blockadeZone" value="false"/>	</attachment>
-<attachment name="territoryAttachment" attachTo="089 D Sea Zone"	javaClass="TerritoryAttachment" type="territory">	<option name="production" value="0"/>	<option name="blockadeZone" value="false"/>	</attachment>
-<attachment name="territoryAttachment" attachTo="090 Sea Zone" 		javaClass="TerritoryAttachment" type="territory">	<option name="production" value="0"/>												</attachment>
-<attachment name="territoryAttachment" attachTo="091 A Sea Zone"	javaClass="TerritoryAttachment" type="territory">	<option name="production" value="0"/>	<option name="blockadeZone" value="false"/>	</attachment>
-<attachment name="territoryAttachment" attachTo="091 B Sea Zone"	javaClass="TerritoryAttachment" type="territory">	<option name="production" value="0"/>												</attachment>
-<attachment name="territoryAttachment" attachTo="092 Sea Zone" 		javaClass="TerritoryAttachment" type="territory">	<option name="production" value="0"/>	<option name="blockadeZone" value="false"/>	</attachment>
-<attachment name="territoryAttachment" attachTo="093 Sea Zone" 		javaClass="TerritoryAttachment" type="territory">	<option name="production" value="0"/>	<option name="blockadeZone" value="false"/>	</attachment>
-<attachment name="territoryAttachment" attachTo="094 Sea Zone" 		javaClass="TerritoryAttachment" type="territory">	<option name="production" value="0"/>	<option name="blockadeZone" value="false"/>	</attachment>
-<attachment name="territoryAttachment" attachTo="095 A Sea Zone"	javaClass="TerritoryAttachment" type="territory">	<option name="production" value="0"/>	<option name="blockadeZone" value="false"/>	</attachment>
-<attachment name="territoryAttachment" attachTo="095 B Sea Zone"	javaClass="TerritoryAttachment" type="territory">	<option name="production" value="0"/>	<option name="blockadeZone" value="false"/>	</attachment>
-<attachment name="territoryAttachment" attachTo="096 A Sea Zone"	javaClass="TerritoryAttachment" type="territory">	<option name="production" value="0"/>	<option name="blockadeZone" value="false"/>	</attachment>
-<attachment name="territoryAttachment" attachTo="096 B Sea Zone"	javaClass="TerritoryAttachment" type="territory">	<option name="production" value="0"/>	<option name="blockadeZone" value="false"/>	</attachment>
-<attachment name="territoryAttachment" attachTo="097 A Sea Zone"	javaClass="TerritoryAttachment" type="territory">	<option name="production" value="0"/>	<option name="blockadeZone" value="false"/>	</attachment>
-<attachment name="territoryAttachment" attachTo="097 B Sea Zone"	javaClass="TerritoryAttachment" type="territory">	<option name="production" value="0"/>	<option name="blockadeZone" value="false"/>	</attachment>
-<attachment name="territoryAttachment" attachTo="098 Sea Zone" 		javaClass="TerritoryAttachment" type="territory">	<option name="production" value="0"/>	<option name="blockadeZone" value="false"/>	</attachment>
-<attachment name="territoryAttachment" attachTo="099 A Sea Zone"	javaClass="TerritoryAttachment" type="territory">	<option name="production" value="0"/>	<option name="blockadeZone" value="false"/>	</attachment>
-<attachment name="territoryAttachment" attachTo="099 B Sea Zone"	javaClass="TerritoryAttachment" type="territory">	<option name="production" value="0"/>	<option name="blockadeZone" value="false"/>	</attachment>
-<attachment name="territoryAttachment" attachTo="100 A Sea Zone"	javaClass="TerritoryAttachment" type="territory">	<option name="production" value="0"/>	<option name="blockadeZone" value="false"/>	</attachment>
-<attachment name="territoryAttachment" attachTo="100 B Sea Zone"	javaClass="TerritoryAttachment" type="territory">	<option name="production" value="0"/>	<option name="blockadeZone" value="false"/>	</attachment>
-<attachment name="territoryAttachment" attachTo="100 C Sea Zone"	javaClass="TerritoryAttachment" type="territory">	<option name="production" value="0"/>	<option name="blockadeZone" value="false"/>	</attachment>
-<attachment name="territoryAttachment" attachTo="100 D Sea Zone"	javaClass="TerritoryAttachment" type="territory">	<option name="production" value="0"/>	<option name="blockadeZone" value="false"/>	</attachment>
-<attachment name="territoryAttachment" attachTo="101 A Sea Zone"	javaClass="TerritoryAttachment" type="territory">	<option name="production" value="0"/>	<option name="blockadeZone" value="false"/>	</attachment>
-<attachment name="territoryAttachment" attachTo="101 B Sea Zone"	javaClass="TerritoryAttachment" type="territory">	<option name="production" value="0"/>	<option name="blockadeZone" value="false"/>	</attachment>
-<attachment name="territoryAttachment" attachTo="101 C Sea Zone"	javaClass="TerritoryAttachment" type="territory">	<option name="production" value="0"/>	<option name="blockadeZone" value="false"/>	</attachment>
-<attachment name="territoryAttachment" attachTo="102 Sea Zone"		javaClass="TerritoryAttachment" type="territory">	<option name="production" value="0"/>												</attachment>
-<attachment name="territoryAttachment" attachTo="103 Sea Zone" 		javaClass="TerritoryAttachment" type="territory">	<option name="production" value="0"/>												</attachment>
-<attachment name="territoryAttachment" attachTo="104 Sea Zone" 		javaClass="TerritoryAttachment" type="territory">	<option name="production" value="0"/>	<option name="blockadeZone" value="false"/>	</attachment>
-<attachment name="territoryAttachment" attachTo="105 Sea Zone" 		javaClass="TerritoryAttachment" type="territory">	<option name="production" value="0"/>	<option name="blockadeZone" value="false"/>	</attachment>
-<attachment name="territoryAttachment" attachTo="106 Sea Zone" 		javaClass="TerritoryAttachment" type="territory">	<option name="production" value="0"/>	<option name="blockadeZone" value="false"/>	</attachment>
-<attachment name="territoryAttachment" attachTo="107 Sea Zone" 		javaClass="TerritoryAttachment" type="territory">	<option name="production" value="0"/>												</attachment>
-<attachment name="territoryAttachment" attachTo="108 Sea Zone" 		javaClass="TerritoryAttachment" type="territory">	<option name="production" value="0"/>												</attachment>
-<attachment name="territoryAttachment" attachTo="109 Sea Zone" 		javaClass="TerritoryAttachment" type="territory">	<option name="production" value="0"/>	<option name="blockadeZone" value="false"/>	</attachment>
-<attachment name="territoryAttachment" attachTo="110 A Sea Zone"	javaClass="TerritoryAttachment" type="territory">	<option name="production" value="0"/>	<option name="blockadeZone" value="false"/>	</attachment>
-<attachment name="territoryAttachment" attachTo="110 B Sea Zone"	javaClass="TerritoryAttachment" type="territory">	<option name="production" value="0"/>	<option name="blockadeZone" value="false"/>	</attachment>
-<attachment name="territoryAttachment" attachTo="111 A Sea Zone"	javaClass="TerritoryAttachment" type="territory">	<option name="production" value="0"/>	<option name="blockadeZone" value="false"/>	</attachment>
-<attachment name="territoryAttachment" attachTo="111 B Sea Zone"	javaClass="TerritoryAttachment" type="territory">	<option name="production" value="0"/>	<option name="blockadeZone" value="false"/>	</attachment>
-
-<attachment name="territoryAttachment" attachTo="112 Sea Zone" 		javaClass="TerritoryAttachment" type="territory">
-  <option name="production" value="0"/>
-  <option name="blockadeZone" value="false"/>
-</attachment>
-<attachment name="territoryAttachment" attachTo="113 A Sea Zone" 	javaClass="TerritoryAttachment" type="territory">	<option name="production" value="0"/>	<option name="blockadeZone" value="false"/>	</attachment>
-<attachment name="territoryAttachment" attachTo="113 B Sea Zone" 	javaClass="TerritoryAttachment" type="territory">	<option name="production" value="0"/>	<option name="blockadeZone" value="false"/>	</attachment>
-<attachment name="territoryAttachment" attachTo="114 Sea Zone" 		javaClass="TerritoryAttachment" type="territory">	<option name="production" value="0"/>	<option name="blockadeZone" value="false"/>	</attachment>
-<attachment name="territoryAttachment" attachTo="115 Sea Zone" 		javaClass="TerritoryAttachment" type="territory">	<option name="production" value="0"/>	<option name="blockadeZone" value="false"/>	</attachment>
-<attachment name="territoryAttachment" attachTo="116 Sea Zone" 		javaClass="TerritoryAttachment" type="territory">	<option name="production" value="0"/>	<option name="blockadeZone" value="false"/>	</attachment>
-<attachment name="territoryAttachment" attachTo="117 Sea Zone" 		javaClass="TerritoryAttachment" type="territory">	<option name="production" value="0"/>												</attachment>
-<attachment name="territoryAttachment" attachTo="118 Sea Zone" 		javaClass="TerritoryAttachment" type="territory">	<option name="production" value="0"/>												</attachment>
-<attachment name="territoryAttachment" attachTo="119 Sea Zone" 		javaClass="TerritoryAttachment" type="territory">	<option name="production" value="0"/>	<option name="blockadeZone" value="false"/>	</attachment>
-<attachment name="territoryAttachment" attachTo="120 Sea Zone" 		javaClass="TerritoryAttachment" type="territory">	<option name="production" value="0"/>	<option name="blockadeZone" value="false"/>	</attachment>
-<attachment name="territoryAttachment" attachTo="121 A Sea Zone"	javaClass="TerritoryAttachment" type="territory">	<option name="production" value="0"/>	<option name="blockadeZone" value="false"/>	</attachment>
-<attachment name="territoryAttachment" attachTo="121 B Sea Zone"	javaClass="TerritoryAttachment" type="territory">	<option name="production" value="0"/>	<option name="blockadeZone" value="false"/>	</attachment>
-<attachment name="territoryAttachment" attachTo="122 Sea Zone" 		javaClass="TerritoryAttachment" type="territory">	<option name="production" value="0"/>												</attachment>
-<attachment name="territoryAttachment" attachTo="123 Sea Zone" 		javaClass="TerritoryAttachment" type="territory">	<option name="production" value="0"/>	<option name="blockadeZone" value="false"/>	</attachment>
-<attachment name="territoryAttachment" attachTo="124 Sea Zone" 		javaClass="TerritoryAttachment" type="territory">	<option name="production" value="0"/>												</attachment>
-<attachment name="territoryAttachment" attachTo="125 Sea Zone" 		javaClass="TerritoryAttachment" type="territory">	<option name="production" value="0"/>	<option name="blockadeZone" value="false"/>	</attachment>
-<attachment name="territoryAttachment" attachTo="126 Sea Zone" 		javaClass="TerritoryAttachment" type="territory">	<option name="production" value="0"/>	<option name="blockadeZone" value="false"/>	</attachment>
-<attachment name="territoryAttachment" attachTo="127 A Sea Zone"	javaClass="TerritoryAttachment" type="territory">	<option name="production" value="0"/>	<option name="blockadeZone" value="false"/>	</attachment>
-<attachment name="territoryAttachment" attachTo="127 B Sea Zone"	javaClass="TerritoryAttachment" type="territory">	<option name="production" value="0"/>	<option name="blockadeZone" value="false"/>	</attachment>
-<attachment name="territoryAttachment" attachTo="128 Sea Zone" 		javaClass="TerritoryAttachment" type="territory">	<option name="production" value="0"/>	<option name="blockadeZone" value="false"/>	</attachment>
-<attachment name="territoryAttachment" attachTo="129 Sea Zone" 		javaClass="TerritoryAttachment" type="territory">	<option name="production" value="0"/>	<option name="blockadeZone" value="false"/>	</attachment>
-
-<!-- Land Territory Attachments -->
-
-<attachment name="territoryAttachment" attachTo="Acapulco-Chiapas" 			javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>			</attachment>
-<attachment name="territoryAttachment" attachTo="Adana" 					javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>		</attachment>
-<attachment name="territoryAttachment" attachTo="Addis Ababa" 				javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>														</attachment>
-<attachment name="territoryAttachment" attachTo="Adelaide-S.Australia" 		javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>														</attachment>
-<attachment name="territoryAttachment" attachTo="Aden-Yemen" 				javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>														</attachment>
-<attachment name="territoryAttachment" attachTo="Agana-Guam" 				javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>			</attachment>
-<attachment name="territoryAttachment" attachTo="Akmolinsk" 				javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>			</attachment>
-<attachment name="territoryAttachment" attachTo="Aksu-Tarim" 				javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>			</attachment>
-<attachment name="territoryAttachment" attachTo="Aktau" 					javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>			</attachment>
-<attachment name="territoryAttachment" attachTo="Aktobe" 					javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>														</attachment>
-<attachment name="territoryAttachment" attachTo="Al Fishir" 				javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>		</attachment>
-<attachment name="territoryAttachment" attachTo="Al Hasa" 					javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>														</attachment>
-<attachment name="territoryAttachment" attachTo="Al Hasakah" 				javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>														</attachment>
-<attachment name="territoryAttachment" attachTo="Al Kufrah" 				javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>			</attachment>
-<attachment name="territoryAttachment" attachTo="Albania" 					javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>		</attachment>
-<attachment name="territoryAttachment" attachTo="Alberta" 					javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>														</attachment>
-<attachment name="territoryAttachment" attachTo="Aleppo-Deir ez Zor" 		javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>			</attachment>
-<attachment name="territoryAttachment" attachTo="Algarve" 					javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>														</attachment>
-<attachment name="territoryAttachment" attachTo="Algiers" 					javaClass="TerritoryAttachment" type="territory">	<option name="production" value="2"/>														</attachment>
-<attachment name="territoryAttachment" attachTo="Alice Springs-Outback" 	javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>			</attachment>
-<attachment name="territoryAttachment" attachTo="Almaty" 					javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>		</attachment>
-<attachment name="territoryAttachment" attachTo="Alsace" 					javaClass="TerritoryAttachment" type="territory">	<option name="production" value="2"/>			</attachment>
-<attachment name="territoryAttachment" attachTo="Amapa-Brazilian Guiana"	javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>			</attachment>
-<attachment name="territoryAttachment" attachTo="Amazonas" 					javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>			</attachment>
-<attachment name="territoryAttachment" attachTo="Ambon" 					javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>		</attachment>
-<attachment name="territoryAttachment" attachTo="Amur" 						javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>			</attachment>
-<attachment name="territoryAttachment" attachTo="Anadyr" 					javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>			</attachment>
-<attachment name="territoryAttachment" attachTo="Anchorage" 				javaClass="TerritoryAttachment" type="territory">	<option name="production" value="2"/>			</attachment>
-<attachment name="territoryAttachment" attachTo="Andalusia" 				javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>														</attachment>
-<attachment name="territoryAttachment" attachTo="Andaman Is." 				javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>			</attachment>
-<attachment name="territoryAttachment" attachTo="Angola" 					javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>			</attachment>
-<attachment name="territoryAttachment" attachTo="Anhwei" 					javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>			</attachment>
-<attachment name="territoryAttachment" attachTo="Ankara" 					javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>														</attachment>
-<attachment name="territoryAttachment" attachTo="Antalya" 					javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>														</attachment>
-<attachment name="territoryAttachment" attachTo="Aragon-Catalonia" 			javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>														</attachment>
-<attachment name="territoryAttachment" attachTo="Archangelsk" 				javaClass="TerritoryAttachment" type="territory">	<option name="production" value="2"/>		</attachment>
-<attachment name="territoryAttachment" attachTo="Arizona-New Mexico" 		javaClass="TerritoryAttachment" type="territory">	<option name="production" value="3"/>		</attachment>
-<attachment name="territoryAttachment" attachTo="Ascension Is." 			javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>			</attachment>
-<attachment name="territoryAttachment" attachTo="Asir" 						javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>														</attachment>
-<attachment name="territoryAttachment" attachTo="Astrakhan" 				javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>			</attachment>
-<attachment name="territoryAttachment" attachTo="Asturias" 					javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>			</attachment>
-<attachment name="territoryAttachment" attachTo="Athens-Cen.Greece" 		javaClass="TerritoryAttachment" type="territory">	<option name="production" value="2"/>		</attachment>
-<attachment name="territoryAttachment" attachTo="Atlanta-Georgia" 			javaClass="TerritoryAttachment" type="territory">	<option name="production" value="3"/>			</attachment>
-<attachment name="territoryAttachment" attachTo="Atyrau" 					javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>														</attachment>
-<attachment name="territoryAttachment" attachTo="Auckland-N.New Zealand" 	javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>		</attachment>
-<attachment name="territoryAttachment" attachTo="Azores Is." 				javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>			</attachment>
-<attachment name="territoryAttachment" attachTo="Baden-Wurttemburg" 		javaClass="TerritoryAttachment" type="territory">	<option name="production" value="4"/>			</attachment>
-<attachment name="territoryAttachment" attachTo="Baffin Is." 				javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>			</attachment>
-<attachment name="territoryAttachment" attachTo="Baghdad" 					javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>			</attachment>
-<attachment name="territoryAttachment" attachTo="Bahamas" 					javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>														</attachment>
-<attachment name="territoryAttachment" attachTo="Bahia-Norde Este" 			javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>			</attachment>
-<attachment name="territoryAttachment" attachTo="Baja-Sonora" 				javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>			</attachment>
-<attachment name="territoryAttachment" attachTo="Baku-Azerbaijan" 			javaClass="TerritoryAttachment" type="territory">	<option name="production" value="4"/>														</attachment>
-<attachment name="territoryAttachment" attachTo="Bali-Sunda Is." 			javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>			</attachment>
-<attachment name="territoryAttachment" attachTo="Balikpapan-S.Borneo" 		javaClass="TerritoryAttachment" type="territory">	<option name="production" value="4"/>			</attachment>
-<attachment name="territoryAttachment" attachTo="Bangkok-Siam" 				javaClass="TerritoryAttachment" type="territory">	<option name="production" value="2"/>			</attachment>
-<attachment name="territoryAttachment" attachTo="Barat Daya Is." 			javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>			</attachment>
-<attachment name="territoryAttachment" attachTo="Basra" 					javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>														</attachment>
-<attachment name="territoryAttachment" attachTo="Batavia-W.Java" 			javaClass="TerritoryAttachment" type="territory">	<option name="production" value="3"/>			</attachment>
-<attachment name="territoryAttachment" attachTo="Bavaria" 					javaClass="TerritoryAttachment" type="territory">	<option name="production" value="4"/>			</attachment>
-<attachment name="territoryAttachment" attachTo="Bechuanaland" 				javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>														</attachment>
-<attachment name="territoryAttachment" attachTo="Belgian Congo" 			javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>			</attachment>
-<attachment name="territoryAttachment" attachTo="Belgium" 		javaClass="TerritoryAttachment" type="territory">	<option name="production" value="2"/>														</attachment>
-<attachment name="territoryAttachment" attachTo="Belgrade-Cen.Yugoslavia"	javaClass="TerritoryAttachment" type="territory">	<option name="production" value="2"/>														</attachment>
-<attachment name="territoryAttachment" attachTo="Bengal" 					javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>														</attachment>
-<attachment name="territoryAttachment" attachTo="Benghazi-Cyrenaica" 		javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>														</attachment>
-<attachment name="territoryAttachment" attachTo="Berar" 					javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>														</attachment>
-<attachment name="territoryAttachment" attachTo="Bergen-Vestland" 			javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>		</attachment>
-<attachment name="territoryAttachment" attachTo="Berlin" 		javaClass="TerritoryAttachment" type="territory">
-  <option name="production" value="6"/>			
-  <option name="capital" value="Germans"/>
-  <option name="victoryCity" value="1"/>
-</attachment>
-<attachment name="territoryAttachment" attachTo="Bermuda" 					javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>														</attachment>
-<attachment name="territoryAttachment" attachTo="Beruit-Lebanon" 			javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>														</attachment>
-<attachment name="territoryAttachment" attachTo="Bessarabia" 				javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>														</attachment>
-<attachment name="territoryAttachment" attachTo="Bethel" 					javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>			</attachment>
-<attachment name="territoryAttachment" attachTo="Bhutan" 					javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>		</attachment>
-<attachment name="territoryAttachment" attachTo="Bhuyant Uhaa" 				javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>														</attachment>
-<attachment name="territoryAttachment" attachTo="Bialystok" 				javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>														</attachment>
-<attachment name="territoryAttachment" attachTo="Bogata-Colombia" 			javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>			</attachment>
-<attachment name="territoryAttachment" attachTo="Bolivia" 					javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>			</attachment>
-<attachment name="territoryAttachment" attachTo="Bombay" 					javaClass="TerritoryAttachment" type="territory">	<option name="production" value="3"/>		</attachment>
-<attachment name="territoryAttachment" attachTo="Bona" 						javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>														</attachment>
-<attachment name="territoryAttachment" attachTo="Boran" 					javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>														</attachment>
-<attachment name="territoryAttachment" attachTo="Bordeaux-Gascony" 			javaClass="TerritoryAttachment" type="territory">	<option name="production" value="2"/>			</attachment>
-<attachment name="territoryAttachment" attachTo="Boston-New England" 		javaClass="TerritoryAttachment" type="territory">	<option name="production" value="4"/>			</attachment>
-<attachment name="territoryAttachment" attachTo="Bratsk" 					javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>			</attachment>
-<attachment name="territoryAttachment" attachTo="Brest" 					javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>														</attachment>
-<attachment name="territoryAttachment" attachTo="Brisbane-Queensland" 		javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>			</attachment>
-<attachment name="territoryAttachment" attachTo="British Guiana" 			javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>			</attachment>
-<attachment name="territoryAttachment" attachTo="British Honduras" 			javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>			</attachment>
-<attachment name="territoryAttachment" attachTo="British Somaliland" 		javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>														</attachment>
-<attachment name="territoryAttachment" attachTo="Brittany" 					javaClass="TerritoryAttachment" type="territory">	<option name="production" value="2"/>														</attachment>
-<attachment name="territoryAttachment" attachTo="Broome-Exmouth" 			javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>			</attachment>
-<attachment name="territoryAttachment" attachTo="Bryansk" 					javaClass="TerritoryAttachment" type="territory">	<option name="production" value="2"/>														</attachment>
-<attachment name="territoryAttachment" attachTo="Bucharest-Cen.Romania" 	javaClass="TerritoryAttachment" type="territory">	<option name="production" value="3"/>			</attachment>
-<attachment name="territoryAttachment" attachTo="Budapest-N.Hungary" 		javaClass="TerritoryAttachment" type="territory">	<option name="production" value="2"/>			</attachment>
-<attachment name="territoryAttachment" attachTo="Buenos Aires" 				javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>														</attachment>
-<attachment name="territoryAttachment" attachTo="Buru" 						javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>			</attachment>
-<attachment name="territoryAttachment" attachTo="Buryatia" 					javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>														</attachment>
-<attachment name="territoryAttachment" attachTo="Cairo-Egypt" 				javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>														</attachment>
-<attachment name="territoryAttachment" attachTo="Calais" 			javaClass="TerritoryAttachment" type="territory">	<option name="production" value="2"/>														</attachment>
-<attachment name="territoryAttachment" attachTo="Calcutta" 					javaClass="TerritoryAttachment" type="territory">	<option name="production" value="4"/>				</attachment>
-<attachment name="territoryAttachment" attachTo="Cambodia" 					javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>			</attachment>
-<attachment name="territoryAttachment" attachTo="Canary Is." 				javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>														</attachment>
-<attachment name="territoryAttachment" attachTo="Cape Town" 				javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>			</attachment>
-<attachment name="territoryAttachment" attachTo="Cape Verde Is." 			javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>			</attachment>
-<attachment name="territoryAttachment" attachTo="Cape of Good Hope" 		javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>														</attachment>
-<attachment name="territoryAttachment" attachTo="Caracas-Venezuela" 		javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>			</attachment>
-<attachment name="territoryAttachment" attachTo="Castille-Leon" 			javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>														</attachment>
-<attachment name="territoryAttachment" attachTo="Cayman Is." 				javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>														</attachment>
-<attachment name="territoryAttachment" attachTo="Cen.Mongolia" 				javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>			</attachment>
-<attachment name="territoryAttachment" attachTo="Ceylon" 					javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>														</attachment>
-<attachment name="territoryAttachment" attachTo="Chad" 						javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>		</attachment>
-<attachment name="territoryAttachment" attachTo="Chahar" 					javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>														</attachment>
-<attachment name="territoryAttachment" attachTo="Charleston-Savannah" 		javaClass="TerritoryAttachment" type="territory">	<option name="production" value="4"/>														</attachment>
-<attachment name="territoryAttachment" attachTo="Charlotte-Carolina" 		javaClass="TerritoryAttachment" type="territory">	<option name="production" value="3"/>														</attachment>
-<attachment name="territoryAttachment" attachTo="Chelyabinsk" 				javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>														</attachment>
-<attachment name="territoryAttachment" attachTo="Chengdu-Szechwan" 			javaClass="TerritoryAttachment" type="territory">	<option name="production" value="2"/>		</attachment>
-<attachment name="territoryAttachment" attachTo="Chernihiv" 				javaClass="TerritoryAttachment" type="territory">	<option name="production" value="2"/>														</attachment>
-<attachment name="territoryAttachment" attachTo="Chersky" 					javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>			</attachment>
-<attachment name="territoryAttachment" attachTo="Chiang Mai" 				javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>			</attachment>
-<attachment name="territoryAttachment" attachTo="Chicago" 					javaClass="TerritoryAttachment" type="territory">	<option name="production" value="5"/>														</attachment>
-<attachment name="territoryAttachment" attachTo="Chihuahua-Durango" 		javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>			</attachment>
-<attachment name="territoryAttachment" attachTo="Chile" 					javaClass="TerritoryAttachment" type="territory">	<option name="production" value="0"/>		<option name="isImpassable" value="true"/>	</attachment>
-<attachment name="territoryAttachment" attachTo="Christchurch-S.New Zealand" javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>		</attachment>
-<attachment name="territoryAttachment" attachTo="Christmas Is." 			javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>			</attachment>
-<attachment name="territoryAttachment" attachTo="Chubu" 					javaClass="TerritoryAttachment" type="territory">	<option name="production" value="3"/>		</attachment>
-<attachment name="territoryAttachment" attachTo="Chukotka" 					javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>			</attachment>
-<attachment name="territoryAttachment" attachTo="Chungking" 				javaClass="TerritoryAttachment" type="territory">	<option name="production" value="2"/>													<option name="capital" value="Chinese"/>		</attachment>
-<attachment name="territoryAttachment" attachTo="Colorado" 					javaClass="TerritoryAttachment" type="territory">	<option name="production" value="3"/>		</attachment>
-<attachment name="territoryAttachment" attachTo="Comoros" 					javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>			</attachment>
-<attachment name="territoryAttachment" attachTo="Cook Is." 					javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>			</attachment>
-<attachment name="territoryAttachment" attachTo="Copenhagen-Denmark" 		javaClass="TerritoryAttachment" type="territory">	<option name="production" value="2"/>													</attachment>
-<attachment name="territoryAttachment" attachTo="Corregidor-Mindoro Is." 	javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>			</attachment>
-<attachment name="territoryAttachment" attachTo="Corsica" 					javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>		</attachment>
-<attachment name="territoryAttachment" attachTo="Costa" 					javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>			</attachment>
-<attachment name="territoryAttachment" attachTo="Crete" 					javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>		</attachment>
-<attachment name="territoryAttachment" attachTo="Crimea" 					javaClass="TerritoryAttachment" type="territory">	<option name="production" value="2"/>														</attachment>
-<attachment name="territoryAttachment" attachTo="Croatia" 					javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>		</attachment>
-<attachment name="territoryAttachment" attachTo="Cyprus" 					javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>														</attachment>
-<attachment name="territoryAttachment" attachTo="Da Nang-Annam" 			javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>														</attachment>
-<attachment name="territoryAttachment" attachTo="Dagestan" 					javaClass="TerritoryAttachment" type="territory">	<option name="production" value="2"/>														</attachment>
-<attachment name="territoryAttachment" attachTo="Dakar" 					javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>														</attachment>
-<attachment name="territoryAttachment" attachTo="Dakota" 					javaClass="TerritoryAttachment" type="territory">	<option name="production" value="3"/>		</attachment>
-<attachment name="territoryAttachment" attachTo="Dalarna" 					javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>		</attachment>
-<attachment name="territoryAttachment" attachTo="Dalmatia" 					javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>														</attachment>
-<attachment name="territoryAttachment" attachTo="Damascus-S.Syria" 			javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>														</attachment>
-<attachment name="territoryAttachment" attachTo="Danakil" 					javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>														</attachment>
-<attachment name="territoryAttachment" attachTo="Danzig-Posen" 				javaClass="TerritoryAttachment" type="territory">	<option name="production" value="2"/>														</attachment>
-<attachment name="territoryAttachment" attachTo="Dar es Salaam-Zanzibar" 	javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>														</attachment>
-<attachment name="territoryAttachment" attachTo="Darfur" 					javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>														</attachment>
-<attachment name="territoryAttachment" attachTo="Darwin-Northern Territory" javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>			</attachment>
-<attachment name="territoryAttachment" attachTo="Demyansk" 					javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>														</attachment>
-<attachment name="territoryAttachment" attachTo="Diyarbakir" 				javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>														</attachment>
-<attachment name="territoryAttachment" attachTo="Dodecanese Is." 			javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>			</attachment>
-<attachment name="territoryAttachment" attachTo="Dovao-Mindonao" 			javaClass="TerritoryAttachment" type="territory">	<option name="production" value="2"/>			</attachment>
-<attachment name="territoryAttachment" attachTo="Dutch Guiana" 				javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>			</attachment>
-<attachment name="territoryAttachment" attachTo="Dutch Harbor-Aleutian Is." javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>			</attachment>
-<attachment name="territoryAttachment" attachTo="Dzavhan" 					javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>														</attachment>
-<attachment name="territoryAttachment" attachTo="E.Algerian-Sahara" 		javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>			</attachment>
-<attachment name="territoryAttachment" attachTo="E.British Columbia" 		javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>			</attachment>
-<attachment name="territoryAttachment" attachTo="E.Tripolitania" 			javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>													</attachment>
-<attachment name="territoryAttachment" attachTo="Ecuador" 					javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>			</attachment>
-<attachment name="territoryAttachment" attachTo="Eire" 						javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>														</attachment>
-<attachment name="territoryAttachment" attachTo="El Alamein-Alexandria" 	javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>														</attachment>
-<attachment name="territoryAttachment" attachTo="El Salvador" 				javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>			</attachment>
-<attachment name="territoryAttachment" attachTo="Ellice Is." 				javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>			</attachment>
-<attachment name="territoryAttachment" attachTo="Eritrea" 					javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>														</attachment>
-<attachment name="territoryAttachment" attachTo="Erzurum" 					javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>														</attachment>
-<attachment name="territoryAttachment" attachTo="Estonia" 					javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>														</attachment>
-<attachment name="territoryAttachment" attachTo="Evenkia" 					javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>			</attachment>
-<attachment name="territoryAttachment" attachTo="Extramadura" 				javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>														</attachment>
-<attachment name="territoryAttachment" attachTo="Fairbanks" 				javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>			</attachment>
-<attachment name="territoryAttachment" attachTo="Falkland Is." 				javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>														</attachment>
-<attachment name="territoryAttachment" attachTo="Fars" 						javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>													</attachment>
-<attachment name="territoryAttachment" attachTo="Fezzan" 					javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>			</attachment>	<!--   -->
-<attachment name="territoryAttachment" attachTo="Fiji" 						javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>			</attachment>
-<attachment name="territoryAttachment" attachTo="Florida" 					javaClass="TerritoryAttachment" type="territory">	<option name="production" value="4"/>			</attachment>
-<attachment name="territoryAttachment" attachTo="Frankfurt-Hesse" 			javaClass="TerritoryAttachment" type="territory">	<option name="production" value="4"/>			</attachment>
-<attachment name="territoryAttachment" attachTo="French Dahomey" 			javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>			</attachment>
-<attachment name="territoryAttachment" attachTo="Cameroon" 					javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>			</attachment>
-<attachment name="territoryAttachment" attachTo="French Guiana" 			javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>			</attachment>
-<attachment name="territoryAttachment" attachTo="French Guinea" 			javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>			</attachment>
-<attachment name="territoryAttachment" attachTo="French Somaliland" 		javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>														</attachment>
-<attachment name="territoryAttachment" attachTo="Gabon" 					javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>			</attachment>
-<attachment name="territoryAttachment" attachTo="Galapagos Is." 			javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>			</attachment>
-<attachment name="territoryAttachment" attachTo="Galicia" 					javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>														</attachment>
-<attachment name="territoryAttachment" attachTo="Gibraltar" 				javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>		</attachment>
-<attachment name="territoryAttachment" attachTo="Gilan" 					javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>														</attachment>
-<attachment name="territoryAttachment" attachTo="Gizhiga" 					javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>														</attachment>
-<attachment name="territoryAttachment" attachTo="Gold Coast" 				javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>			</attachment>
-<attachment name="territoryAttachment" attachTo="Gotland" 					javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>		</attachment>
-<attachment name="territoryAttachment" attachTo="Gran Chaco" 				javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>														</attachment>
-<attachment name="territoryAttachment" attachTo="Grand Erg" 				javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>			</attachment>
-<attachment name="territoryAttachment" attachTo="Greenland" 				javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>			</attachment>
-<attachment name="territoryAttachment" attachTo="Grodno" 					javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>														</attachment>
-<attachment name="territoryAttachment" attachTo="Grozny-Chechnya" 			javaClass="TerritoryAttachment" type="territory">	<option name="production" value="3"/>													</attachment>
-<attachment name="territoryAttachment" attachTo="Guadalcanal-Solomon Is."	javaClass="TerritoryAttachment" type="territory">	<option name="production" value="2"/>			</attachment>
-<attachment name="territoryAttachment" attachTo="Guatemala" 				javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>			</attachment>
-<attachment name="territoryAttachment" attachTo="Gujarat" 					javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>			</attachment>
-<attachment name="territoryAttachment" attachTo="Haditha-Rutbah" 			javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>			</attachment>
-<attachment name="territoryAttachment" attachTo="Haichow-Lunghai" 			javaClass="TerritoryAttachment" type="territory">	
-	<option name="production" value="2"/>														
-	<option name="originalOwner" value="Chinese"/>	
-</attachment>
-<attachment name="territoryAttachment" attachTo="Haikou-Hainan" 			javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>														</attachment>
-<attachment name="territoryAttachment" attachTo="Hail" 						javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>			</attachment>
-<attachment name="territoryAttachment" attachTo="Hailar-Hsingan" 			javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>			</attachment>
-<attachment name="territoryAttachment" attachTo="Halfa" 					javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>		</attachment>
-<attachment name="territoryAttachment" attachTo="Halifax-Nova Scotia" 		javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>			</attachment>
-<attachment name="territoryAttachment" attachTo="Halmahera-Maluku Is." 		javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>			</attachment>
-<attachment name="territoryAttachment" attachTo="Hamburg" 		javaClass="TerritoryAttachment" type="territory">	<option name="production" value="4"/>														</attachment>
-<attachment name="territoryAttachment" attachTo="Hanoi-Tonkin" 				javaClass="TerritoryAttachment" type="territory">	<option name="production" value="2"/>			</attachment>
-<attachment name="territoryAttachment" attachTo="Harbin" 					javaClass="TerritoryAttachment" type="territory">	
-	<option name="production" value="1"/>		
-	<option name="originalOwner" value="Chinese"/>													
-</attachment>
-<attachment name="territoryAttachment" attachTo="Havana-Cuba" 				javaClass="TerritoryAttachment" type="territory">	<option name="production" value="3"/>														</attachment>
-<attachment name="territoryAttachment" attachTo="Hawaiian Is." 				javaClass="TerritoryAttachment" type="territory">	<option name="production" value="3"/>		</attachment>
-<attachment name="territoryAttachment" attachTo="Helsinki" 					javaClass="TerritoryAttachment" type="territory">	<option name="production" value="2"/>				</attachment>
-<attachment name="territoryAttachment" attachTo="Herat" 					javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>														</attachment>
-<attachment name="territoryAttachment" attachTo="Himalayas" 				javaClass="TerritoryAttachment" type="territory">	<option name="production" value="0"/>		<option name="isImpassable" value="true"/>	</attachment>
-<attachment name="territoryAttachment" attachTo="Hiroshima" 				javaClass="TerritoryAttachment" type="territory">	<option name="production" value="2"/>		</attachment>
-<attachment name="territoryAttachment" attachTo="Hokkaido" 					javaClass="TerritoryAttachment" type="territory">	<option name="production" value="2"/>		</attachment>
-<attachment name="territoryAttachment" attachTo="Hollandia-Dutch New Guinea" javaClass="TerritoryAttachment" type="territory">	<option name="production" value="2"/>			</attachment>
-<attachment name="territoryAttachment" attachTo="Honduras" 					javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>			</attachment>
-<attachment name="territoryAttachment" attachTo="Hong Kong-Kwangtung" 		javaClass="TerritoryAttachment" type="territory">	<option name="production" value="3"/>														</attachment>
-<attachment name="territoryAttachment" attachTo="Honolulu-Pearl Harbor" 	javaClass="TerritoryAttachment" type="territory">	<option name="production" value="4"/>				</attachment>
-<attachment name="territoryAttachment" attachTo="Hopei" javaClass="TerritoryAttachment" type="territory">	
-	<option name="production" value="1"/>														
-	<option name="originalOwner" value="Chinese"/>	
-</attachment>
-<attachment name="territoryAttachment" attachTo="Philadelphia-Pennsylvania" javaClass="TerritoryAttachment" type="territory">	<option name="production" value="4"/>			</attachment>
-<attachment name="territoryAttachment" attachTo="Hunan" 					javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>														</attachment>
-<attachment name="territoryAttachment" attachTo="Hyderabad" 				javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>														</attachment>
-<attachment name="territoryAttachment" attachTo="Iceland" 					javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>		</attachment>
-<attachment name="territoryAttachment" attachTo="Idaho" 					javaClass="TerritoryAttachment" type="territory">	<option name="production" value="3"/>			</attachment>
-<attachment name="territoryAttachment" attachTo="Irkutsk" 					javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>			</attachment>
-<attachment name="territoryAttachment" attachTo="Isfahan" 					javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>														</attachment>
-<attachment name="territoryAttachment" attachTo="Istanbul" 					javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>			</attachment>
-<attachment name="territoryAttachment" attachTo="Istria" 					javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>			</attachment>
-<attachment name="territoryAttachment" attachTo="Italian Somaliland" 		javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>														</attachment>
-<attachment name="territoryAttachment" attachTo="Ivory Coast" 				javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>			</attachment>
-<attachment name="territoryAttachment" attachTo="Iwo Jima-Bonin Is." 		javaClass="TerritoryAttachment" type="territory">	<option name="production" value="3"/>		</attachment>
-<attachment name="territoryAttachment" attachTo="Jamaica" 					javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>			</attachment>
-<attachment name="territoryAttachment" attachTo="Jehol-Rehe" 				javaClass="TerritoryAttachment" type="territory">	
-	<option name="production" value="2"/>
-	<option name="originalOwner" value="Chinese"/>															
-</attachment>
-<attachment name="territoryAttachment" attachTo="Johnston Is." 				javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>			</attachment>
-<attachment name="territoryAttachment" attachTo="Jordan" 					javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>			</attachment>
-<attachment name="territoryAttachment" attachTo="Juba-S.Sudan" 				javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>		</attachment>
-<attachment name="territoryAttachment" attachTo="Juneau" 					javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>			</attachment>
-<attachment name="territoryAttachment" attachTo="Juteland" 					javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>														</attachment>
-<attachment name="territoryAttachment" attachTo="Kabul" 					javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>														</attachment>
-<attachment name="territoryAttachment" attachTo="Kalahari" 					javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>			</attachment>
-<attachment name="territoryAttachment" attachTo="Kamchatka" 				javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>		</attachment>
-<attachment name="territoryAttachment" attachTo="Kanchow" 					javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>														</attachment>
-<attachment name="territoryAttachment" attachTo="Kandahar" 					javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>														</attachment>
-<attachment name="territoryAttachment" attachTo="Kansas-Oklahoma" 			javaClass="TerritoryAttachment" type="territory">	<option name="production" value="3"/>														</attachment>
-<attachment name="territoryAttachment" attachTo="Karachi" 					javaClass="TerritoryAttachment" type="territory">	<option name="production" value="2"/>														</attachment>
-<attachment name="territoryAttachment" attachTo="Karelia" 					javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>			</attachment>
-<attachment name="territoryAttachment" attachTo="Kashmire" 					javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>														</attachment>
-<attachment name="territoryAttachment" attachTo="Katanga" 					javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>														</attachment>
-<attachment name="territoryAttachment" attachTo="Kazan" 					javaClass="TerritoryAttachment" type="territory">	<option name="production" value="2"/>														</attachment>
-<attachment name="territoryAttachment" attachTo="Kendari-E.Celebs" 			javaClass="TerritoryAttachment" type="territory">	<option name="production" value="2"/>			</attachment>
-<attachment name="territoryAttachment" attachTo="Kentucky-Tennessee" 		javaClass="TerritoryAttachment" type="territory">	<option name="production" value="3"/>														</attachment>
-<attachment name="territoryAttachment" attachTo="Kenya" 					javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>														</attachment>
-<attachment name="territoryAttachment" attachTo="Kerman" 					javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>														</attachment>
-<attachment name="territoryAttachment" attachTo="Khabarovsk" 				javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>														</attachment>
-<attachment name="territoryAttachment" attachTo="Khanty-Mansiysk" 			javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>			</attachment>
-<attachment name="territoryAttachment" attachTo="Kharga-Western Desert" 	javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>			</attachment>
-<attachment name="territoryAttachment" attachTo="Kharkiv" 					javaClass="TerritoryAttachment" type="territory">	<option name="production" value="2"/>														</attachment>
-<attachment name="territoryAttachment" attachTo="Khartoum-Sudan" 			javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>														</attachment>
-<attachment name="territoryAttachment" attachTo="Kherson" 					javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>														</attachment>
-<attachment name="territoryAttachment" attachTo="Khorasan" 					javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>														</attachment>
-<attachment name="territoryAttachment" attachTo="Kiangsi" 					javaClass="TerritoryAttachment" type="territory">	<option name="production" value="2"/>														</attachment>
-<attachment name="territoryAttachment" attachTo="Kilwa" 					javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>														</attachment>
-<attachment name="territoryAttachment" attachTo="King Salmon-Aleut Pen." 	javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>			</attachment>
-<attachment name="territoryAttachment" attachTo="Kirov" 					javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>			</attachment>
-<attachment name="territoryAttachment" attachTo="Kjolen" 					javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>		</attachment>
-<attachment name="territoryAttachment" attachTo="Kodiak Is." 				javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>			</attachment>
-<attachment name="territoryAttachment" attachTo="Kolyma" 					javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>			</attachment>
-<attachment name="territoryAttachment" attachTo="Komi" 						javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>		</attachment>
-<attachment name="territoryAttachment" attachTo="Konduz" 					javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>														</attachment>
-<attachment name="territoryAttachment" attachTo="Konigsberg-E.Prussia" 		javaClass="TerritoryAttachment" type="territory">	<option name="production" value="2"/>			</attachment>
-<attachment name="territoryAttachment" attachTo="Konya" 					javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>														</attachment>
-<attachment name="territoryAttachment" attachTo="Koryak" 					javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>														</attachment>
-<attachment name="territoryAttachment" attachTo="Kosice-Munkacs" 			javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>														</attachment>
-<attachment name="territoryAttachment" attachTo="Kra-Buri" 					javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>			</attachment>
-<attachment name="territoryAttachment" attachTo="Krakow-Lublin" 			javaClass="TerritoryAttachment" type="territory">	<option name="production" value="2"/>														</attachment>
-<attachment name="territoryAttachment" attachTo="Krasnodar" 				javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>													</attachment>
-<attachment name="territoryAttachment" attachTo="Krasnoyarsk" 				javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>														</attachment>
-<attachment name="territoryAttachment" attachTo="Kunming" 					javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>														</attachment>
-<attachment name="territoryAttachment" attachTo="Kurdistan" 				javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>														</attachment>
-<attachment name="territoryAttachment" attachTo="Kurgan" 					javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>														</attachment>
-<attachment name="territoryAttachment" attachTo="Kursk-Vorozneh" 			javaClass="TerritoryAttachment" type="territory">	<option name="production" value="2"/>														</attachment>
-<attachment name="territoryAttachment" attachTo="Kuwait" 					javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>			</attachment>
-<attachment name="territoryAttachment" attachTo="Kuybysev" 					javaClass="TerritoryAttachment" type="territory">	<option name="production" value="2"/>			</attachment>
-<attachment name="territoryAttachment" attachTo="Kwajalein-Marshall Is." 	javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>			</attachment>
-<attachment name="territoryAttachment" attachTo="Kwangsi" 					javaClass="TerritoryAttachment" type="territory">	<option name="production" value="2"/>														</attachment>
-<attachment name="territoryAttachment" attachTo="Kweichow" 					javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>			</attachment>
-<attachment name="territoryAttachment" attachTo="Kyiv-Cen.Ukraine" 			javaClass="TerritoryAttachment" type="territory">	<option name="production" value="3"/>														</attachment>
-<attachment name="territoryAttachment" attachTo="Kyoto-Osaka" 				javaClass="TerritoryAttachment" type="territory">	<option name="production" value="3"/>			</attachment>
-<attachment name="territoryAttachment" attachTo="Kyrgyzstan-Tajikistan" 	javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>		</attachment>
-<attachment name="territoryAttachment" attachTo="Kyushu" 					javaClass="TerritoryAttachment" type="territory">	<option name="production" value="4"/>			</attachment>
-<attachment name="territoryAttachment" attachTo="Labrador" 					javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>			</attachment>
-<attachment name="territoryAttachment" attachTo="Lagos-S.Nigeria" 			javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>														</attachment>
-<attachment name="territoryAttachment" attachTo="Lanzhou" 					javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>														</attachment>
-<attachment name="territoryAttachment" attachTo="Laos" 						javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>			</attachment>
-<attachment name="territoryAttachment" attachTo="Lapland" 					javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>		</attachment>
-<attachment name="territoryAttachment" attachTo="Lashio-Shan State" 		javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>			</attachment>
-<attachment name="territoryAttachment" attachTo="Latgale" 					javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>														</attachment>
-<attachment name="territoryAttachment" attachTo="Latvia" 					javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>														</attachment>
-<attachment name="territoryAttachment" attachTo="Leeward Is." 				javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>			</attachment>
-<attachment name="territoryAttachment" attachTo="Leningrad" 				javaClass="TerritoryAttachment" type="territory">	<option name="production" value="4"/>				</attachment>
-<attachment name="territoryAttachment" attachTo="Leopoldville-Kinshasa" 	javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>														</attachment>
-<attachment name="territoryAttachment" attachTo="Lhasa-E.Tibet" 			javaClass="TerritoryAttachment" type="territory">	<option name="production" value="0"/>		<option name="isImpassable" value="true"/>	</attachment>
-<attachment name="territoryAttachment" attachTo="Liberia" 					javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>														</attachment>
-<attachment name="territoryAttachment" attachTo="Lindi" 					javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>			</attachment>
-<attachment name="territoryAttachment" attachTo="Line Is." 					javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>			</attachment>
-<attachment name="territoryAttachment" attachTo="Lisbon" 					javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>			</attachment>
-<attachment name="territoryAttachment" attachTo="Lithuania" 				javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>														</attachment>
-<attachment name="territoryAttachment" attachTo="London-S.England" 			javaClass="TerritoryAttachment" type="territory">
-         <option name="production" value="6"/>			
-         <option name="capital" value="British"/>
-	 <option name="victoryCity" value="1"/>
-</attachment>
-<attachment name="territoryAttachment" attachTo="Lorestan" 					javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>														</attachment>
-<attachment name="territoryAttachment" attachTo="Lorraine" 					javaClass="TerritoryAttachment" type="territory">	<option name="production" value="2"/>														</attachment>
-<attachment name="territoryAttachment" attachTo="Los Angeles-S.California"	javaClass="TerritoryAttachment" type="territory">	<option name="production" value="4"/>			</attachment>
-<attachment name="territoryAttachment" attachTo="Lucknow-Oudh" 				javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>			</attachment>
-<attachment name="territoryAttachment" attachTo="Lviv" 						javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>														</attachment>
-<attachment name="territoryAttachment" attachTo="Madagascar" 				javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>			</attachment>
-<attachment name="territoryAttachment" attachTo="Madeira Is." 				javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>			</attachment>
-<attachment name="territoryAttachment" attachTo="Madras" 					javaClass="TerritoryAttachment" type="territory">	<option name="production" value="2"/>														</attachment>
-<attachment name="territoryAttachment" attachTo="Madrid-Cen.Spain" 			javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>			</attachment>
-<attachment name="territoryAttachment" attachTo="Magadan" 					javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>														</attachment>
-<attachment name="territoryAttachment" attachTo="Majorca" 					javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>														</attachment>
-<attachment name="territoryAttachment" attachTo="Makassar-S.Celebs" 		javaClass="TerritoryAttachment" type="territory">	<option name="production" value="2"/>			</attachment>
-<attachment name="territoryAttachment" attachTo="Malaya" 					javaClass="TerritoryAttachment" type="territory">	<option name="production" value="3"/>			</attachment>
-<attachment name="territoryAttachment" attachTo="Maldives" 					javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>			</attachment>
-<attachment name="territoryAttachment" attachTo="Timbuktu-Mali" 			javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>		</attachment>
-<attachment name="territoryAttachment" attachTo="Malta" 					javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>														</attachment>
-<attachment name="territoryAttachment" attachTo="Manado-N.Celebs" 			javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>			</attachment>
-<attachment name="territoryAttachment" attachTo="W.Nunavut" 					javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>			</attachment>
-<attachment name="territoryAttachment" attachTo="Manchuria-Manchukuo" 		javaClass="TerritoryAttachment" type="territory">	
-	<option name="production" value="1"/>	
-	<option name="originalOwner" value="Chinese"/>														
-</attachment>
-<attachment name="territoryAttachment" attachTo="Manila-Luzon" 				javaClass="TerritoryAttachment" type="territory">	<option name="production" value="3"/>				</attachment>
-<attachment name="territoryAttachment" attachTo="Maputo-S.Mozambique" 		javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>														</attachment>
-<attachment name="territoryAttachment" attachTo="Maracaju" 					javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>			</attachment>
-<attachment name="territoryAttachment" attachTo="Mariupol" 					javaClass="TerritoryAttachment" type="territory">	<option name="production" value="2"/>														</attachment>
-<attachment name="territoryAttachment" attachTo="Marquesas Is." 			javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>			</attachment>
-<attachment name="territoryAttachment" attachTo="Mato Grosso" 				javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>			</attachment>
-<attachment name="territoryAttachment" attachTo="Mauritania" 				javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>		</attachment>
-<attachment name="territoryAttachment" attachTo="Mazandaran" 				javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>														</attachment>
-<attachment name="territoryAttachment" attachTo="Mecca" 					javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>														</attachment>
-<attachment name="territoryAttachment" attachTo="Meckleburg" 				javaClass="TerritoryAttachment" type="territory">	<option name="production" value="3"/>			</attachment>
-<attachment name="territoryAttachment" attachTo="Medan-W.Sumatra" 			javaClass="TerritoryAttachment" type="territory">	<option name="production" value="3"/>			</attachment>
-<attachment name="territoryAttachment" attachTo="Medina-Jeddah" 			javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>														</attachment>
-<attachment name="territoryAttachment" attachTo="Melbourne-Victoria" 		javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>														</attachment>
-<attachment name="territoryAttachment" attachTo="Mexico City" 				javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>		</attachment>
-<attachment name="territoryAttachment" attachTo="Michigan-Indiana" 			javaClass="TerritoryAttachment" type="territory">	<option name="production" value="3"/>														</attachment>
-<attachment name="territoryAttachment" attachTo="Midway Is." 				javaClass="TerritoryAttachment" type="territory">	<option name="production" value="3"/>			</attachment>
-<attachment name="territoryAttachment" attachTo="Milan-N.Italy" 			javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>			</attachment>
-<attachment name="territoryAttachment" attachTo="Minsk" 					javaClass="TerritoryAttachment" type="territory">	<option name="production" value="2"/>														</attachment>
-<attachment name="territoryAttachment" attachTo="Mobile-Alabama" 			javaClass="TerritoryAttachment" type="territory">	<option name="production" value="3"/>														</attachment>
-<attachment name="territoryAttachment" attachTo="Mogadishu" 				javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>														</attachment>
-<attachment name="territoryAttachment" attachTo="Mogilev" 					javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>														</attachment>
-<attachment name="territoryAttachment" attachTo="Moldavia" 					javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>														</attachment>
-<attachment name="territoryAttachment" attachTo="Montana" 					javaClass="TerritoryAttachment" type="territory">	<option name="production" value="3"/>			</attachment>
-<attachment name="territoryAttachment" attachTo="Montenegro" 				javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>		</attachment>
-<attachment name="territoryAttachment" attachTo="Monterrey" 				javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>														</attachment>
-<attachment name="territoryAttachment" attachTo="Morocco" 					javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>														</attachment>
-<attachment name="territoryAttachment" attachTo="Moscow-Cen.Russia" 		javaClass="TerritoryAttachment" type="territory">
-  <option name="production" value="6"/>			
-  <option name="capital" value="Russians"/>
-  <option name="victoryCity" value="1"/>
-</attachment>
-<attachment name="territoryAttachment" attachTo="Mosul-Kirkuk" 				javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>													</attachment>
-<attachment name="territoryAttachment" attachTo="Mozhaysk-Kaluga" 			javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>														</attachment>
-<attachment name="territoryAttachment" attachTo="Mukden-Port Arthur" 		javaClass="TerritoryAttachment" type="territory">	
-	<option name="production" value="3"/>	
-	<option name="originalOwner" value="Chinese"/>														
-</attachment>
-<attachment name="territoryAttachment" attachTo="Murmansk" 					javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>			</attachment>
-<attachment name="territoryAttachment" attachTo="Muscat" 					javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>														</attachment>
-<attachment name="territoryAttachment" attachTo="N.Burma" 					javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>		</attachment>
-<attachment name="territoryAttachment" attachTo="N.England" 				javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>														</attachment>
-<attachment name="territoryAttachment" attachTo="N.Ireland" 				javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>														</attachment>
-<attachment name="territoryAttachment" attachTo="N.Korea-Chosen" 			javaClass="TerritoryAttachment" type="territory">	<option name="production" value="2"/>			</attachment>
-<attachment name="territoryAttachment" attachTo="N.Nigeria" 				javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>														</attachment>
-<attachment name="territoryAttachment" attachTo="N.Ontario" 				javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>			</attachment>
-<attachment name="territoryAttachment" attachTo="N.Quebec" 					javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>			</attachment>
-<attachment name="territoryAttachment" attachTo="N.Rhodesia" 				javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>														</attachment>
-<attachment name="territoryAttachment" attachTo="N.Sakhalin" 				javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>														</attachment>
-<attachment name="territoryAttachment" attachTo="Nafud" 					javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>														</attachment>
-<attachment name="territoryAttachment" attachTo="Nagpur" 					javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>			</attachment>
-<attachment name="territoryAttachment" attachTo="Nunavut" 					javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>			</attachment>
-<attachment name="territoryAttachment" attachTo="Nanking" 					javaClass="TerritoryAttachment" type="territory">	
-	<option name="production" value="3"/>														
-	<option name="originalOwner" value="Chinese"/>	
-</attachment>
-<attachment name="territoryAttachment" attachTo="Naples-S.Italy" 			javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>			</attachment>
-<attachment name="territoryAttachment" attachTo="Narvik" 					javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>		</attachment>
-<attachment name="territoryAttachment" attachTo="Natal" 					javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>														</attachment>
-<attachment name="territoryAttachment" attachTo="Navarre" 					javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>		</attachment>
-<attachment name="territoryAttachment" attachTo="Nebraska" 					javaClass="TerritoryAttachment" type="territory">	<option name="production" value="3"/>														</attachment>
-<attachment name="territoryAttachment" attachTo="Nejd" 						javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>			</attachment>
-<attachment name="territoryAttachment" attachTo="Nenetsia" 					javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>			</attachment>
-<attachment name="territoryAttachment" attachTo="Nepal" 					javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>		</attachment>
-<attachment name="territoryAttachment" attachTo="Netherlands" 				javaClass="TerritoryAttachment" type="territory">	<option name="production" value="2"/>			</attachment>
-<attachment name="territoryAttachment" attachTo="Nevada" 					javaClass="TerritoryAttachment" type="territory">	<option name="production" value="3"/>			</attachment>
-<attachment name="territoryAttachment" attachTo="S.Quebec" 			javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>			</attachment>
-<attachment name="territoryAttachment" attachTo="New Caledonia Is." 		javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>			</attachment>
-<attachment name="territoryAttachment" attachTo="New Delhi" 				javaClass="TerritoryAttachment" type="territory">	<option name="production" value="3"/>				<option name="capital" value="UK_Pacific"/>	
+    <!-- Sea Zone Attachments -->
+    <attachment foreach="$SeaZones$" name="territoryAttachment" attachTo="@SeaZones@"	javaClass="TerritoryAttachment" type="territory">
+	  <option name="production" value="0"/>
+	  <option name="blockadeZone" value="false"/>
 	</attachment>
-<attachment name="territoryAttachment" attachTo="New Hebrides Is." 			javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>			</attachment>
-<attachment name="territoryAttachment" attachTo="New Orleans-Louisiana" 	javaClass="TerritoryAttachment" type="territory">	<option name="production" value="3"/>			</attachment>
-<attachment name="territoryAttachment" attachTo="New York-New Jersey" 		javaClass="TerritoryAttachment" type="territory">	<option name="production" value="5"/>			</attachment>
-<attachment name="territoryAttachment" attachTo="Niamey" 					javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>		</attachment>
-<attachment name="territoryAttachment" attachTo="Nicaragua" 				javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>			</attachment>
-<attachment name="territoryAttachment" attachTo="Nizhny Novgorod" 			javaClass="TerritoryAttachment" type="territory">	<option name="production" value="2"/>														</attachment>
-<attachment name="territoryAttachment" attachTo="Nome" 						javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>			</attachment>
-<attachment name="territoryAttachment" attachTo="Normandy" 					javaClass="TerritoryAttachment" type="territory">	<option name="production" value="2"/>													</attachment>
-<attachment name="territoryAttachment" attachTo="Norrland" 					javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>		</attachment>
-<attachment name="territoryAttachment" attachTo="Norte" 					javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>														</attachment>
-<attachment name="territoryAttachment" attachTo="Northwest Territories" 	javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>			</attachment>
-<attachment name="territoryAttachment" attachTo="Novgorod" 					javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>														</attachment>
-<attachment name="territoryAttachment" attachTo="Novosibirsk" 				javaClass="TerritoryAttachment" type="territory">	<option name="production" value="3"/>														</attachment>
-<attachment name="territoryAttachment" attachTo="Odesa-Mykoliav" 			javaClass="TerritoryAttachment" type="territory">	<option name="production" value="2"/>														</attachment>
-<attachment name="territoryAttachment" attachTo="Ogoden" 					javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>														</attachment>
-<attachment name="territoryAttachment" attachTo="Ohio" 						javaClass="TerritoryAttachment" type="territory">	<option name="production" value="3"/>			</attachment>
-<attachment name="territoryAttachment" attachTo="Okinawa-Ryukyu Is." 		javaClass="TerritoryAttachment" type="territory">	<option name="production" value="3"/>			</attachment>
-<attachment name="territoryAttachment" attachTo="Olgiy" 					javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>														</attachment>
-<attachment name="territoryAttachment" attachTo="Oman" 						javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>														</attachment>
-<attachment name="territoryAttachment" attachTo="Omsk" 						javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>		</attachment>
-<attachment name="territoryAttachment" attachTo="Oran" 						javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>														</attachment>
-<attachment name="territoryAttachment" attachTo="Orissa" 					javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>														</attachment>
-<attachment name="territoryAttachment" attachTo="Orleans" 					javaClass="TerritoryAttachment" type="territory">	<option name="production" value="3"/>														</attachment>
-<attachment name="territoryAttachment" attachTo="Oslo" 						javaClass="TerritoryAttachment" type="territory">	<option name="production" value="2"/>			</attachment>
-<attachment name="territoryAttachment" attachTo="Ottawa-Montreal" 			javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>			</attachment>
-<attachment name="territoryAttachment" attachTo="Ouargla" 					javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>			</attachment>
-<attachment name="territoryAttachment" attachTo="Palawan" 					javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>			</attachment>
-<attachment name="territoryAttachment" attachTo="Palembang-S.Sumatra" 		javaClass="TerritoryAttachment" type="territory">	<option name="production" value="3"/>			</attachment>
-<attachment name="territoryAttachment" attachTo="Palestine" 				javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>			</attachment>
-<attachment name="territoryAttachment" attachTo="Palmyra Atoll" 			javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>			</attachment>
-<attachment name="territoryAttachment" attachTo="Pampas" 					javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>														</attachment>
-<attachment name="territoryAttachment" attachTo="Panama" 					javaClass="TerritoryAttachment" type="territory">	<option name="production" value="2"/>				</attachment>
-<attachment name="territoryAttachment" attachTo="Panay Leyte-Visayas Is."	javaClass="TerritoryAttachment" type="territory">	<option name="production" value="2"/>			</attachment>
-<attachment name="territoryAttachment" attachTo="Paraguay" 					javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>														</attachment>
-<attachment name="territoryAttachment" attachTo="Paris" 			javaClass="TerritoryAttachment" type="territory">
-         <option name="production" value="5"/>
-         <option name="capital" value="French"/>
-	 <option name="victoryCity" value="1"/>
-</attachment>
-<attachment name="territoryAttachment" attachTo="Patagonia" 				javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>														</attachment>
-<attachment name="territoryAttachment" attachTo="Peking-Tientsin" 			javaClass="TerritoryAttachment" type="territory">	
-	<option name="production" value="2"/>	
-	<option name="originalOwner" value="Chinese"/>														
-</attachment>
-<attachment name="territoryAttachment" attachTo="Pelelui-Palau Is." 		javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>			</attachment>
-<attachment name="territoryAttachment" attachTo="Peleponnese" 				javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>		</attachment>
-<attachment name="territoryAttachment" attachTo="Perm" 						javaClass="TerritoryAttachment" type="territory">	<option name="production" value="2"/>		</attachment>
-<attachment name="territoryAttachment" attachTo="Perth-W.Australia" 		javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>														</attachment>
-<attachment name="territoryAttachment" attachTo="Peru" 						javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>		</attachment>
-<attachment name="territoryAttachment" attachTo="Phoenix Is." 				javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>			</attachment>
-<attachment name="territoryAttachment" attachTo="Ploiesti-E.Romania" 		javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>			 </attachment>
-<attachment name="territoryAttachment" attachTo="Poitou" 					javaClass="TerritoryAttachment" type="territory">	<option name="production" value="2"/>														</attachment>
-<attachment name="territoryAttachment" attachTo="Pomerania" 				javaClass="TerritoryAttachment" type="territory">	<option name="production" value="2"/>			</attachment>
-<attachment name="territoryAttachment" attachTo="Port Au Prince-Haiti" 		javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>			</attachment>
-<attachment name="territoryAttachment" attachTo="Port Moresby-Papua" 		javaClass="TerritoryAttachment" type="territory">	<option name="production" value="3"/>			</attachment>
-<attachment name="territoryAttachment" attachTo="Portland-Oregon" 			javaClass="TerritoryAttachment" type="territory">	<option name="production" value="3"/>			</attachment>
-<attachment name="territoryAttachment" attachTo="Portuguese Guinea" 		javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>			</attachment>
-<attachment name="territoryAttachment" attachTo="Praetoria" 				javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>														</attachment>
-<attachment name="territoryAttachment" attachTo="Prague-Bohemia Moravia" 	javaClass="TerritoryAttachment" type="territory">	<option name="production" value="2"/>			</attachment>
-<attachment name="territoryAttachment" attachTo="Primorsky" 				javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>														</attachment>
-<attachment name="territoryAttachment" attachTo="Prinsk" 					javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>														</attachment>
-<attachment name="territoryAttachment" attachTo="Provence-Marseille" 		javaClass="TerritoryAttachment" type="territory">	<option name="production" value="2"/>		</attachment>
-<attachment name="territoryAttachment" attachTo="Prypriat" 					javaClass="TerritoryAttachment" type="territory">	<option name="production" value="0"/>			</attachment>
-<attachment name="territoryAttachment" attachTo="Pskov" 					javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>														</attachment>
-<attachment name="territoryAttachment" attachTo="Punjab" 					javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>														</attachment>
-<attachment name="territoryAttachment" attachTo="Qatar" 					javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>													</attachment>
-<attachment name="territoryAttachment" attachTo="Quebec City-C.Quebec" 		javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>			</attachment>
-<attachment name="territoryAttachment" attachTo="Quelimane-N.Mozambique" 	javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>														</attachment>
-<attachment name="territoryAttachment" attachTo="Rabaul-New Britain Is." 	javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>			</attachment>
-<attachment name="territoryAttachment" attachTo="Rajputana" 				javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>			</attachment>
-<attachment name="territoryAttachment" attachTo="Rangoon-S.Burma" 			javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>			</attachment>
-<attachment name="territoryAttachment" attachTo="Rio De Janeiro-Sao Paulo" 	javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>			</attachment>
-<attachment name="territoryAttachment" attachTo="Rio De Oro" 				javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>														</attachment>
-<attachment name="territoryAttachment" attachTo="Rio Grande Du Sol" 		javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>														</attachment>
-<attachment name="territoryAttachment" attachTo="Riyadh" 					javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>														</attachment>
-<attachment name="territoryAttachment" attachTo="Rome-Cen.Italy" 			javaClass="TerritoryAttachment" type="territory">
-         <option name="production" value="5"/>			
-         <option name="capital" value="Italians"/>
-	 <option name="victoryCity" value="1"/>
-</attachment>
-<attachment name="territoryAttachment" attachTo="Rostov" 					javaClass="TerritoryAttachment" type="territory">	<option name="production" value="2"/>													</attachment>
-<attachment name="territoryAttachment" attachTo="Rub Al Kali" 				javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>														</attachment>
-<attachment name="territoryAttachment" attachTo="Ryazan" 					javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>														</attachment>
-<attachment name="territoryAttachment" attachTo="Rzesow" 					javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>														</attachment>
-<attachment name="territoryAttachment" attachTo="Rzhev" 					javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>														</attachment>
-<attachment name="territoryAttachment" attachTo="S.Hijaz" 					javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>														</attachment>
-<attachment name="territoryAttachment" attachTo="S.Korea-Chosen" 			javaClass="TerritoryAttachment" type="territory">	<option name="production" value="3"/>			</attachment>
-<attachment name="territoryAttachment" attachTo="S.Rhodesia" 				javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>														</attachment>
-<attachment name="territoryAttachment" attachTo="S.Sakhalin" 				javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>		</attachment>
-<attachment name="territoryAttachment" attachTo="Sacramento-N.California"	javaClass="TerritoryAttachment" type="territory">	<option name="production" value="3"/>			</attachment>
-<attachment name="territoryAttachment" attachTo="Saigon-Cochinchina" 		javaClass="TerritoryAttachment" type="territory">	<option name="production" value="2"/>			</attachment>
-<attachment name="territoryAttachment" attachTo="Saipan-Mariana Is." 		javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>			</attachment>
-<attachment name="territoryAttachment" attachTo="Sakha" 					javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>			</attachment>
-<attachment name="territoryAttachment" attachTo="Salamaua Lae-New Guinea"	javaClass="TerritoryAttachment" type="territory">	<option name="production" value="2"/>			</attachment>
-<attachment name="territoryAttachment" attachTo="Samoan Is." 				javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>			</attachment>
-<attachment name="territoryAttachment" attachTo="San Francisco-Cen.California" javaClass="TerritoryAttachment" type="territory">	<option name="production" value="5"/>				</attachment>">
-<attachment name="territoryAttachment" attachTo="San Juan-Puerto Rico" 		javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>			</attachment>
-<attachment name="territoryAttachment" attachTo="Sansapor-Vogelkop Pen." 	javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>			</attachment>
-<attachment name="territoryAttachment" attachTo="Santiago-Guantanamo" 		javaClass="TerritoryAttachment" type="territory">	<option name="production" value="2"/>			</attachment>
-<attachment name="territoryAttachment" attachTo="Santo Domingo-Domenica" 	javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>			</attachment>
-<attachment name="territoryAttachment" attachTo="Sarajevo-Bosnia" 			javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>		</attachment>
-<attachment name="territoryAttachment" attachTo="Sarawak-N.Borneo" 			javaClass="TerritoryAttachment" type="territory">	<option name="production" value="2"/>			</attachment>
-<attachment name="territoryAttachment" attachTo="Sardinia" 					javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>			</attachment>
-<attachment name="territoryAttachment" attachTo="Savo-Ostrobothnia" 		javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>			</attachment>
-<attachment name="territoryAttachment" attachTo="Schleswig-Holstein" 		javaClass="TerritoryAttachment" type="territory">	<option name="production" value="3"/>														</attachment>
-<attachment name="territoryAttachment" attachTo="Scotland" 					javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>		</attachment>
-<attachment name="territoryAttachment" attachTo="Seattle-Washington" 		javaClass="TerritoryAttachment" type="territory">	<option name="production" value="3"/>			</attachment>
-<attachment name="territoryAttachment" attachTo="Seychelles" 				javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>			</attachment>
-<attachment name="territoryAttachment" attachTo="Shanghai-Kiangsu" 			javaClass="TerritoryAttachment" type="territory">	
-	<option name="production" value="3"/>	
-	<option name="originalOwner" value="Chinese"/>															
-</attachment>
-<attachment name="territoryAttachment" attachTo="Shangtung" javaClass="TerritoryAttachment" type="territory">	
-	<option name="production" value="2"/>														
-	<option name="originalOwner" value="Chinese"/>	
-</attachment>
-<attachment name="territoryAttachment" attachTo="Shensi" 					javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>														</attachment>
-<attachment name="territoryAttachment" attachTo="Shetland Is." 				javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>														</attachment>
-<attachment name="territoryAttachment" attachTo="Shikoku" 					javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>		</attachment>
-<attachment name="territoryAttachment" attachTo="Siberia" 					javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>			</attachment>
-<attachment name="territoryAttachment" attachTo="Sicily" 					javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>		</attachment>
-<attachment name="territoryAttachment" attachTo="Sierra Leone" 				javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>			</attachment>
-<attachment name="territoryAttachment" attachTo="Sikang" 					javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>														</attachment>
-<attachment name="territoryAttachment" attachTo="Silesia" 					javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>														</attachment>
-<attachment name="territoryAttachment" attachTo="Sinai" 					javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>			</attachment>
-<attachment name="territoryAttachment" attachTo="Sinaloa-Guadalajara" 		javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>			</attachment>
-<attachment name="territoryAttachment" attachTo="Singapore-Malacca" 		javaClass="TerritoryAttachment" type="territory">	<option name="production" value="4"/>			</attachment>
-<attachment name="territoryAttachment" attachTo="Sinkiang" 					javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>														</attachment>
-<attachment name="territoryAttachment" attachTo="Sistan-Baluchestan" 		javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>														</attachment>
-<attachment name="territoryAttachment" attachTo="Sitka" 					javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>			</attachment>
-<attachment name="territoryAttachment" attachTo="Siuyuyan" 					javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>			</attachment>
-<attachment name="territoryAttachment" attachTo="Slovakia" 					javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>		</attachment>
-<attachment name="territoryAttachment" attachTo="Slovenia-N.Croatia" 		javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>			</attachment>
-<attachment name="territoryAttachment" attachTo="Smolensk" 					javaClass="TerritoryAttachment" type="territory">	<option name="production" value="3"/>														</attachment>
-<attachment name="territoryAttachment" attachTo="Smyrna" 					javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>														</attachment>
-<attachment name="territoryAttachment" attachTo="Society Is." 				javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>			</attachment>
-<attachment name="territoryAttachment" attachTo="Socotra" 					javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>														</attachment>
-<attachment name="territoryAttachment" attachTo="Sofia-W.Bulgaria" 			javaClass="TerritoryAttachment" type="territory">	<option name="production" value="2"/>			</attachment>
-<attachment name="territoryAttachment" attachTo="Southwest Africa" 			javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>														</attachment>
-<attachment name="territoryAttachment" attachTo="Spanish Gabon" 			javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>			</attachment>
-<attachment name="territoryAttachment" attachTo="St.Johns-Newfoundland" 	javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>			</attachment>
-<attachment name="territoryAttachment" attachTo="St.Louis-Arkansas" 		javaClass="TerritoryAttachment" type="territory">	<option name="production" value="3"/>														</attachment>
-<attachment name="territoryAttachment" attachTo="Stalingrad-Volga" 			javaClass="TerritoryAttachment" type="territory">	<option name="production" value="4"/>				</attachment>
-<attachment name="territoryAttachment" attachTo="Stavropol" 				javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>														</attachment>
-<attachment name="territoryAttachment" attachTo="Stockholm" 				javaClass="TerritoryAttachment" type="territory">	<option name="production" value="3"/>		</attachment>
-<attachment name="territoryAttachment" attachTo="Surabaya-E.Java" 			javaClass="TerritoryAttachment" type="territory">	<option name="production" value="2"/>			</attachment>
-<attachment name="territoryAttachment" attachTo="Svalbard" 					javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>			</attachment>
-<attachment name="territoryAttachment" attachTo="Svealand" 					javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>		</attachment>
-<attachment name="territoryAttachment" attachTo="Switzerland" 				javaClass="TerritoryAttachment" type="territory">	<option name="production" value="0"/>		<option name="isImpassable" value="true"/>	</attachment>
-<attachment name="territoryAttachment" attachTo="Sydney Canberra-New South Wales" javaClass="TerritoryAttachment" type="territory">
-  <option name="production" value="6"/>			
-  <option name="capital" value="ANZAC"/>
-  <option name="victoryCity" value="1"/>
-</attachment>
-<attachment name="territoryAttachment" attachTo="Taipei-Formosa" 			javaClass="TerritoryAttachment" type="territory">	<option name="production" value="2"/>														</attachment>
-<attachment name="territoryAttachment" attachTo="Tanganyika" 				javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>														</attachment>
-<attachment name="territoryAttachment" attachTo="Tangier" 					javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>														</attachment>
-<attachment name="territoryAttachment" attachTo="Tanimbar Is." 				javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>			</attachment>
-<attachment name="territoryAttachment" attachTo="Tarakan-E.Borneo" 			javaClass="TerritoryAttachment" type="territory">	<option name="production" value="3"/>			</attachment>
-<attachment name="territoryAttachment" attachTo="Tarawa-Gilbert Is." 		javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>			</attachment>
-<attachment name="territoryAttachment" attachTo="Tasmania" 					javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>														</attachment>
-<attachment name="territoryAttachment" attachTo="Taymyr" 					javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>			</attachment>
-<attachment name="territoryAttachment" attachTo="Tbilisi-Georgia" 			javaClass="TerritoryAttachment" type="territory">	<option name="production" value="2"/>		</attachment>
-<attachment name="territoryAttachment" attachTo="Tehran" 					javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>			</attachment>
-<attachment name="territoryAttachment" attachTo="Tenere" 					javaClass="TerritoryAttachment" type="territory">	<option name="production" value="0"/>		<option name="isImpassable" value="true"/>	</attachment>
-<attachment name="territoryAttachment" attachTo="Texas" 					javaClass="TerritoryAttachment" type="territory">	<option name="production" value="4"/>														</attachment>
-<attachment name="territoryAttachment" attachTo="Thessaloniki" 				javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>		</attachment>
-<attachment name="territoryAttachment" attachTo="Thrace" 					javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>		</attachment>
-<attachment name="territoryAttachment" attachTo="Tibesti" 					javaClass="TerritoryAttachment" type="territory">	<option name="production" value="0"/>			<option name="isImpassable" value="true"/>	</attachment>
-<attachment name="territoryAttachment" attachTo="W.Algerian-Sahara" 		javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>			</attachment>
-<attachment name="territoryAttachment" attachTo="Timor" 					javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>			</attachment>
-<attachment name="territoryAttachment" attachTo="Tobruk" 					javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>														</attachment>
-<attachment name="territoryAttachment" attachTo="Tohoku" 					javaClass="TerritoryAttachment" type="territory">	<option name="production" value="2"/>		</attachment>
-<attachment name="territoryAttachment" attachTo="Tokyo" 					javaClass="TerritoryAttachment" type="territory">
-  <option name="capital" value="Japanese"/>
-  <option name="production" value="6"/>
-  <option name="victoryCity" value="1"/>
-</attachment>
-<attachment name="territoryAttachment" attachTo="Tomsk" 					javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>														</attachment>
-<attachment name="territoryAttachment" attachTo="Toronto-S.Ontario" 		javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>			</attachment>
-<attachment name="territoryAttachment" attachTo="Toulouse-Occitania" 		javaClass="TerritoryAttachment" type="territory">	<option name="production" value="2"/>														</attachment>
-<attachment name="territoryAttachment" attachTo="Transdanubia" 				javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>														</attachment>
-<attachment name="territoryAttachment" attachTo="Transylvania" 				javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>		</attachment>
-<attachment name="territoryAttachment" attachTo="Trebizond" 				javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>														</attachment>
-<attachment name="territoryAttachment" attachTo="Tripoli-W.Tripolitania" 	javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>														</attachment>
-<attachment name="territoryAttachment" attachTo="Troms-Finnmark" 			javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>		</attachment>
-<attachment name="territoryAttachment" attachTo="Trondheim" 				javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>		</attachment>
-<attachment name="territoryAttachment" attachTo="Trucial Coast" 			javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>														</attachment>
-<attachment name="territoryAttachment" attachTo="Truk-Coraline Is." 		javaClass="TerritoryAttachment" type="territory">	<option name="production" value="3"/>															</attachment>
-<attachment name="territoryAttachment" attachTo="Tsagaan Olom" 				javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>														</attachment>
-<attachment name="territoryAttachment" attachTo="Tsinghai" 					javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>														</attachment>
-<attachment name="territoryAttachment" attachTo="Tula" 						javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>														</attachment>
-<attachment name="territoryAttachment" attachTo="Tunis-Tunisia" 			javaClass="TerritoryAttachment" type="territory">	<option name="production" value="2"/>														</attachment>
-<attachment name="territoryAttachment" attachTo="Turkmenistan" 				javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>													</attachment>
-<attachment name="territoryAttachment" attachTo="Tver" 						javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>														</attachment>
-<attachment name="territoryAttachment" attachTo="Tyrol-S.Austria" 			javaClass="TerritoryAttachment" type="territory">	<option name="production" value="2"/>														</attachment>
-<attachment name="territoryAttachment" attachTo="Tyumen" 					javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>														</attachment>
-<attachment name="territoryAttachment" attachTo="Ubangi Sheri" 				javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>			</attachment>
-<attachment name="territoryAttachment" attachTo="Udon Thani" 				javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>			</attachment>
-<attachment name="territoryAttachment" attachTo="Uelen" 					javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>			</attachment>
-<attachment name="territoryAttachment" attachTo="Uganda" 					javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>			</attachment>
-<attachment name="territoryAttachment" attachTo="Ulaanbaatar" 				javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>														</attachment>
-<attachment name="territoryAttachment" attachTo="Upper Egypt" 				javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>														</attachment>
-<attachment name="territoryAttachment" attachTo="Upper Volta" 				javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>			</attachment>
-<attachment name="territoryAttachment" attachTo="Uruguay" 					javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>														</attachment>
-<attachment name="territoryAttachment" attachTo="Urumchi-Kansu" 			javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>														</attachment>
-<attachment name="territoryAttachment" attachTo="Utah" 						javaClass="TerritoryAttachment" type="territory">	<option name="production" value="3"/>														</attachment>
-<attachment name="territoryAttachment" attachTo="Uzbekistan" 				javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>															</attachment>
-<attachment name="territoryAttachment" attachTo="Valencia" 					javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>														</attachment>
-<attachment name="territoryAttachment" attachTo="Vancouver-W.British Columbia" javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>		</attachment>">
-<attachment name="territoryAttachment" attachTo="Varna" 					javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>			</attachment>
-<attachment name="territoryAttachment" attachTo="Venice-Trieste" 			javaClass="TerritoryAttachment" type="territory">	<option name="production" value="2"/>			</attachment>
-<attachment name="territoryAttachment" attachTo="Veracruz" 					javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>			</attachment>
-<attachment name="territoryAttachment" attachTo="Vichy-Rhone" 				javaClass="TerritoryAttachment" type="territory">	<option name="production" value="2"/>		</attachment>
-<attachment name="territoryAttachment" attachTo="Victoria" 					javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>			</attachment>
-<attachment name="territoryAttachment" attachTo="Vienna-N.Austria" 			javaClass="TerritoryAttachment" type="territory">	<option name="production" value="3"/>			</attachment>
-<attachment name="territoryAttachment" attachTo="Vilna" 					javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>														</attachment>
-<attachment name="territoryAttachment" attachTo="Virginia" 					javaClass="TerritoryAttachment" type="territory">	<option name="production" value="4"/>														</attachment>
-<attachment name="territoryAttachment" attachTo="Vitebsk" 					javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>														</attachment>
-<attachment name="territoryAttachment" attachTo="Vladivostok" 				javaClass="TerritoryAttachment" type="territory">	<option name="production" value="2"/>														</attachment>
-<attachment name="territoryAttachment" attachTo="Vologda" 					javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>														</attachment>
-<attachment name="territoryAttachment" attachTo="Vyborg" 					javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>			</attachment>
-<attachment name="territoryAttachment" attachTo="W.Tibet" 					javaClass="TerritoryAttachment" type="territory">	<option name="production" value="0"/>		<option name="isImpassable" value="true"/>	</attachment>
-<attachment name="territoryAttachment" attachTo="Wake Is." 					javaClass="TerritoryAttachment" type="territory">	<option name="production" value="2"/>			</attachment>
-<attachment name="territoryAttachment" attachTo="Wales" 					javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>		</attachment>
-<attachment name="territoryAttachment" attachTo="Wallachia" 				javaClass="TerritoryAttachment" type="territory">	<option name="production" value="2"/>		</attachment>
-<attachment name="territoryAttachment" attachTo="Warsaw-Cen.Poland" 		javaClass="TerritoryAttachment" type="territory">	<option name="production" value="3"/>			</attachment>
-<attachment name="territoryAttachment" attachTo="Washington D.C." 			javaClass="TerritoryAttachment" type="territory">
-  <option name="production" value="6"/>			
-  <option name="capital" value="Americans"/>
-  <option name="victoryCity" value="1"/>
-</attachment>
-<attachment name="territoryAttachment" attachTo="Westphalia-Rhineland" 		javaClass="TerritoryAttachment" type="territory">	<option name="production" value="5"/>			</attachment>
-<attachment name="territoryAttachment" attachTo="Windhoek" 					javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>														</attachment>
-<attachment name="territoryAttachment" attachTo="Windward Is." 				javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>			</attachment>
-<attachment name="territoryAttachment" attachTo="Winnipeg" 					javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>			</attachment>
-<attachment name="territoryAttachment" attachTo="Wisconsin-Minnesota" 		javaClass="TerritoryAttachment" type="territory">	<option name="production" value="3"/>			</attachment>
-<attachment name="territoryAttachment" attachTo="Wuhan" javaClass="TerritoryAttachment" type="territory">	
-	<option name="production" value="2"/>
-	<option name="originalOwner" value="Chinese"/>														
-</attachment>
-<attachment name="territoryAttachment" attachTo="Wyoming" 					javaClass="TerritoryAttachment" type="territory">	<option name="production" value="3"/>														</attachment>
-<attachment name="territoryAttachment" attachTo="Yakutia" 					javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>			</attachment>
-<attachment name="territoryAttachment" attachTo="Yakutsk" 					javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>														</attachment>
-<attachment name="territoryAttachment" attachTo="Yamalia" 					javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>			</attachment>
-<attachment name="territoryAttachment" attachTo="Yanaon" 					javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>														</attachment>
-<attachment name="territoryAttachment" attachTo="Yaroslavl" 				javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>														</attachment>
-<attachment name="territoryAttachment" attachTo="Yucatan" 					javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>			</attachment>
-<attachment name="territoryAttachment" attachTo="Yukon" 					javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>			</attachment>
-<attachment name="territoryAttachment" attachTo="Yunnan" 					javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>	 </attachment>
-<attachment name="territoryAttachment" attachTo="Yuzhny-Novaya Zemlya" 		javaClass="TerritoryAttachment" type="territory">	<option name="production" value="1"/>			</attachment>
+	<!-- Land Territory Attachments -->
+    <attachment foreach="$LandZones0$" name="territoryAttachment" attachTo="@LandZones0@"	javaClass="TerritoryAttachment" type="territory">
+	  <option name="production" value="0"/>
+	  <option name="isImpassable" value="true"/>
+	</attachment>
+    <attachment foreach="$LandZones1$" name="territoryAttachment" attachTo="@LandZones1@"	javaClass="TerritoryAttachment" type="territory">
+	  <option name="production" value="1"/>
+	</attachment>
+    <attachment foreach="$LandZones2$" name="territoryAttachment" attachTo="@LandZones2@"	javaClass="TerritoryAttachment" type="territory">
+	  <option name="production" value="2"/>
+	</attachment>
+    <attachment foreach="$LandZones3$" name="territoryAttachment" attachTo="@LandZones3@"	javaClass="TerritoryAttachment" type="territory">
+	  <option name="production" value="3"/>
+	</attachment>
+    <attachment foreach="$LandZones4$" name="territoryAttachment" attachTo="@LandZones4@"	javaClass="TerritoryAttachment" type="territory">
+	  <option name="production" value="4"/>
+	</attachment>
+    <attachment foreach="$LandZones5$" name="territoryAttachment" attachTo="@LandZones5@"	javaClass="TerritoryAttachment" type="territory">
+	  <option name="production" value="5"/>
+	</attachment>
+    <attachment foreach="$CapitalZones$:$AllPlayers$" name="territoryAttachment" attachTo="@CapitalZones@"	javaClass="TerritoryAttachment" type="territory">
+	  <option name="production" value="6"/>
+	  <option name="capital" value="@AllPlayers@"/>
+	  <option name="victoryCity" value="1"/>
+	</attachment>
+
+    <attachment name="conditionAttachment_AlwaysTrue" attachTo="Germans" javaClass="RulesAttachment" type="player">
+      <option name="switch" value="true"/>
+    </attachment>
+    <attachment name="triggerAttachmentChineseChungking" attachTo="Chinese"	javaClass="TriggerAttachment" type="player">
+	  <option name="conditions" value="conditionAttachment_AlwaysTrue"/>
+	  <option name="territories" value="Chungking"/>
+	  <option name="territoryProperty" value="production" count="2"/>
+	  <option name="when" value="before:germansTech"/>
+	  <option name="uses" value="1"/>
+	</attachment>
+    <attachment name="triggerAttachmentChineseOwnership" attachTo="Chinese"	javaClass="TriggerAttachment" type="player">
+	  <option name="conditions" value="conditionAttachment_AlwaysTrue"/>
+	  <option name="territories" value="$ChineseOwner$"/>
+	  <option name="territoryProperty" value="originalOwner" count="Chinese"/>
+	  <option name="when" value="before:germansTech"/>
+	  <option name="uses" value="1"/>
+	</attachment>
+    <attachment name="triggerAttachmentUK_PacificNew Delhi" attachTo="UK_Pacific"	javaClass="TriggerAttachment" type="player">
+	  <option name="conditions" value="conditionAttachment_AlwaysTrue"/>
+	  <option name="territories" value="New Delhi"/>
+	  <option name="territoryProperty" value="production" count="4"/>
+	  <option name="when" value="before:germansTech"/>
+	  <option name="uses" value="1"/>
+	</attachment>
+    <attachment name="triggerAttachmentFrenchItalians" attachTo="Italians"	javaClass="TriggerAttachment" type="player">
+	  <option name="conditions" value="conditionAttachment_AlwaysTrue"/>
+	  <option name="territories" value="Paris:Rome-Cen.Italy"/>
+	  <option name="territoryProperty" value="production" count="5"/>
+	  <option name="when" value="before:germansTech"/>
+	  <option name="uses" value="1"/>
+	</attachment>
 
   
     <!-- Support Attachments -->
