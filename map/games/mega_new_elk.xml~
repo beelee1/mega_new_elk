@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE game SYSTEM "game.dtd">
 <game>
-  <info name="Mega New Elk" version="1.329"/>
+  <info name="Mega New Elk" version="1.33"/>
   <loader javaClass="games.strategy.triplea.TripleA"/>
   <triplea minimumVersion="1.8"/>
   <diceSides value="6"/>
@@ -522,12 +522,12 @@
 	  <element name="Perth-W.Australia"/>
 	  <element name="Peru"/>
 	  <element name="Phoenix Is."/>
-	  <element name="Ploiesti-E.Romania"/>
+	  <element name="E.Romania"/>
 	  <element name="Port Au Prince-Haiti"/>
 	  <element name="Portuguese Guinea"/>
 	  <element name="Praetoria"/>
 	  <element name="Primorsky"/>
-	  <element name="Prinsk"/>
+	  <element name="Pinsk"/>
 	  <element name="Pskov"/>
 	  <element name="Punjab"/>
 	  <element name="Qatar"/>
@@ -553,7 +553,7 @@
 	  <element name="San Juan-Puerto Rico"/>
 	  <element name="Sansapor-Vogelkop Pen."/>
 	  <element name="Santo Domingo-Domenica"/>
-	  <element name="Sarajevo-Bosnia"/>
+	  <element name="Bosnia"/>
 	  <element name="Sardinia"/>
 	  <element name="Savo-Ostrobothnia"/>
 	  <element name="Scotland"/>
@@ -573,7 +573,7 @@
 	  <element name="Sitka"/>
 	  <element name="Siuyuyan"/>
 	  <element name="Slovakia"/>
-	  <element name="Slovenia-N.Croatia"/>
+	  <element name="N.Croatia"/>
 	  <element name="Smyrna"/>
 	  <element name="Society Is."/>
 	  <element name="Socotra"/>
@@ -649,14 +649,14 @@
 	  <element name="Alsace"/>
 	  <element name="Anchorage"/>
 	  <element name="Archangelsk"/>
-	  <element name="Athens-Cen.Greece"/>
+	  <element name="Greece"/>
 	  <element name="Bangkok-Siam"/>
 	  <element name="Belgium"/>
-	  <element name="Belgrade-Cen.Yugoslavia"/>
+	  <element name="Yugoslavia"/>
 	  <element name="Bordeaux-Gascony"/>
 	  <element name="Brittany"/>
  	  <element name="Bryansk"/>
-	  <element name="Budapest-N.Hungary"/>
+	  <element name="Hungary"/>
  	  <element name="Calais"/>
 	  <element name="Chengdu-Szechwan"/>
 	  <element name="Chernihiv"/>
@@ -701,7 +701,7 @@
 	  <element name="Perm"/>
 	  <element name="Poitou"/>
 	  <element name="Pomerania"/>
-	  <element name="Prague-Bohemia Moravia"/>
+	  <element name="Prague"/>
 	  <element name="Provence-Marseille"/>
 	  <element name="Rostov"/>
 	  <element name="Saigon-Cochinchina"/>
@@ -709,14 +709,14 @@
 	  <element name="Santiago-Guantanamo"/>
 	  <element name="Sarawak-N.Borneo"/>
 	  <element name="Shangtung"/>
-	  <element name="Sofia-W.Bulgaria"/>
+	  <element name="Bulgaria"/>
 	  <element name="Surabaya-E.Java"/>
 	  <element name="Taipei-Formosa"/>
 	  <element name="Tbilisi-Georgia"/>
 	  <element name="Tohoku"/>
 	  <element name="Toulouse-Occitania"/>
 	  <element name="Tunis-Tunisia"/>
-	  <element name="Tyrol-S.Austria"/>
+	  <element name="S.Austria"/>
 	  <element name="Venice-Trieste"/>
 	  <element name="Vichy-Rhone"/>
 	  <element name="Vladivostok"/>
@@ -729,7 +729,7 @@
 	  <element name="Atlanta-Georgia"/>
 	  <element name="Batavia-W.Java"/>
 	  <element name="Bombay"/>
-	  <element name="Bucharest-Cen.Romania"/>
+	  <element name="Cen.Romania"/>
 	  <element name="Charlotte-Carolina"/>
 	  <element name="Chubu"/>
 	  <element name="Colorado"/>
@@ -776,8 +776,8 @@
 	  <element name="Tarakan-E.Borneo"/>
 	  <element name="Truk-Coraline Is."/>
 	  <element name="Utah"/>
-	  <element name="Vienna-N.Austria"/>
-	  <element name="Warsaw-Cen.Poland"/>
+	  <element name="N.Austria"/>
+	  <element name="Poland"/>
 	  <element name="Wisconsin-Minnesota"/>
 	  <element name="Wyoming"/>
     </variable>
@@ -1086,7 +1086,7 @@
 	<territory name="Asir"/>
 	<territory name="Astrakhan"/>
 	<territory name="Asturias"/>
-	<territory name="Athens-Cen.Greece"/>
+	<territory name="Greece"/>
 	<territory name="Atlanta-Georgia"/>
 	<territory name="Atyrau"/>
 	<territory name="Auckland-N.New Zealand"/>
@@ -1108,7 +1108,7 @@
 	<territory name="Bechuanaland"/>
 	<territory name="Belgian Congo"/>
 	<territory name="Belgium"/>
-	<territory name="Belgrade-Cen.Yugoslavia"/>
+	<territory name="Yugoslavia"/>
 	<territory name="Bengal"/>
 	<territory name="Benghazi-Cyrenaica"/>
 	<territory name="Berar"/>
@@ -1137,8 +1137,8 @@
 	<territory name="Brittany"/>
 	<territory name="Broome-Exmouth"/>
 	<territory name="Bryansk"/>
-	<territory name="Bucharest-Cen.Romania"/>
-	<territory name="Budapest-N.Hungary"/>
+	<territory name="Cen.Romania"/>
+	<territory name="Hungary"/>
 	<territory name="Buenos Aires"/>
 	<territory name="Buru"/>
 	<territory name="Buryatia"/>
@@ -1474,7 +1474,7 @@
 	<territory name="Perth-W.Australia"/>
 	<territory name="Peru"/>
 	<territory name="Phoenix Is."/>
-	<territory name="Ploiesti-E.Romania"/>
+	<territory name="E.Romania"/>
 	<territory name="Poitou"/>
 	<territory name="Pomerania"/>
 	<territory name="Port Au Prince-Haiti"/>
@@ -1482,9 +1482,9 @@
 	<territory name="Portland-Oregon"/>
 	<territory name="Portuguese Guinea"/>
 	<territory name="Praetoria"/>
-	<territory name="Prague-Bohemia Moravia"/>
+	<territory name="Prague"/>
 	<territory name="Primorsky"/>
-	<territory name="Prinsk"/>
+	<territory name="Pinsk"/>
 	<territory name="Provence-Marseille"/>
 	<territory name="Prypriat"/>
 	<territory name="Pskov"/>
@@ -1520,7 +1520,7 @@
 	<territory name="Sansapor-Vogelkop Pen."/>
 	<territory name="Santiago-Guantanamo"/>
 	<territory name="Santo Domingo-Domenica"/>
-	<territory name="Sarajevo-Bosnia"/>
+	<territory name="Bosnia"/>
 	<territory name="Sarawak-N.Borneo"/>
 	<territory name="Sardinia"/>
 	<territory name="Savo-Ostrobothnia"/>
@@ -1546,12 +1546,12 @@
 	<territory name="Sitka"/>
 	<territory name="Siuyuyan"/>
 	<territory name="Slovakia"/>
-	<territory name="Slovenia-N.Croatia"/>
+	<territory name="N.Croatia"/>
 	<territory name="Smolensk"/>
 	<territory name="Smyrna"/>
 	<territory name="Society Is."/>
 	<territory name="Socotra"/>
-	<territory name="Sofia-W.Bulgaria"/>
+	<territory name="Bulgaria"/>
 	<territory name="Southwest Africa"/>
 	<territory name="Spanish Gabon"/>
 	<territory name="St.Johns-Newfoundland"/>
@@ -1602,7 +1602,7 @@
 	<territory name="Tunis-Tunisia"/>
 	<territory name="Turkmenistan"/>
 	<territory name="Tver"/>
-	<territory name="Tyrol-S.Austria"/>
+	<territory name="S.Austria"/>
 	<territory name="Tyumen"/>
 	<territory name="Ubangi Sheri"/>
 	<territory name="Udon Thani"/>
@@ -1622,7 +1622,7 @@
 	<territory name="Veracruz"/>
 	<territory name="Vichy-Rhone"/>
 	<territory name="Victoria"/>
-	<territory name="Vienna-N.Austria"/>
+	<territory name="N.Austria"/>
 	<territory name="Vilna"/>
 	<territory name="Virginia"/>
 	<territory name="Vitebsk"/>
@@ -1633,7 +1633,7 @@
 	<territory name="Wake Is."/>
 	<territory name="Wales"/>
 	<territory name="Wallachia"/>
-	<territory name="Warsaw-Cen.Poland"/>
+	<territory name="Poland"/>
 	<territory name="Washington D.C."/>
 	<territory name="Westphalia-Rhineland"/>
 	<territory name="Windhoek"/>
@@ -2354,7 +2354,7 @@
 	<connection t1="097 A Sea Zone" t2="097 B Sea Zone"/>
 	<connection t1="097 A Sea Zone" t2="099 A Sea Zone"/>
 	<connection t1="097 A Sea Zone" t2="Albania"/>
-	<connection t1="097 A Sea Zone" t2="Athens-Cen.Greece"/>
+	<connection t1="097 A Sea Zone" t2="Greece"/>
 	<connection t1="097 A Sea Zone" t2="Naples-S.Italy"/>
 	<connection t1="097 A Sea Zone" t2="Peleponnese"/>
 	<connection t1="097 B Sea Zone" t2="Albania"/>
@@ -2374,7 +2374,7 @@
 	<connection t1="098 Sea Zone" t2="Sinai"/>
 	<connection t1="099 A Sea Zone" t2="099 B Sea Zone"/>
 	<connection t1="099 A Sea Zone" t2="129 Sea Zone"/>
-	<connection t1="099 A Sea Zone" t2="Athens-Cen.Greece"/>
+	<connection t1="099 A Sea Zone" t2="Greece"/>
 	<connection t1="099 A Sea Zone" t2="Crete"/>
 	<connection t1="099 A Sea Zone" t2="Istanbul"/>
 	<connection t1="099 A Sea Zone" t2="Peleponnese"/>
@@ -2404,7 +2404,7 @@
 	<connection t1="100 B Sea Zone" t2="Kherson"/>
 	<connection t1="100 B Sea Zone" t2="Moldavia"/>
 	<connection t1="100 B Sea Zone" t2="Odesa-Mykoliav"/>
-	<connection t1="100 B Sea Zone" t2="Ploiesti-E.Romania"/>
+	<connection t1="100 B Sea Zone" t2="E.Romania"/>
 	<connection t1="100 C Sea Zone" t2="100 D Sea Zone"/>
 	<connection t1="100 C Sea Zone" t2="Crimea"/>
 	<connection t1="100 C Sea Zone" t2="Kherson"/>
@@ -2657,10 +2657,10 @@
 	<connection t1="Al Kufrah" t2="Fezzan"/>
 	<connection t1="Al Kufrah" t2="Kharga-Western Desert"/>
 <!--	<connection t1="Al Kufrah" t2="Tibesti"/>	-->
-	<connection t1="Albania" t2="Athens-Cen.Greece"/>
-	<connection t1="Albania" t2="Belgrade-Cen.Yugoslavia"/>
+	<connection t1="Albania" t2="Greece"/>
+	<connection t1="Albania" t2="Yugoslavia"/>
 	<connection t1="Albania" t2="Montenegro"/>
-	<connection t1="Albania" t2="Sofia-W.Bulgaria"/>
+	<connection t1="Albania" t2="Bulgaria"/>
 	<connection t1="Albania" t2="Thessaloniki"/>
 	<connection t1="Alberta" t2="E.British Columbia"/>
 	<connection t1="Alberta" t2="Montana"/>
@@ -2763,8 +2763,8 @@
 	<connection t1="Asturias" t2="Castille-Leon"/>
 	<connection t1="Asturias" t2="Galicia"/>
 	<connection t1="Asturias" t2="Navarre"/>
-	<connection t1="Athens-Cen.Greece" t2="Peleponnese"/>
-	<connection t1="Athens-Cen.Greece" t2="Thessaloniki"/>
+	<connection t1="Greece" t2="Peleponnese"/>
+	<connection t1="Greece" t2="Thessaloniki"/>
 	<connection t1="Atlanta-Georgia" t2="101 B Sea Zone"/>
 	<connection t1="Atlanta-Georgia" t2="Charleston-Savannah"/>
 	<connection t1="Atlanta-Georgia" t2="Charlotte-Carolina"/>
@@ -2777,7 +2777,7 @@
 	<connection t1="Baden-Wurttemburg" t2="Bavaria"/>
 	<connection t1="Baden-Wurttemburg" t2="Frankfurt-Hesse"/>
 <!--	<connection t1="Baden-Wurttemburg" t2="Switzerland"/>  -->
-	<connection t1="Baden-Wurttemburg" t2="Tyrol-S.Austria"/>
+	<connection t1="Baden-Wurttemburg" t2="S.Austria"/>
 	<connection t1="Baden-Wurttemburg" t2="Venice-Trieste"/>
 	<connection t1="Baden-Wurttemburg" t2="Westphalia-Rhineland"/>
 	<connection t1="Baghdad" t2="Basra"/>
@@ -2807,9 +2807,9 @@
 	<connection t1="Batavia-W.Java" t2="Surabaya-E.Java"/>
 	<connection t1="Bavaria" t2="Berlin"/>
 	<connection t1="Bavaria" t2="Frankfurt-Hesse"/>
-	<connection t1="Bavaria" t2="Prague-Bohemia Moravia"/>
-	<connection t1="Bavaria" t2="Tyrol-S.Austria"/>
-	<connection t1="Bavaria" t2="Vienna-N.Austria"/>
+	<connection t1="Bavaria" t2="Prague"/>
+	<connection t1="Bavaria" t2="S.Austria"/>
+	<connection t1="Bavaria" t2="N.Austria"/>
 	<connection t1="Bechuanaland" t2="Kalahari"/>
 	<connection t1="Bechuanaland" t2="Praetoria"/>
 	<connection t1="Bechuanaland" t2="S.Rhodesia"/>
@@ -2827,13 +2827,13 @@
 	<connection t1="Belgium" t2="Netherlands"/>
 	<connection t1="Belgium" t2="Paris"/>
 	<connection t1="Belgium" t2="Westphalia-Rhineland"/>
-	<connection t1="Belgrade-Cen.Yugoslavia" t2="Bucharest-Cen.Romania"/>
-	<connection t1="Belgrade-Cen.Yugoslavia" t2="Montenegro"/>
-	<connection t1="Belgrade-Cen.Yugoslavia" t2="Sarajevo-Bosnia"/>
-	<connection t1="Belgrade-Cen.Yugoslavia" t2="Slovenia-N.Croatia"/>
-	<connection t1="Belgrade-Cen.Yugoslavia" t2="Sofia-W.Bulgaria"/>
-	<connection t1="Belgrade-Cen.Yugoslavia" t2="Transdanubia"/>
-	<connection t1="Belgrade-Cen.Yugoslavia" t2="Wallachia"/>
+	<connection t1="Yugoslavia" t2="Cen.Romania"/>
+	<connection t1="Yugoslavia" t2="Montenegro"/>
+	<connection t1="Yugoslavia" t2="Bosnia"/>
+	<connection t1="Yugoslavia" t2="N.Croatia"/>
+	<connection t1="Yugoslavia" t2="Bulgaria"/>
+	<connection t1="Yugoslavia" t2="Transdanubia"/>
+	<connection t1="Yugoslavia" t2="Wallachia"/>
 	<connection t1="Bengal" t2="Bhutan"/>
 	<connection t1="Bengal" t2="Calcutta"/>
 <!--	<connection t1="Bengal" t2="Lhasa-E.Tibet"/>	-->
@@ -2860,7 +2860,7 @@
 	<connection t1="Berlin" t2="Hamburg"/>
 	<connection t1="Berlin" t2="Meckleburg"/>
 	<connection t1="Berlin" t2="Pomerania"/>
-	<connection t1="Berlin" t2="Prague-Bohemia Moravia"/>
+	<connection t1="Berlin" t2="Prague"/>
 	<connection t1="Berlin" t2="Silesia"/>
 	<connection t1="Beruit-Lebanon" t2="Damascus-S.Syria"/>
 	<connection t1="Beruit-Lebanon" t2="Jordan"/>
@@ -2868,7 +2868,7 @@
 	<connection t1="Bessarabia" t2="Kosice-Munkacs"/>
 	<connection t1="Bessarabia" t2="Lviv"/>
 	<connection t1="Bessarabia" t2="Moldavia"/>
-	<connection t1="Bessarabia" t2="Ploiesti-E.Romania"/>
+	<connection t1="Bessarabia" t2="E.Romania"/>
 	<connection t1="Bethel" t2="Fairbanks"/>
 	<connection t1="Bethel" t2="King Salmon-Aleut Pen."/>
 	<connection t1="Bethel" t2="Nome"/>
@@ -2885,7 +2885,7 @@
 	<connection t1="Bialystok" t2="Krakow-Lublin"/>
 	<connection t1="Bialystok" t2="Lithuania"/>
 	<connection t1="Bialystok" t2="Vilna"/>
-	<connection t1="Bialystok" t2="Warsaw-Cen.Poland"/>
+	<connection t1="Bialystok" t2="Poland"/>
 	<connection t1="Bogata-Colombia" t2="Caracas-Venezuela"/>
 	<connection t1="Bogata-Colombia" t2="Ecuador"/>
 	<connection t1="Bogata-Colombia" t2="Panama"/>
@@ -2923,7 +2923,7 @@
 	<connection t1="Bratsk" t2="Yakutsk"/>
 	<connection t1="Brest" t2="Grodno"/>
 	<connection t1="Brest" t2="Krakow-Lublin"/>
-	<connection t1="Brest" t2="Prinsk"/>
+	<connection t1="Brest" t2="Pinsk"/>
 	<connection t1="Brest" t2="Prypriat"/>
 	<connection t1="Brest" t2="Rzesow"/>
 	<connection t1="Brisbane-Queensland" t2="Darwin-Northern Territory"/>
@@ -2943,20 +2943,20 @@
 	<connection t1="Bryansk" t2="Kursk-Vorozneh"/>
 	<connection t1="Bryansk" t2="Kyiv-Cen.Ukraine"/>
 	<connection t1="Bryansk" t2="Mogilev"/>
-	<connection t1="Bryansk" t2="Prinsk"/>
+	<connection t1="Bryansk" t2="Pinsk"/>
 	<connection t1="Bryansk" t2="Prypriat"/>
 	<connection t1="Bryansk" t2="Smolensk"/>
 	<connection t1="Bryansk" t2="Tula"/>
-	<connection t1="Bucharest-Cen.Romania" t2="Ploiesti-E.Romania"/>
-	<connection t1="Bucharest-Cen.Romania" t2="Sofia-W.Bulgaria"/>
-	<connection t1="Bucharest-Cen.Romania" t2="Varna"/>
-	<connection t1="Bucharest-Cen.Romania" t2="Wallachia"/>
-	<connection t1="Budapest-N.Hungary" t2="Kosice-Munkacs"/>
-	<connection t1="Budapest-N.Hungary" t2="Slovakia"/>
-	<connection t1="Budapest-N.Hungary" t2="Transdanubia"/>
-	<connection t1="Budapest-N.Hungary" t2="Transylvania"/>
-	<connection t1="Budapest-N.Hungary" t2="Tyrol-S.Austria"/>
-	<connection t1="Budapest-N.Hungary" t2="Vienna-N.Austria"/>
+	<connection t1="Cen.Romania" t2="E.Romania"/>
+	<connection t1="Cen.Romania" t2="Bulgaria"/>
+	<connection t1="Cen.Romania" t2="Varna"/>
+	<connection t1="Cen.Romania" t2="Wallachia"/>
+	<connection t1="Hungary" t2="Kosice-Munkacs"/>
+	<connection t1="Hungary" t2="Slovakia"/>
+	<connection t1="Hungary" t2="Transdanubia"/>
+	<connection t1="Hungary" t2="Transylvania"/>
+	<connection t1="Hungary" t2="S.Austria"/>
+	<connection t1="Hungary" t2="N.Austria"/>
 	<connection t1="Buenos Aires" t2="Gran Chaco"/>
 	<connection t1="Buenos Aires" t2="Pampas"/>
 	<connection t1="Buenos Aires" t2="Uruguay"/>
@@ -3055,8 +3055,8 @@
 	<connection t1="Croatia" t2="Dalmatia"/>
 	<connection t1="Croatia" t2="Istria"/>
 	<connection t1="Croatia" t2="Montenegro"/>
-	<connection t1="Croatia" t2="Sarajevo-Bosnia"/>
-	<connection t1="Croatia" t2="Slovenia-N.Croatia"/>
+	<connection t1="Croatia" t2="Bosnia"/>
+	<connection t1="Croatia" t2="N.Croatia"/>
 	<connection t1="Da Nang-Annam" t2="Hanoi-Tonkin"/>
 	<connection t1="Da Nang-Annam" t2="Laos"/>
 	<connection t1="Da Nang-Annam" t2="Saigon-Cochinchina"/>
@@ -3086,7 +3086,7 @@
 	<connection t1="Danzig-Posen" t2="Konigsberg-E.Prussia"/>
 	<connection t1="Danzig-Posen" t2="Pomerania"/>
 	<connection t1="Danzig-Posen" t2="Silesia"/>
-	<connection t1="Danzig-Posen" t2="Warsaw-Cen.Poland"/>
+	<connection t1="Danzig-Posen" t2="Poland"/>
 	<connection t1="Dar es Salaam-Zanzibar" t2="Kilwa"/>
 	<connection t1="Dar es Salaam-Zanzibar" t2="Lindi"/>
 	<connection t1="Darfur" t2="Halfa"/>
@@ -3192,7 +3192,7 @@
 	<connection t1="Grand Erg" t2="W.Algerian-Sahara"/>
 	<connection t1="Grodno" t2="Krakow-Lublin"/>
 	<connection t1="Grodno" t2="Minsk"/>
-	<connection t1="Grodno" t2="Prinsk"/>
+	<connection t1="Grodno" t2="Pinsk"/>
 	<connection t1="Grodno" t2="Vilna"/>
 	<connection t1="Grozny-Chechnya" t2="Krasnodar"/>
 	<connection t1="Grozny-Chechnya" t2="Stavropol"/>
@@ -3292,8 +3292,8 @@
 	<connection t1="Isfahan" t2="Tehran"/>
 	<connection t1="Istanbul" t2="Thrace"/>
 	<connection t1="Istanbul" t2="Varna"/>
-	<connection t1="Istria" t2="Slovenia-N.Croatia"/>
-	<connection t1="Istria" t2="Tyrol-S.Austria"/>
+	<connection t1="Istria" t2="N.Croatia"/>
+	<connection t1="Istria" t2="S.Austria"/>
 	<connection t1="Istria" t2="Venice-Trieste"/>
 	<connection t1="Italian Somaliland" t2="Kenya"/>
 	<connection t1="Italian Somaliland" t2="Mogadishu"/>
@@ -3412,11 +3412,11 @@
 	<connection t1="Konduz" t2="Turkmenistan"/>
 	<connection t1="Konduz" t2="Uzbekistan"/>
 	<connection t1="Konigsberg-E.Prussia" t2="Lithuania"/>
-	<connection t1="Konigsberg-E.Prussia" t2="Warsaw-Cen.Poland"/>
+	<connection t1="Konigsberg-E.Prussia" t2="Poland"/>
 	<connection t1="Konya" t2="Smyrna"/>
 	<connection t1="Kosice-Munkacs" t2="Krakow-Lublin"/>
 	<connection t1="Kosice-Munkacs" t2="Lviv"/>
-	<connection t1="Kosice-Munkacs" t2="Ploiesti-E.Romania"/>
+	<connection t1="Kosice-Munkacs" t2="E.Romania"/>
 	<connection t1="Kosice-Munkacs" t2="Rzesow"/>
 	<connection t1="Kosice-Munkacs" t2="Silesia"/>
 	<connection t1="Kosice-Munkacs" t2="Slovakia"/>
@@ -3425,7 +3425,7 @@
 	<connection t1="Kra-Buri" t2="Rangoon-S.Burma"/>
 	<connection t1="Krakow-Lublin" t2="Rzesow"/>
 	<connection t1="Krakow-Lublin" t2="Silesia"/>
-	<connection t1="Krakow-Lublin" t2="Warsaw-Cen.Poland"/>
+	<connection t1="Krakow-Lublin" t2="Poland"/>
 	<connection t1="Krasnodar" t2="Rostov"/>
 	<connection t1="Krasnodar" t2="Stavropol"/>
 	<connection t1="Krasnodar" t2="Tbilisi-Georgia"/>
@@ -3564,17 +3564,17 @@
 	<connection t1="Milan-N.Italy" t2="Venice-Trieste"/>
 	<connection t1="Milan-N.Italy" t2="Vichy-Rhone"/>
 	<connection t1="Minsk" t2="Mogilev"/>
-	<connection t1="Minsk" t2="Prinsk"/>
+	<connection t1="Minsk" t2="Pinsk"/>
 	<connection t1="Minsk" t2="Vilna"/>
 	<connection t1="Minsk" t2="Vitebsk"/>
 	<connection t1="Mobile-Alabama" t2="New Orleans-Louisiana"/>
 	<connection t1="Mobile-Alabama" t2="St.Louis-Arkansas"/>
-	<connection t1="Mogilev" t2="Prinsk"/>
+	<connection t1="Mogilev" t2="Pinsk"/>
 	<connection t1="Mogilev" t2="Smolensk"/>
 	<connection t1="Mogilev" t2="Vitebsk"/>
 	<connection t1="Moldavia" t2="Odesa-Mykoliav"/>
 	<connection t1="Montana" t2="Wyoming"/>
-	<connection t1="Montenegro" t2="Sarajevo-Bosnia"/>
+	<connection t1="Montenegro" t2="Bosnia"/>
 	<connection t1="Monterrey" t2="Texas"/>
 	<connection t1="Monterrey" t2="Veracruz"/>
 	<connection t1="Morocco" t2="Oran"/>
@@ -3684,19 +3684,19 @@
 <!--	<connection t1="Patagonia" t2="Chile"/>	-->
 	<connection t1="Peking-Tientsin" t2="Shangtung"/>
 	<connection t1="Perm" t2="Tyumen"/>
-	<connection t1="Ploiesti-E.Romania" t2="Transylvania"/>
-	<connection t1="Ploiesti-E.Romania" t2="Varna"/>
-	<connection t1="Ploiesti-E.Romania" t2="Wallachia"/>
+	<connection t1="E.Romania" t2="Transylvania"/>
+	<connection t1="E.Romania" t2="Varna"/>
+	<connection t1="E.Romania" t2="Wallachia"/>
 	<connection t1="Port Au Prince-Haiti" t2="Santo Domingo-Domenica"/>
 	<connection t1="Port Moresby-Papua" t2="Salamaua Lae-New Guinea"/>
 	<connection t1="Portland-Oregon" t2="Sacramento-N.California"/>
 	<connection t1="Portland-Oregon" t2="Seattle-Washington"/>
 	<connection t1="Praetoria" t2="S.Rhodesia"/>
-	<connection t1="Prague-Bohemia Moravia" t2="Silesia"/>
-	<connection t1="Prague-Bohemia Moravia" t2="Slovakia"/>
-	<connection t1="Prague-Bohemia Moravia" t2="Vienna-N.Austria"/>
+	<connection t1="Prague" t2="Silesia"/>
+	<connection t1="Prague" t2="Slovakia"/>
+	<connection t1="Prague" t2="N.Austria"/>
 	<connection t1="Primorsky" t2="Vladivostok"/>
-	<connection t1="Prinsk" t2="Prypriat"/>
+	<connection t1="Pinsk" t2="Prypriat"/>
 	<connection t1="Provence-Marseille" t2="Toulouse-Occitania"/>
 	<connection t1="Provence-Marseille" t2="Vichy-Rhone"/>
 	<connection t1="Prypriat" t2="Rzesow"/>
@@ -3722,7 +3722,7 @@
 	<connection t1="Sakha" t2="Taymyr"/>
 	<connection t1="Sakha" t2="Yakutia"/>
 <!--	<connection t1="Salamaua Lae-New Guinea" t2="045 A Sea Zone"/>  -->
-	<connection t1="Sarajevo-Bosnia" t2="Slovenia-N.Croatia"/>
+	<connection t1="Bosnia" t2="N.Croatia"/>
 	<connection t1="Sarawak-N.Borneo" t2="Tarakan-E.Borneo"/>
 	<connection t1="Savo-Ostrobothnia" t2="Vyborg"/>
 	<connection t1="Seattle-Washington" t2="Vancouver-W.British Columbia"/>
@@ -3736,21 +3736,21 @@
 	<connection t1="Sikang" t2="Tsinghai"/>
 <!--	<connection t1="Sikang" t2="W.Tibet"/>	-->
 	<connection t1="Silesia" t2="Slovakia"/>
-	<connection t1="Silesia" t2="Warsaw-Cen.Poland"/>
+	<connection t1="Silesia" t2="Poland"/>
 	<connection t1="Sinkiang" t2="Tsinghai"/>
 <!--	<connection t1="Sinkiang" t2="W.Tibet"/>	-->
 	<connection t1="Siuyuyan" t2="Tsagaan Olom"/>
 	<connection t1="Siuyuyan" t2="Tsinghai"/>
 	<connection t1="Siuyuyan" t2="Urumchi-Kansu"/>
-	<connection t1="Slovakia" t2="Vienna-N.Austria"/>
-	<connection t1="Slovenia-N.Croatia" t2="Transdanubia"/>
-	<connection t1="Slovenia-N.Croatia" t2="Tyrol-S.Austria"/>
+	<connection t1="Slovakia" t2="N.Austria"/>
+	<connection t1="N.Croatia" t2="Transdanubia"/>
+	<connection t1="N.Croatia" t2="S.Austria"/>
 	<connection t1="Smolensk" t2="Tula"/>
 	<connection t1="Smolensk" t2="Tver"/>
 	<connection t1="Smolensk" t2="Vitebsk"/>
-	<connection t1="Sofia-W.Bulgaria" t2="Thessaloniki"/>
-	<connection t1="Sofia-W.Bulgaria" t2="Thrace"/>
-	<connection t1="Sofia-W.Bulgaria" t2="Varna"/>
+	<connection t1="Bulgaria" t2="Thessaloniki"/>
+	<connection t1="Bulgaria" t2="Thrace"/>
+	<connection t1="Bulgaria" t2="Varna"/>
 	<connection t1="Southwest Africa" t2="Windhoek"/>
 	<connection t1="St.Louis-Arkansas" t2="Wisconsin-Minnesota"/>
 	<connection t1="Stalingrad-Volga" t2="Stavropol"/>
@@ -3776,7 +3776,7 @@
 	<connection t1="Toronto-S.Ontario" t2="Wisconsin-Minnesota"/>
 	<connection t1="Toulouse-Occitania" t2="Vichy-Rhone"/>
 	<connection t1="Transdanubia" t2="Transylvania"/>
-	<connection t1="Transdanubia" t2="Tyrol-S.Austria"/>
+	<connection t1="Transdanubia" t2="S.Austria"/>
 	<connection t1="Transdanubia" t2="Wallachia"/>
 	<connection t1="Transylvania" t2="Wallachia"/>
 <!--	<connection t1="Tripoli-W.Tripolitania" t2="094 Sea Zone"/>  -->
@@ -3785,8 +3785,8 @@
 	<connection t1="Tsinghai" t2="Urumchi-Kansu"/>
 	<connection t1="Turkmenistan" t2="Uzbekistan"/>
 	<connection t1="Tver" t2="Yaroslavl"/>
-	<connection t1="Tyrol-S.Austria" t2="Venice-Trieste"/>
-	<connection t1="Tyrol-S.Austria" t2="Vienna-N.Austria"/>
+	<connection t1="S.Austria" t2="Venice-Trieste"/>
+	<connection t1="S.Austria" t2="N.Austria"/>
 	<connection t1="Utah" t2="Wyoming"/>
 <!--	<connection t1="Victoria" t2="Vancouver-W.British Columbia"/>  -->
 	<connection t1="Virginia" t2="Washington D.C."/>
@@ -5419,7 +5419,7 @@
 	<territoryOwner territory="Asir" 	 	 	 	 	 	owner="Neutral_True"/>		<!-- -->
 	<territoryOwner territory="Astrakhan" 	 	 	 	 	owner="Russians"/>			<!-- -->
 	<territoryOwner territory="Asturias" 	 	 	 	 	owner="Neutral_True"/>		<!-- -->
-	<territoryOwner territory="Athens-Cen.Greece" 	 	 	owner="Germans"/>		<!-- -->
+	<territoryOwner territory="Greece" 	 	 	owner="Germans"/>		<!-- -->
 	<territoryOwner territory="Atlanta-Georgia" 	 	 	owner="Americans"/>			<!-- -->
 	<territoryOwner territory="Atyrau" 	 	 	 	 	 	owner="Russians"/>			<!-- -->
 	<territoryOwner territory="Auckland-N.New Zealand" 	 	owner="ANZAC"/><!-- -->
@@ -5441,7 +5441,7 @@
 	<territoryOwner territory="Bechuanaland" 	 	 	 	owner="British"/>		<!-- -->
 	<territoryOwner territory="Belgian Congo" 	 	 	 	owner="British"/>		<!-- Belgium -->
 	<territoryOwner territory="Belgium" 	 	 	owner="Germans"/>		<!-- -->
-	<territoryOwner territory="Belgrade-Cen.Yugoslavia" 	owner="Germans"/>		<!-- -->
+	<territoryOwner territory="Yugoslavia" 	owner="Germans"/>		<!-- -->
 	<territoryOwner territory="Bengal" 	 	 	 	 	 	owner="British"/>		<!-- -->
 	<territoryOwner territory="Benghazi-Cyrenaica" 	 	 	owner="Italians"/>			<!-- -->
 	<territoryOwner territory="Berar" 	 	 	 	 	 	owner="British"/>		<!-- -->
@@ -5470,8 +5470,8 @@
 	<territoryOwner territory="Brittany" 	 	 	 	 	owner="Germans"/>		<!-- -->
 	<territoryOwner territory="Broome-Exmouth" 	 	 	 	owner="ANZAC"/><!-- -->
 	<territoryOwner territory="Bryansk" 	 	 	 	 	owner="Russians"/>			<!-- -->
-	<territoryOwner territory="Bucharest-Cen.Romania" 	 	owner="Germans"/>			<!-- -->
-	<territoryOwner territory="Budapest-N.Hungary" 	 	 	owner="Germans"/>		<!-- -->
+	<territoryOwner territory="Cen.Romania" 	 	owner="Germans"/>			<!-- -->
+	<territoryOwner territory="Hungary" 	 	 	owner="Germans"/>		<!-- -->
 	<territoryOwner territory="Buenos Aires" 	 	 	 	owner="Neutral_True"/>		<!-- S.America -->
 	<territoryOwner territory="Buru" 	 	 	 	 	 	owner="ANZAC"/><!-- -->
 	<territoryOwner territory="Buryatia" 	 	 	 	 	owner="Russians"/>			<!-- -->
@@ -5807,7 +5807,7 @@
 	<territoryOwner territory="Perth-W.Australia" 	 	 	owner="ANZAC"/><!-- -->
 	<territoryOwner territory="Peru" 	 	 	 	 	 	owner="Neutral_True"/>		<!-- S.America -->
 	<territoryOwner territory="Phoenix Is." 	 	 	 	owner="ANZAC"/><!-- -->
-	<territoryOwner territory="Ploiesti-E.Romania" 	 	 	owner="Germans"/>			<!-- -->
+	<territoryOwner territory="E.Romania" 	 	 	owner="Germans"/>			<!-- -->
 	<territoryOwner territory="Poitou" 	 	 	 	 	 	owner="Germans"/>		<!-- -->
 	<territoryOwner territory="Pomerania" 	 	 	 	 	owner="Germans"/>		<!-- -->
 	<territoryOwner territory="Port Au Prince-Haiti" 	 	owner="Neutral_True"/>		<!-- -->
@@ -5815,9 +5815,9 @@
 	<territoryOwner territory="Portland-Oregon" 	 	 	owner="Americans"/>			<!-- -->
 	<territoryOwner territory="Portuguese Guinea" 	 	 	owner="Neutral_True"/>		<!-- -->
 	<territoryOwner territory="Praetoria" 	 	 	 	 	owner="British"/>		<!-- -->
-	<territoryOwner territory="Prague-Bohemia Moravia" 	 	owner="Germans"/>		<!-- -->
+	<territoryOwner territory="Prague" 	 	owner="Germans"/>		<!-- -->
 	<territoryOwner territory="Primorsky" 	 	 	 	 	owner="Russians"/>			<!-- -->
-	<territoryOwner territory="Prinsk" 	 	 	 	 	 	owner="Russians"/>			<!-- -->
+	<territoryOwner territory="Pinsk" 	 	 	 	 	 	owner="Russians"/>			<!-- -->
 	<territoryOwner territory="Provence-Marseille" 	 	 	owner="Germans"/>		<!-- -->
 	<territoryOwner territory="Prypriat" 	 	 	 	 	owner="Russians"/>			<!-- -->
 	<territoryOwner territory="Pskov" 	 	 	 	 	 	owner="Russians"/>			<!-- -->
@@ -5853,7 +5853,7 @@
 	<territoryOwner territory="Sansapor-Vogelkop Pen." 	 	owner="ANZAC"/><!-- -->
 	<territoryOwner territory="Santiago-Guantanamo" 	 	owner="Americans"/>			<!-- -->
 	<territoryOwner territory="Santo Domingo-Domenica" 	 	owner="Neutral_True"/>		<!-- -->
-	<territoryOwner territory="Sarajevo-Bosnia" 	 	 	owner="Germans"/>		<!-- -->
+	<territoryOwner territory="Bosnia" 	 	 	owner="Germans"/>		<!-- -->
 	<territoryOwner territory="Sarawak-N.Borneo" 	 	 	owner="ANZAC"/><!-- -->
 	<territoryOwner territory="Sardinia" 	 	 	 	 	owner="Italians"/>			<!-- -->
 	<territoryOwner territory="Savo-Ostrobothnia" 	 	 	owner="Germans"/>		<!-- -->
@@ -5879,12 +5879,12 @@
 	<territoryOwner territory="Sitka" 	 	 	 	 	 	owner="Americans"/>			<!-- -->
 	<territoryOwner territory="Siuyuyan" 	 	 	 	 	owner="Chinese"/>			<!-- -->
 	<territoryOwner territory="Slovakia" 	 	 	 	 	owner="Germans"/>		<!-- -->
-	<territoryOwner territory="Slovenia-N.Croatia" 	 	 	owner="Germans"/>		<!-- -->
+	<territoryOwner territory="N.Croatia" 	 	 	owner="Germans"/>		<!-- -->
 	<territoryOwner territory="Smolensk" 	 	 	 	 	owner="Russians"/>			<!-- -->
 	<territoryOwner territory="Smyrna" 	 	 	 	 	 	owner="Neutral_True"/>		<!-- -->
 	<territoryOwner territory="Society Is." 	 	 	 	owner="ANZAC"/><!-- -->
 	<territoryOwner territory="Socotra" 	 	 	 	 	owner="British"/>		<!-- -->
-	<territoryOwner territory="Sofia-W.Bulgaria" 	 	 	owner="Germans"/>		<!-- -->
+	<territoryOwner territory="Bulgaria" 	 	 	owner="Germans"/>		<!-- -->
 	<territoryOwner territory="Southwest Africa" 	 	 	owner="British"/>		<!-- -->
 	<territoryOwner territory="Spanish Gabon" 	 	 	 	owner="Neutral_True"/>		<!-- Iberia -->
 	<territoryOwner territory="St.Johns-Newfoundland" 	 	owner="British"/>		<!-- -->
@@ -5935,7 +5935,7 @@
 	<territoryOwner territory="Tunis-Tunisia" 	 	 	 	owner="Germans"/>		<!-- France -->
 	<territoryOwner territory="Turkmenistan" 	 	 	 	owner="Russians"/>			<!-- -->
 	<territoryOwner territory="Tver" 	 	 	 	 	 	owner="Russians"/>			<!-- -->
-	<territoryOwner territory="Tyrol-S.Austria" 	 	 	owner="Germans"/>		<!-- -->
+	<territoryOwner territory="S.Austria" 	 	 	owner="Germans"/>		<!-- -->
 	<territoryOwner territory="Tyumen" 	 	 	 	 	 	owner="Russians"/>			<!-- -->
 	<territoryOwner territory="Ubangi Sheri" 	 	 	 	owner="British"/>		<!-- France -->
 	<territoryOwner territory="Udon Thani" 	 	 	 	 	owner="Japanese"/>			<!-- -->
@@ -5955,7 +5955,7 @@
 	<territoryOwner territory="Veracruz" 	 	 	 	 	owner="Neutral_True"/>		<!-- Mexico -->
 	<territoryOwner territory="Vichy-Rhone" 	 	 	 	owner="Germans"/>		<!-- -->
 	<territoryOwner territory="Victoria" 	 	 	 	 	owner="British"/>		<!-- -->
-	<territoryOwner territory="Vienna-N.Austria" 	 	 	owner="Germans"/>		<!-- -->
+	<territoryOwner territory="N.Austria" 	 	 	owner="Germans"/>		<!-- -->
 	<territoryOwner territory="Vilna" 	 	 	 	 	 	owner="Russians"/>			<!-- -->
 	<territoryOwner territory="Virginia" 	 	 	 	 	owner="Americans"/>			<!-- -->
 	<territoryOwner territory="Vitebsk" 	 	 	 	 	owner="Russians"/>			<!-- -->
@@ -5966,7 +5966,7 @@
 	<territoryOwner territory="Wake Is." 	 	 	 	 	owner="Americans"/>			<!-- -->
 	<territoryOwner territory="Wales" 	 	 	 	 	 	owner="British"/>		<!-- -->
 	<territoryOwner territory="Wallachia" 	 	 	 	 	owner="Germans"/>			<!-- -->
-	<territoryOwner territory="Warsaw-Cen.Poland" 	 	 	owner="Germans"/>		<!-- -->
+	<territoryOwner territory="Poland" 	 	 	owner="Germans"/>		<!-- -->
 	<territoryOwner territory="Washington D.C." 	 	 	owner="Americans"/>			<!-- -->
 	<territoryOwner territory="Westphalia-Rhineland" 	 	owner="Germans"/>		<!-- -->
 	<territoryOwner territory="Windhoek" 	 	 	 	 	owner="British"/>		<!-- Germans -->
@@ -6126,8 +6126,8 @@
 		<unitPlacement unitType="factory_minor" territory="Archangelsk" quantity="1" owner="Russians"/>
 		<unitPlacement unitType="harbour" territory="Archangelsk" quantity="1" owner="Russians"/>
 		<unitPlacement unitType="infantry" territory="Astrakhan" quantity="1" owner="Russians"/>
-		<unitPlacement unitType="infantry" territory="Athens-Cen.Greece" quantity="2" owner="Germans"/>
-		<unitPlacement unitType="aaGun" territory="Athens-Cen.Greece" quantity="1" owner="Germans"/>
+		<unitPlacement unitType="infantry" territory="Greece" quantity="2" owner="Germans"/>
+		<unitPlacement unitType="aaGun" territory="Greece" quantity="1" owner="Germans"/>
 		<unitPlacement unitType="infantry" territory="Baden-Wurttemburg" quantity="1" owner="Germans"/>
 		<unitPlacement unitType="infantry" territory="Baku-Azerbaijan" quantity="2" owner="Russians"/>
 		<unitPlacement unitType="infantry" territory="Bangkok-Siam" quantity="1" owner="Japanese"/>
@@ -6136,7 +6136,7 @@
 		<unitPlacement unitType="aaGun" territory="Bavaria" quantity="1" owner="Germans"/>
 		<unitPlacement unitType="infantry" territory="Belgium" quantity="2" owner="Germans"/>
 		<unitPlacement unitType="harbour" territory="Belgium" quantity="1" owner="Germans"/>
-		<unitPlacement unitType="infantry" territory="Belgrade-Cen.Yugoslavia" quantity="1" owner="Germans"/>
+		<unitPlacement unitType="infantry" territory="Yugoslavia" quantity="1" owner="Germans"/>
 		<unitPlacement unitType="infantry" territory="Bergen-Vestland" quantity="2" owner="Germans"/>
 		<unitPlacement unitType="factory_major" territory="Berlin" quantity="1" owner="Germans"/>
 		<unitPlacement unitType="airfield" territory="Berlin" quantity="1" owner="Germans"/>
@@ -6161,14 +6161,14 @@
 		<unitPlacement unitType="aaGun" territory="Brittany" quantity="1" owner="Germans"/>
 		<unitPlacement unitType="harbour" territory="Brittany" quantity="1" owner="Germans"/>
 		<unitPlacement unitType="infantry" territory="Bryansk" quantity="2" owner="Russians"/>
-		<unitPlacement unitType="infantry" territory="Bucharest-Cen.Romania" quantity="5" owner="Germans"/>
-		<unitPlacement unitType="fighter" territory="Bucharest-Cen.Romania" quantity="1" owner="Germans"/>
-		<unitPlacement unitType="tactical_bomber" territory="Bucharest-Cen.Romania" quantity="1" owner="Germans"/>
-		<unitPlacement unitType="factory_minor" territory="Bucharest-Cen.Romania" quantity="1" owner="Germans"/>
-		<unitPlacement unitType="aaGun" territory="Bucharest-Cen.Romania" quantity="1" owner="Germans"/>
-		<unitPlacement unitType="artillery" territory="Bucharest-Cen.Romania" quantity="1" owner="Germans"/>
-		<unitPlacement unitType="infantry" territory="Budapest-N.Hungary" quantity="4" owner="Germans"/>
-		<unitPlacement unitType="armour" territory="Budapest-N.Hungary" quantity="1" owner="Germans"/>
+		<unitPlacement unitType="infantry" territory="Cen.Romania" quantity="5" owner="Germans"/>
+		<unitPlacement unitType="fighter" territory="Cen.Romania" quantity="1" owner="Germans"/>
+		<unitPlacement unitType="tactical_bomber" territory="Cen.Romania" quantity="1" owner="Germans"/>
+		<unitPlacement unitType="factory_minor" territory="Cen.Romania" quantity="1" owner="Germans"/>
+		<unitPlacement unitType="aaGun" territory="Cen.Romania" quantity="1" owner="Germans"/>
+		<unitPlacement unitType="artillery" territory="Cen.Romania" quantity="1" owner="Germans"/>
+		<unitPlacement unitType="infantry" territory="Hungary" quantity="4" owner="Germans"/>
+		<unitPlacement unitType="armour" territory="Hungary" quantity="1" owner="Germans"/>
 		<unitPlacement unitType="infantry" territory="Buryatia" quantity="1" owner="Russians"/>
 		<unitPlacement unitType="aaGun" territory="Cairo-Egypt" quantity="1" owner="British"/>
 		<unitPlacement unitType="airfield" territory="Cairo-Egypt" quantity="1" owner="British"/>
@@ -6444,12 +6444,12 @@
 		<unitPlacement unitType="infantry" territory="Pelelui-Palau Is." quantity="1" owner="Japanese"/>
 		<unitPlacement unitType="infantry" territory="Peleponnese" quantity="1" owner="Germans"/>
 		<unitPlacement unitType="infantry" territory="Perm" quantity="1" owner="Russians"/>
-		<unitPlacement unitType="infantry" territory="Ploiesti-E.Romania" quantity="3" owner="Germans"/>
-		<unitPlacement unitType="artillery" territory="Ploiesti-E.Romania" quantity="1" owner="Germans"/>
+		<unitPlacement unitType="infantry" territory="E.Romania" quantity="3" owner="Germans"/>
+		<unitPlacement unitType="artillery" territory="E.Romania" quantity="1" owner="Germans"/>
 		<unitPlacement unitType="infantry" territory="Poitou" quantity="2" owner="Germans"/>
 		<unitPlacement unitType="infantry" territory="Pomerania" quantity="3" owner="Germans"/>
 		<unitPlacement unitType="infantry" territory="Portland-Oregon" quantity="1" owner="Americans"/>
-		<unitPlacement unitType="infantry" territory="Prague-Bohemia Moravia" quantity="3" owner="Germans"/>
+		<unitPlacement unitType="infantry" territory="Prague" quantity="3" owner="Germans"/>
 		<unitPlacement unitType="infantry" territory="Primorsky" quantity="2" owner="Russians"/>
 		<unitPlacement unitType="infantry" territory="Provence-Marseille" quantity="2" owner="Germans"/>
 		<unitPlacement unitType="harbour" territory="Provence-Marseille" quantity="1" owner="Germans"/>
@@ -6517,7 +6517,7 @@
 		<unitPlacement unitType="aaGun" territory="Smolensk" quantity="1" owner="Russians"/>
 		<unitPlacement unitType="armour" territory="Smolensk" quantity="1" owner="Russians"/>
 		<unitPlacement unitType="fighter" territory="Smolensk" quantity="1" owner="Russians"/>
-		<unitPlacement unitType="infantry" territory="Sofia-W.Bulgaria" quantity="1" owner="Germans"/>
+		<unitPlacement unitType="infantry" territory="Bulgaria" quantity="1" owner="Germans"/>
 		<unitPlacement unitType="armour" territory="Stalingrad-Volga" quantity="1" owner="Russians"/>
 		<unitPlacement unitType="mech_infantry" territory="Stalingrad-Volga" quantity="1" owner="Russians"/>
 		<unitPlacement unitType="infantry" territory="Stalingrad-Volga" quantity="3" owner="Russians"/>
@@ -6581,7 +6581,7 @@
 		<unitPlacement unitType="factory_minor" territory="Vichy-Rhone" quantity="1" owner="Germans"/>
 		<unitPlacement unitType="infantry" territory="Vichy-Rhone" quantity="1" owner="Germans"/>
 		<unitPlacement unitType="aaGun" territory="Vichy-Rhone" quantity="1" owner="Germans"/>
-		<unitPlacement unitType="infantry" territory="Vienna-N.Austria" quantity="3" owner="Germans"/>
+		<unitPlacement unitType="infantry" territory="N.Austria" quantity="3" owner="Germans"/>
 		<unitPlacement unitType="infantry" territory="Vitebsk" quantity="3" owner="Russians"/>
 		<unitPlacement unitType="infantry" territory="Vladivostok" quantity="3" owner="Russians"/>
 		<unitPlacement unitType="fighter" territory="Vladivostok" quantity="1" owner="Russians"/>
@@ -6592,14 +6592,14 @@
 		<unitPlacement unitType="aaGun" territory="Wake Is." quantity="1" owner="Americans"/>
 		<unitPlacement unitType="airfield" territory="Wake Is." quantity="1" owner="Americans"/>
 		<unitPlacement unitType="infantry" territory="Wallachia" quantity="1" owner="Germans"/>
-		<unitPlacement unitType="infantry" territory="Warsaw-Cen.Poland" quantity="14" owner="Germans"/>
-		<unitPlacement unitType="mech_infantry" territory="Warsaw-Cen.Poland" quantity="1" owner="Germans"/>
-		<unitPlacement unitType="armour" territory="Warsaw-Cen.Poland" quantity="2" owner="Germans"/>
-		<unitPlacement unitType="fighter" territory="Warsaw-Cen.Poland" quantity="1" owner="Germans"/>
-		<unitPlacement unitType="tactical_bomber" territory="Warsaw-Cen.Poland" quantity="1" owner="Germans"/>
-		<unitPlacement unitType="bomber" territory="Warsaw-Cen.Poland" quantity="1" owner="Germans"/>
-		<unitPlacement unitType="artillery" territory="Warsaw-Cen.Poland" quantity="3" owner="Germans"/>
-		<unitPlacement unitType="airfield" territory="Warsaw-Cen.Poland" quantity="1" owner="Germans"/>
+		<unitPlacement unitType="infantry" territory="Poland" quantity="14" owner="Germans"/>
+		<unitPlacement unitType="mech_infantry" territory="Poland" quantity="1" owner="Germans"/>
+		<unitPlacement unitType="armour" territory="Poland" quantity="2" owner="Germans"/>
+		<unitPlacement unitType="fighter" territory="Poland" quantity="1" owner="Germans"/>
+		<unitPlacement unitType="tactical_bomber" territory="Poland" quantity="1" owner="Germans"/>
+		<unitPlacement unitType="bomber" territory="Poland" quantity="1" owner="Germans"/>
+		<unitPlacement unitType="artillery" territory="Poland" quantity="3" owner="Germans"/>
+		<unitPlacement unitType="airfield" territory="Poland" quantity="1" owner="Germans"/>
 		<unitPlacement unitType="infantry" territory="Westphalia-Rhineland" quantity="2" owner="Germans"/>
 		<unitPlacement unitType="fighter" territory="Westphalia-Rhineland" quantity="1" owner="Germans"/>
 		<unitPlacement unitType="aaGun" territory="Westphalia-Rhineland" quantity="1" owner="Germans"/>
