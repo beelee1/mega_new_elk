@@ -17,19 +17,6 @@ Land Territories are changed in map.properties explained here<br>
 <b>Sea Zones</b> are explained here<br>
 <br>https://www.axisandallies.org/forums/topic/39809/new-triplea-map-uhd-world-war-ii-global/62?_=1709335922225<br>
 <br>
-<b>To Change Map Blends</b><br>
-<br>
-Open triplea Folder<br>
-Open downloadedMaps<br>
-Open mega_new_elk<br>
-Open map<br>
-Remove baseTiles<br>
-Open baseTilesBlends<br>
-Copy baseTiles<br>
-Close baseTilesBlends and paste the new baseTiles Folder in<br>
-<br>
-Reverse the process with baseTilesDefault to restore default version<br>
-<br>
 Change Log:
 <br>
 <br>
