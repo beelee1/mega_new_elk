@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE game SYSTEM "game.dtd">
 <game>
-  <info name="Mega New Elk" version="1.33"/>
+  <info name="Mega New Elk" version="1.34"/>
   <loader javaClass="games.strategy.triplea.TripleA"/>
   <triplea minimumVersion="1.8"/>
   <diceSides value="6"/>
@@ -261,7 +261,7 @@
 	  <element name="Bengal"/>
 	  <element name="Benghazi-Cyrenaica"/>
 	  <element name="Berar"/>
-	  <element name="Bergen-Vestland"/>
+	  <element name="Bergen"/>
 	  <element name="Bermuda"/>
 	  <element name="Beruit-Lebanon"/>
 	  <element name="Bessarabia"/>
@@ -653,7 +653,7 @@
 	  <element name="Bangkok-Siam"/>
 	  <element name="Belgium"/>
 	  <element name="Yugoslavia"/>
-	  <element name="Bordeaux-Gascony"/>
+	  <element name="Bordeaux"/>
 	  <element name="Brittany"/>
  	  <element name="Bryansk"/>
 	  <element name="Hungary"/>
@@ -661,7 +661,7 @@
 	  <element name="Chengdu-Szechwan"/>
 	  <element name="Chernihiv"/>
 	  <!-- <element name="Chungking"/> Chinese -->
-	  <element name="Copenhagen-Denmark"/>
+	  <element name="Denmark"/>
 	  <element name="Crimea"/>
 	  <element name="Dagestan"/>
 	  <element name="Danzig-Posen"/>
@@ -702,7 +702,7 @@
 	  <element name="Poitou"/>
 	  <element name="Pomerania"/>
 	  <element name="Prague"/>
-	  <element name="Provence-Marseille"/>
+	  <element name="Marseille"/>
 	  <element name="Rostov"/>
 	  <element name="Saigon-Cochinchina"/>
 	  <element name="Salamaua Lae-New Guinea"/>
@@ -714,11 +714,11 @@
 	  <element name="Taipei-Formosa"/>
 	  <element name="Tbilisi-Georgia"/>
 	  <element name="Tohoku"/>
-	  <element name="Toulouse-Occitania"/>
+	  <element name="Toulouse"/>
 	  <element name="Tunis-Tunisia"/>
 	  <element name="S.Austria"/>
 	  <element name="Venice-Trieste"/>
-	  <element name="Vichy-Rhone"/>
+	  <element name="Vichy"/>
 	  <element name="Vladivostok"/>
 	  <element name="Wake Is."/>
 	  <element name="Wallachia"/>
@@ -836,6 +836,9 @@
  	  <element name="Rome-Cen.Italy"/> <!-- Italians -->
 	  <element name="New Delhi"/> <!-- UK_Pacific -->
 	  <element name="Chungking"/> <!-- Chinese -->
+    </variable>
+    <variable name="VictoryCities">
+ 	  <element name="Chicago"/>
     </variable>
     <variable name="ChineseOwner">
 	  <element name="Haichow-Lunghai"/>
@@ -1112,7 +1115,7 @@
 	<territory name="Bengal"/>
 	<territory name="Benghazi-Cyrenaica"/>
 	<territory name="Berar"/>
-	<territory name="Bergen-Vestland"/>
+	<territory name="Bergen"/>
 	<territory name="Berlin"/>
 	<territory name="Bermuda"/>
 	<territory name="Beruit-Lebanon"/>
@@ -1126,7 +1129,7 @@
 	<territory name="Bombay"/>
 	<territory name="Bona"/>
 	<territory name="Boran"/>
-	<territory name="Bordeaux-Gascony"/>
+	<territory name="Bordeaux"/>
 	<territory name="Boston-New England"/>
 	<territory name="Bratsk"/>
 	<territory name="Brest"/>
@@ -1175,7 +1178,7 @@
 	<territory name="Colorado"/>
 	<territory name="Comoros"/>
 	<territory name="Cook Is."/>
-	<territory name="Copenhagen-Denmark"/>
+	<territory name="Denmark"/>
 	<territory name="Corregidor-Mindoro Is."/>
 	<territory name="Corsica"/>
 	<territory name="Costa"/>
@@ -1485,7 +1488,7 @@
 	<territory name="Prague"/>
 	<territory name="Primorsky"/>
 	<territory name="Pinsk"/>
-	<territory name="Provence-Marseille"/>
+	<territory name="Marseille"/>
 	<territory name="Prypriat"/>
 	<territory name="Pskov"/>
 	<territory name="Punjab"/>
@@ -1587,7 +1590,7 @@
 	<territory name="Tokyo"/>
 	<territory name="Tomsk"/>
 	<territory name="Toronto-S.Ontario"/>
-	<territory name="Toulouse-Occitania"/>
+	<territory name="Toulouse"/>
 	<territory name="Transdanubia"/>
 	<territory name="Transylvania"/>
 	<territory name="Trebizond"/>
@@ -1620,7 +1623,7 @@
 	<territory name="Varna"/>
 	<territory name="Venice-Trieste"/>
 	<territory name="Veracruz"/>
-	<territory name="Vichy-Rhone"/>
+	<territory name="Vichy"/>
 	<territory name="Victoria"/>
 	<territory name="N.Austria"/>
 	<territory name="Vilna"/>
@@ -2322,8 +2325,8 @@
 	<connection t1="093 Sea Zone" t2="Aragon-Catalonia"/>
 	<connection t1="093 Sea Zone" t2="Majorca"/>
 <!--	<connection t1="093 Sea Zone" t2="Milan-N.Italy"/>  -->
-	<connection t1="093 Sea Zone" t2="Provence-Marseille"/>
-	<connection t1="093 Sea Zone" t2="Toulouse-Occitania"/>
+	<connection t1="093 Sea Zone" t2="Marseille"/>
+	<connection t1="093 Sea Zone" t2="Toulouse"/>
 	<connection t1="093 Sea Zone" t2="Valencia"/>
 	<connection t1="094 Sea Zone" t2="095 B Sea Zone"/>
 	<connection t1="094 Sea Zone" t2="096 A Sea Zone"/>
@@ -2454,7 +2457,7 @@
 	<connection t1="104 Sea Zone" t2="Norte"/>
 	<connection t1="105 Sea Zone" t2="110 A Sea Zone"/>
 	<connection t1="105 Sea Zone" t2="Asturias"/>
-	<connection t1="105 Sea Zone" t2="Bordeaux-Gascony"/>
+	<connection t1="105 Sea Zone" t2="Bordeaux"/>
 	<connection t1="105 Sea Zone" t2="Brittany"/>
 	<connection t1="105 Sea Zone" t2="Galicia"/>
 	<connection t1="105 Sea Zone" t2="Navarre"/>
@@ -2505,18 +2508,18 @@
 	<connection t1="111 B Sea Zone" t2="Shetland Is."/>
 	<connection t1="112 Sea Zone" t2="113 A Sea Zone"/>
 	<connection t1="112 Sea Zone" t2="125 Sea Zone"/>
-	<connection t1="112 Sea Zone" t2="Bergen-Vestland"/>
+	<connection t1="112 Sea Zone" t2="Bergen"/>
 	<connection t1="112 Sea Zone" t2="Hamburg"/>
 	<connection t1="112 Sea Zone" t2="Juteland"/>
 	<connection t1="112 Sea Zone" t2="Schleswig-Holstein"/>
 	<connection t1="113 A Sea Zone" t2="113 B Sea Zone"/>
 	<connection t1="113 B Sea Zone" t2="114 Sea Zone"/>
-	<connection t1="113 A Sea Zone" t2="Bergen-Vestland"/>
-	<connection t1="113 A Sea Zone" t2="Copenhagen-Denmark"/>
+	<connection t1="113 A Sea Zone" t2="Bergen"/>
+	<connection t1="113 A Sea Zone" t2="Denmark"/>
 	<connection t1="113 A Sea Zone" t2="Gotland"/>
 	<connection t1="113 A Sea Zone" t2="Juteland"/>
 	<connection t1="113 A Sea Zone" t2="Oslo"/>
-	<connection t1="113 B Sea Zone" t2="Copenhagen-Denmark"/>
+	<connection t1="113 B Sea Zone" t2="Denmark"/>
 	<connection t1="113 B Sea Zone" t2="Juteland"/>
 	<connection t1="113 B Sea Zone" t2="Gotland"/>
 	<connection t1="113 B Sea Zone" t2="Meckleburg"/>
@@ -2735,11 +2738,11 @@
 	<connection t1="Ankara" t2="Trebizond"/>
 	<connection t1="Antalya" t2="Konya"/>
 	<connection t1="Antalya" t2="Smyrna"/>
-	<connection t1="Aragon-Catalonia" t2="Bordeaux-Gascony"/>
+	<connection t1="Aragon-Catalonia" t2="Bordeaux"/>
 	<connection t1="Aragon-Catalonia" t2="Castille-Leon"/>
 	<connection t1="Aragon-Catalonia" t2="Madrid-Cen.Spain"/>
 	<connection t1="Aragon-Catalonia" t2="Navarre"/>
-	<connection t1="Aragon-Catalonia" t2="Toulouse-Occitania"/>
+	<connection t1="Aragon-Catalonia" t2="Toulouse"/>
 	<connection t1="Aragon-Catalonia" t2="Valencia"/>
 	<connection t1="Archangelsk" t2="Kirov"/>
 	<connection t1="Archangelsk" t2="Nenetsia"/>
@@ -2852,9 +2855,9 @@
 	<connection t1="Berar" t2="Hyderabad"/>
 	<connection t1="Berar" t2="Nagpur"/>
 	<connection t1="Berar" t2="Rajputana"/>
-	<connection t1="Bergen-Vestland" t2="Dalarna"/>
-	<connection t1="Bergen-Vestland" t2="Oslo"/>
-	<connection t1="Bergen-Vestland" t2="Trondheim"/>
+	<connection t1="Bergen" t2="Dalarna"/>
+	<connection t1="Bergen" t2="Oslo"/>
+	<connection t1="Bergen" t2="Trondheim"/>
 	<connection t1="Berlin" t2="Danzig-Posen"/>
 	<connection t1="Berlin" t2="Frankfurt-Hesse"/>
 	<connection t1="Berlin" t2="Hamburg"/>
@@ -2906,11 +2909,11 @@
 	<connection t1="Boran" t2="Kenya"/>
 	<connection t1="Boran" t2="Ogoden"/>
 	<connection t1="Boran" t2="Uganda"/>
-	<connection t1="Bordeaux-Gascony" t2="Navarre"/>
-	<connection t1="Bordeaux-Gascony" t2="Orleans"/>
-	<connection t1="Bordeaux-Gascony" t2="Poitou"/>
-	<connection t1="Bordeaux-Gascony" t2="Toulouse-Occitania"/>
-	<connection t1="Bordeaux-Gascony" t2="Vichy-Rhone"/>
+	<connection t1="Bordeaux" t2="Navarre"/>
+	<connection t1="Bordeaux" t2="Orleans"/>
+	<connection t1="Bordeaux" t2="Poitou"/>
+	<connection t1="Bordeaux" t2="Toulouse"/>
+	<connection t1="Bordeaux" t2="Vichy"/>
 	<connection t1="Boston-New England" t2="Halifax-Nova Scotia"/>
 <!--	<connection t1="Boston-New England" t2="Philadelphia-Pennsylvania"/>  -->
 	<connection t1="Boston-New England" t2="S.Quebec"/>
@@ -3502,7 +3505,7 @@
 	<connection t1="Lorraine" t2="Orleans"/>
 	<connection t1="Lorraine" t2="Paris"/>
 <!--	<connection t1="Lorraine" t2="Switzerland"/>  -->
-	<connection t1="Lorraine" t2="Vichy-Rhone"/>
+	<connection t1="Lorraine" t2="Vichy"/>
 	<connection t1="Los Angeles-S.California" t2="Nevada"/>
 	<connection t1="Los Angeles-S.California" t2="Sacramento-N.California"/>
 	<connection t1="Los Angeles-S.California" t2="San Francisco-Cen.California"/>
@@ -3558,11 +3561,11 @@
 	<connection t1="Michigan-Indiana" t2="Ohio"/>
 	<connection t1="Michigan-Indiana" t2="St.Louis-Arkansas"/>
 	<connection t1="Michigan-Indiana" t2="Toronto-S.Ontario"/>
-	<connection t1="Milan-N.Italy" t2="Provence-Marseille"/>
+	<connection t1="Milan-N.Italy" t2="Marseille"/>
 	<connection t1="Milan-N.Italy" t2="Rome-Cen.Italy"/>
 <!--	<connection t1="Milan-N.Italy" t2="Switzerland"/>  -->
 	<connection t1="Milan-N.Italy" t2="Venice-Trieste"/>
-	<connection t1="Milan-N.Italy" t2="Vichy-Rhone"/>
+	<connection t1="Milan-N.Italy" t2="Vichy"/>
 	<connection t1="Minsk" t2="Mogilev"/>
 	<connection t1="Minsk" t2="Pinsk"/>
 	<connection t1="Minsk" t2="Vilna"/>
@@ -3670,7 +3673,7 @@
 	<connection t1="Orissa" t2="Yanaon"/>
 	<connection t1="Orleans" t2="Paris"/>
 	<connection t1="Orleans" t2="Poitou"/>
-	<connection t1="Orleans" t2="Vichy-Rhone"/>
+	<connection t1="Orleans" t2="Vichy"/>
 	<connection t1="Ottawa-Montreal" t2="S.Quebec"/>		<!-- new -->
 	<connection t1="Ottawa-Montreal" t2="Quebec City-C.Quebec"/>
 	<connection t1="Ottawa-Montreal" t2="Toronto-S.Ontario"/>
@@ -3697,8 +3700,8 @@
 	<connection t1="Prague" t2="N.Austria"/>
 	<connection t1="Primorsky" t2="Vladivostok"/>
 	<connection t1="Pinsk" t2="Prypriat"/>
-	<connection t1="Provence-Marseille" t2="Toulouse-Occitania"/>
-	<connection t1="Provence-Marseille" t2="Vichy-Rhone"/>
+	<connection t1="Marseille" t2="Toulouse"/>
+	<connection t1="Marseille" t2="Vichy"/>
 	<connection t1="Prypriat" t2="Rzesow"/>
 	<connection t1="Pskov" t2="Rzhev"/>
 	<connection t1="Pskov" t2="Vitebsk"/>
@@ -3757,7 +3760,7 @@
 	<connection t1="Stalingrad-Volga" t2="Tula"/>
 	<connection t1="Stockholm" t2="Svealand"/>
 <!--	<connection t1="Switzerland" t2="Venice-Trieste"/>  -->
-<!--	<connection t1="Switzerland" t2="Vichy-Rhone"/>  -->
+<!--	<connection t1="Switzerland" t2="Vichy"/>  -->
 	<connection t1="Tanganyika" t2="Uganda"/>
 	<connection t1="Tarakan-E.Borneo" t2="043 A Sea Zone"/>
 	<connection t1="Taymyr" t2="Yamalia"/>
@@ -3774,7 +3777,7 @@
 	<connection t1="Tomsk" t2="Tyumen"/>
 	<connection t1="Toronto-S.Ontario" t2="Winnipeg"/>
 	<connection t1="Toronto-S.Ontario" t2="Wisconsin-Minnesota"/>
-	<connection t1="Toulouse-Occitania" t2="Vichy-Rhone"/>
+	<connection t1="Toulouse" t2="Vichy"/>
 	<connection t1="Transdanubia" t2="Transylvania"/>
 	<connection t1="Transdanubia" t2="S.Austria"/>
 	<connection t1="Transdanubia" t2="Wallachia"/>
@@ -4921,6 +4924,9 @@
 	  <option name="production" value="6"/>
 	  <option name="capital" value="@AllPlayers@"/>
 	  <option name="victoryCity" value="1"/>
+    </attachment>
+    <attachment foreach="$VictoryCities$" name="territoryAttachment" attachTo="@VictoryCities@"	javaClass="TerritoryAttachment" type="territory">
+	  <option name="victoryCity" value="1"/>
 	</attachment>
 
     <attachment name="conditionAttachment_AlwaysTrue" attachTo="Germans" javaClass="RulesAttachment" type="player">
@@ -5092,6 +5098,17 @@
     <!-- Trigger Attachments -->
     <!-- Victory Triggers -->
     <!-- Political Triggers -->
+    <!-- NOTIFICATIONS -->
+    <attachment name="conditionAttachmentTurn1Check" attachTo="Germans" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
+      <option name="alliedOwnershipTerritories" value="Berlin" count="1"/>
+      <option name="rounds" value="1"/>
+    </attachment>
+    <attachment name="triggerAttachment1note" attachTo="Germans" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+      <option name="trigger" value="conditionAttachmentTurn1Check"/>
+      <option name="notification" value="R01"/>
+      <option name="uses" value="1"/>
+      <option name="when" value="before:germansPurchase"/>
+    </attachment>
     <!-- Player Attachments -->
     <attachment name="playerAttachment" attachTo="Mongolians" javaClass="PlayerAttachment" type="player">
       <option name="captureUnitOnEnteringBy" value="Americans:French:British:ANZAC:Chinese:Russians:Germans:Italians:Japanese"/>
@@ -5445,7 +5462,7 @@
 	<territoryOwner territory="Bengal" 	 	 	 	 	 	owner="British"/>		<!-- -->
 	<territoryOwner territory="Benghazi-Cyrenaica" 	 	 	owner="Italians"/>			<!-- -->
 	<territoryOwner territory="Berar" 	 	 	 	 	 	owner="British"/>		<!-- -->
-	<territoryOwner territory="Bergen-Vestland" 	 	 	owner="Germans"/>		<!-- -->
+	<territoryOwner territory="Bergen" 	 	 	owner="Germans"/>		<!-- -->
 	<territoryOwner territory="Berlin" 	 	 	owner="Germans"/>		<!-- -->
 	<territoryOwner territory="Bermuda" 	 	 	 	 	owner="British"/>		<!-- -->
 	<territoryOwner territory="Beruit-Lebanon" 	 	 	 	owner="British"/>		<!-- -->
@@ -5459,7 +5476,7 @@
 	<territoryOwner territory="Bombay" 	 	 	 	 	 	owner="British"/>		<!-- -->
 	<territoryOwner territory="Bona" 	 	 	 	 	 	owner="Germans"/>		<!-- -->
 	<territoryOwner territory="Boran" 	 	 	 	 	 	owner="British"/>		<!-- -->
-	<territoryOwner territory="Bordeaux-Gascony" 	 	 	owner="Germans"/>		<!-- -->
+	<territoryOwner territory="Bordeaux" 	 	 	owner="Germans"/>		<!-- -->
 	<territoryOwner territory="Boston-New England" 	 	 	owner="Americans"/>			<!-- -->
 	<territoryOwner territory="Bratsk" 	 	 	 	 	 	owner="Russians"/>			<!-- -->
 	<territoryOwner territory="Brest" 	 	 	 	 	 	owner="Russians"/>			<!-- -->
@@ -5508,7 +5525,7 @@
 	<territoryOwner territory="Colorado" 	 	 	 	 	owner="Americans"/>			<!-- -->
 	<territoryOwner territory="Comoros" 	 	 	 	 	owner="Germans"/>		<!-- France -->
 	<territoryOwner territory="Cook Is." 	 	 	 	 	owner="ANZAC"/><!-- -->
-	<territoryOwner territory="Copenhagen-Denmark" 	 	 	owner="Germans"/>		<!-- -->
+	<territoryOwner territory="Denmark" 	 	 	owner="Germans"/>		<!-- -->
 	<territoryOwner territory="Corregidor-Mindoro Is." 	 	owner="Americans"/>			<!-- -->
 	<territoryOwner territory="Corsica" 	 	 	 	 	owner="Germans"/>		<!-- -->
 	<territoryOwner territory="Costa" 	 	 	 	 	 	owner="Neutral_True"/>		<!-- -->
@@ -5818,7 +5835,7 @@
 	<territoryOwner territory="Prague" 	 	owner="Germans"/>		<!-- -->
 	<territoryOwner territory="Primorsky" 	 	 	 	 	owner="Russians"/>			<!-- -->
 	<territoryOwner territory="Pinsk" 	 	 	 	 	 	owner="Russians"/>			<!-- -->
-	<territoryOwner territory="Provence-Marseille" 	 	 	owner="Germans"/>		<!-- -->
+	<territoryOwner territory="Marseille" 	 	 	owner="Germans"/>		<!-- -->
 	<territoryOwner territory="Prypriat" 	 	 	 	 	owner="Russians"/>			<!-- -->
 	<territoryOwner territory="Pskov" 	 	 	 	 	 	owner="Russians"/>			<!-- -->
 	<territoryOwner territory="Punjab" 	 	 	 	 	 	owner="British"/>		<!-- -->
@@ -5920,7 +5937,7 @@
 	<territoryOwner territory="Tokyo" 	 	 	 	 	 	owner="Japanese"/>			<!-- -->
 	<territoryOwner territory="Tomsk" 	 	 	 	 	 	owner="Russians"/>			<!-- -->
 	<territoryOwner territory="Toronto-S.Ontario" 	 	 	owner="British"/>		<!-- -->
-	<territoryOwner territory="Toulouse-Occitania" 	 	 	owner="Germans"/>		<!-- -->
+	<territoryOwner territory="Toulouse" 	 	 	owner="Germans"/>		<!-- -->
 	<territoryOwner territory="Transdanubia" 	 	 	 	owner="Germans"/>		<!-- -->
 	<territoryOwner territory="Transylvania" 	 	 	 	owner="Germans"/>		<!-- -->
 	<territoryOwner territory="Trebizond" 	 	 	 	 	owner="Neutral_True"/>		<!-- -->
@@ -5953,7 +5970,7 @@
 	<territoryOwner territory="Varna" 	 	 	 	 	 	owner="Germans"/>		<!-- -->
 	<territoryOwner territory="Venice-Trieste" 	 	 	 	owner="Italians"/>			<!-- -->
 	<territoryOwner territory="Veracruz" 	 	 	 	 	owner="Neutral_True"/>		<!-- Mexico -->
-	<territoryOwner territory="Vichy-Rhone" 	 	 	 	owner="Germans"/>		<!-- -->
+	<territoryOwner territory="Vichy" 	 	 	 	owner="Germans"/>		<!-- -->
 	<territoryOwner territory="Victoria" 	 	 	 	 	owner="British"/>		<!-- -->
 	<territoryOwner territory="N.Austria" 	 	 	owner="Germans"/>		<!-- -->
 	<territoryOwner territory="Vilna" 	 	 	 	 	 	owner="Russians"/>			<!-- -->
@@ -6137,7 +6154,7 @@
 		<unitPlacement unitType="infantry" territory="Belgium" quantity="2" owner="Germans"/>
 		<unitPlacement unitType="harbour" territory="Belgium" quantity="1" owner="Germans"/>
 		<unitPlacement unitType="infantry" territory="Yugoslavia" quantity="1" owner="Germans"/>
-		<unitPlacement unitType="infantry" territory="Bergen-Vestland" quantity="2" owner="Germans"/>
+		<unitPlacement unitType="infantry" territory="Bergen" quantity="2" owner="Germans"/>
 		<unitPlacement unitType="factory_major" territory="Berlin" quantity="1" owner="Germans"/>
 		<unitPlacement unitType="airfield" territory="Berlin" quantity="1" owner="Germans"/>
 		<unitPlacement unitType="aaGun" territory="Berlin" quantity="3" owner="Germans"/>
@@ -6153,7 +6170,7 @@
 		<unitPlacement unitType="infantry" territory="Bhuyant Uhaa" quantity="1" owner="Russians"/>
 		<unitPlacement unitType="infantry" territory="Bialystok" quantity="3" owner="Russians"/>
 		<unitPlacement unitType="infantry" territory="Bona" quantity="2" owner="Germans"/>
-		<unitPlacement unitType="infantry" territory="Bordeaux-Gascony" quantity="2" owner="Germans"/>
+		<unitPlacement unitType="infantry" territory="Bordeaux" quantity="2" owner="Germans"/>
 		<unitPlacement unitType="infantry" territory="Bratsk" quantity="1" owner="Russians"/>
 		<unitPlacement unitType="infantry" territory="Brest" quantity="2" owner="Russians"/>
 		<unitPlacement unitType="infantry" territory="Brittany" quantity="2" owner="Germans"/>
@@ -6194,7 +6211,7 @@
 		<unitPlacement unitType="factory_minor" territory="Chubu" quantity="1" owner="Japanese"/>
 		<unitPlacement unitType="infantry" territory="Chungking" quantity="3" owner="Chinese"/>
 		<unitPlacement unitType="fighter" territory="Chungking" quantity="1" owner="Chinese"/>
-		<unitPlacement unitType="infantry" territory="Copenhagen-Denmark" quantity="1" owner="Germans"/>
+		<unitPlacement unitType="infantry" territory="Denmark" quantity="1" owner="Germans"/>
 		<unitPlacement unitType="infantry" territory="Crimea" quantity="2" owner="Russians"/>
 		<unitPlacement unitType="aaGun" territory="Crimea" quantity="1" owner="Russians"/>
 		<unitPlacement unitType="infantry" territory="Da Nang-Annam" quantity="1" owner="Japanese"/>
@@ -6451,8 +6468,8 @@
 		<unitPlacement unitType="infantry" territory="Portland-Oregon" quantity="1" owner="Americans"/>
 		<unitPlacement unitType="infantry" territory="Prague" quantity="3" owner="Germans"/>
 		<unitPlacement unitType="infantry" territory="Primorsky" quantity="2" owner="Russians"/>
-		<unitPlacement unitType="infantry" territory="Provence-Marseille" quantity="2" owner="Germans"/>
-		<unitPlacement unitType="harbour" territory="Provence-Marseille" quantity="1" owner="Germans"/>
+		<unitPlacement unitType="infantry" territory="Marseille" quantity="2" owner="Germans"/>
+		<unitPlacement unitType="harbour" territory="Marseille" quantity="1" owner="Germans"/>
 		<unitPlacement unitType="infantry" territory="Pskov" quantity="2" owner="Russians"/>
 		<unitPlacement unitType="factory_minor" territory="Rome-Cen.Italy" quantity="1" owner="Italians"/>
 		<unitPlacement unitType="artillery" territory="Rome-Cen.Italy" quantity="1" owner="Italians"/>
@@ -6553,7 +6570,7 @@
 		<unitPlacement unitType="artillery" territory="Tokyo" quantity="1" owner="Japanese"/>
 		<unitPlacement unitType="tactical_bomber" territory="Tokyo" quantity="1" owner="Japanese"/>
 		<unitPlacement unitType="infantry" territory="Tomsk" quantity="1" owner="Russians"/>
-		<unitPlacement unitType="infantry" territory="Toulouse-Occitania" quantity="2" owner="Germans"/>
+		<unitPlacement unitType="infantry" territory="Toulouse" quantity="2" owner="Germans"/>
 		<unitPlacement unitType="infantry" territory="Transylvania" quantity="3" owner="Germans"/>
 		<unitPlacement unitType="infantry" territory="Troms-Finnmark" quantity="1" owner="Germans"/>
 		<unitPlacement unitType="infantry" territory="Trondheim" quantity="1" owner="Germans"/>
@@ -6578,9 +6595,9 @@
 		<unitPlacement unitType="infantry" territory="Urumchi-Kansu" quantity="1" owner="Chinese"/>
 		<unitPlacement unitType="harbour" territory="Vancouver-W.British Columbia" quantity="1" owner="British"/>
 		<unitPlacement unitType="infantry" territory="Varna" quantity="1" owner="Germans"/>
-		<unitPlacement unitType="factory_minor" territory="Vichy-Rhone" quantity="1" owner="Germans"/>
-		<unitPlacement unitType="infantry" territory="Vichy-Rhone" quantity="1" owner="Germans"/>
-		<unitPlacement unitType="aaGun" territory="Vichy-Rhone" quantity="1" owner="Germans"/>
+		<unitPlacement unitType="factory_minor" territory="Vichy" quantity="1" owner="Germans"/>
+		<unitPlacement unitType="infantry" territory="Vichy" quantity="1" owner="Germans"/>
+		<unitPlacement unitType="aaGun" territory="Vichy" quantity="1" owner="Germans"/>
 		<unitPlacement unitType="infantry" territory="N.Austria" quantity="3" owner="Germans"/>
 		<unitPlacement unitType="infantry" territory="Vitebsk" quantity="3" owner="Russians"/>
 		<unitPlacement unitType="infantry" territory="Vladivostok" quantity="3" owner="Russians"/>
@@ -6801,7 +6818,7 @@
     <property name="Use Triggers" value="true" editable="false">
       <boolean/>
     </property>
-    <property name="Tech Development" value="false" editable="true">
+    <property name="Tech Development" value="true" editable="true">
       <boolean/>
     </property>
     <property name="Remove All Tech Tokens At End Of Turn" value="true" editable="true">
