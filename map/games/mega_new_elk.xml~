@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE game SYSTEM "game.dtd">
 <game>
-  <info name="Mega New Elk" version="1.332"/>
+  <info name="Mega New Elk" version="1.341"/>
   <loader javaClass="games.strategy.triplea.TripleA"/>
   <triplea minimumVersion="1.8"/>
   <diceSides value="6"/>
@@ -746,7 +746,7 @@
 	  <element name="Kyoto-Osaka"/>
 	  <element name="Malaya"/>
 	  <element name="Manila-Luzon"/>
-	  <element name="Meckleburg"/>
+	  <element name="Mecklenburg"/>
 	  <element name="Medan-W.Sumatra"/>
 	  <element name="Michigan-Indiana"/>
 	  <element name="Midway Is."/>
@@ -767,7 +767,7 @@
 	  <element name="Portland-Oregon"/>
 	  <element name="S.Korea-Chosen"/>
 	  <element name="Sacramento-N.California"/>
-	  <element name="Schleswig-Holstein"/>
+	  <element name="Holstein"/>
 	  <element name="Seattle-Washington"/>
 	  <element name="Shanghai-Kiangsu"/>
 	  <element name="Smolensk"/>
@@ -782,7 +782,7 @@
 	  <element name="Wyoming"/>
     </variable>
     <variable name="LandZones4">
- 	  <element name="Baden-Wurttemburg"/>
+ 	  <element name="Wurttemburg"/>
  	  <element name="Baku-Azerbaijan"/>
  	  <element name="Balikpapan-S.Borneo"/>
  	  <element name="Bavaria"/>
@@ -790,7 +790,7 @@
  	  <element name="Calcutta"/>
  	  <element name="Charleston-Savannah"/>
  	  <element name="Florida"/>
- 	  <element name="Frankfurt-Hesse"/>
+ 	  <element name="Frankfurt"/>
  	  <element name="Hamburg"/>
  	  <element name="Honolulu-Pearl Harbor"/>
  	  <element name="Philadelphia-Pennsylvania"/>
@@ -808,7 +808,7 @@
  	  <!-- <element name="Paris"/> French -->
  	  <!-- <element name="Rome-Cen.Italy"/> Italians -->
  	  <element name="San Francisco-Cen.California"/>
- 	  <element name="Westphalia-Rhineland"/>
+ 	  <element name="Rhineland"/>
     </variable>
     <variable name="LandZones6">
  	  <element name="Berlin"/>
@@ -1094,7 +1094,7 @@
 	<territory name="Atyrau"/>
 	<territory name="Auckland-N.New Zealand"/>
 	<territory name="Azores Is."/>
-	<territory name="Baden-Wurttemburg"/>
+	<territory name="Wurttemburg"/>
 	<territory name="Baffin Is."/>
 	<territory name="Baghdad"/>
 	<territory name="Bahamas"/>
@@ -1223,7 +1223,7 @@
 	<territory name="Fezzan"/>
 	<territory name="Fiji"/>
 	<territory name="Florida"/>
-	<territory name="Frankfurt-Hesse"/>
+	<territory name="Frankfurt"/>
 	<territory name="French Dahomey"/>
 	<territory name="Cameroon"/>
 	<territory name="French Guiana"/>
@@ -1385,7 +1385,7 @@
 	<territory name="Mauritania"/>
 	<territory name="Mazandaran"/>
 	<territory name="Mecca"/>
-	<territory name="Meckleburg"/>
+	<territory name="Mecklenburg"/>
 	<territory name="Medan-W.Sumatra"/>
 	<territory name="Medina-Jeddah"/>
 	<territory name="Melbourne-Victoria"/>
@@ -1527,7 +1527,7 @@
 	<territory name="Sarawak-N.Borneo"/>
 	<territory name="Sardinia"/>
 	<territory name="Savo-Ostrobothnia"/>
-	<territory name="Schleswig-Holstein"/>
+	<territory name="Holstein"/>
 	<territory name="Scotland"/>
 	<territory name="Seattle-Washington"/>
 	<territory name="Seychelles"/>
@@ -1638,7 +1638,7 @@
 	<territory name="Wallachia"/>
 	<territory name="Poland"/>
 	<territory name="Washington D.C."/>
-	<territory name="Westphalia-Rhineland"/>
+	<territory name="Rhineland"/>
 	<territory name="Windhoek"/>
 	<territory name="Windward Is."/>
 	<territory name="Winnipeg"/>
@@ -2511,7 +2511,7 @@
 	<connection t1="112 Sea Zone" t2="Bergen"/>
 	<connection t1="112 Sea Zone" t2="Hamburg"/>
 	<connection t1="112 Sea Zone" t2="Juteland"/>
-	<connection t1="112 Sea Zone" t2="Schleswig-Holstein"/>
+	<connection t1="112 Sea Zone" t2="Holstein"/>
 	<connection t1="113 A Sea Zone" t2="113 B Sea Zone"/>
 	<connection t1="113 B Sea Zone" t2="114 Sea Zone"/>
 	<connection t1="113 A Sea Zone" t2="Bergen"/>
@@ -2522,8 +2522,8 @@
 	<connection t1="113 B Sea Zone" t2="Denmark"/>
 	<connection t1="113 B Sea Zone" t2="Juteland"/>
 	<connection t1="113 B Sea Zone" t2="Gotland"/>
-	<connection t1="113 B Sea Zone" t2="Meckleburg"/>
-	<connection t1="113 B Sea Zone" t2="Schleswig-Holstein"/>
+	<connection t1="113 B Sea Zone" t2="Mecklenburg"/>
+	<connection t1="113 B Sea Zone" t2="Holstein"/>
 	<connection t1="114 Sea Zone" t2="115 Sea Zone"/>
 	<connection t1="114 Sea Zone" t2="Danzig-Posen"/>
 	<connection t1="114 Sea Zone" t2="Gotland"/>
@@ -2687,11 +2687,11 @@
 	<connection t1="Almaty" t2="Kyrgyzstan-Tajikistan"/>
 	<connection t1="Almaty" t2="Omsk"/>
 	<connection t1="Almaty" t2="Urumchi-Kansu"/>
-	<connection t1="Alsace" t2="Baden-Wurttemburg"/>
+	<connection t1="Alsace" t2="Wurttemburg"/>
 	<connection t1="Alsace" t2="Belgium"/>
 	<connection t1="Alsace" t2="Lorraine"/>
 <!--	<connection t1="Alsace" t2="Switzerland"/>  -->
-	<connection t1="Alsace" t2="Westphalia-Rhineland"/>
+	<connection t1="Alsace" t2="Rhineland"/>
 	<connection t1="Amapa-Brazilian Guiana" t2="Amazonas"/>
 	<connection t1="Amapa-Brazilian Guiana" t2="Bahia-Norde Este"/>
 	<connection t1="Amapa-Brazilian Guiana" t2="Bogata-Colombia"/>
@@ -2777,12 +2777,12 @@
 	<connection t1="Atyrau" t2="Kuybysev"/>
 	<connection t1="Atyrau" t2="Ryazan"/>
 	<connection t1="Atyrau" t2="Stalingrad-Volga"/>
-	<connection t1="Baden-Wurttemburg" t2="Bavaria"/>
-	<connection t1="Baden-Wurttemburg" t2="Frankfurt-Hesse"/>
-<!--	<connection t1="Baden-Wurttemburg" t2="Switzerland"/>  -->
-	<connection t1="Baden-Wurttemburg" t2="S.Austria"/>
-	<connection t1="Baden-Wurttemburg" t2="Venice-Trieste"/>
-	<connection t1="Baden-Wurttemburg" t2="Westphalia-Rhineland"/>
+	<connection t1="Wurttemburg" t2="Bavaria"/>
+	<connection t1="Wurttemburg" t2="Frankfurt"/>
+<!--	<connection t1="Wurttemburg" t2="Switzerland"/>  -->
+	<connection t1="Wurttemburg" t2="S.Austria"/>
+	<connection t1="Wurttemburg" t2="Venice-Trieste"/>
+	<connection t1="Wurttemburg" t2="Rhineland"/>
 	<connection t1="Baghdad" t2="Basra"/>
 	<connection t1="Baghdad" t2="Fars"/>
 	<connection t1="Baghdad" t2="Haditha-Rutbah"/>
@@ -2809,7 +2809,7 @@
 	<connection t1="Basra" t2="Kuwait"/>
 	<connection t1="Batavia-W.Java" t2="Surabaya-E.Java"/>
 	<connection t1="Bavaria" t2="Berlin"/>
-	<connection t1="Bavaria" t2="Frankfurt-Hesse"/>
+	<connection t1="Bavaria" t2="Frankfurt"/>
 	<connection t1="Bavaria" t2="Prague"/>
 	<connection t1="Bavaria" t2="S.Austria"/>
 	<connection t1="Bavaria" t2="N.Austria"/>
@@ -2829,7 +2829,7 @@
 	<connection t1="Belgium" t2="Lorraine"/>
 	<connection t1="Belgium" t2="Netherlands"/>
 	<connection t1="Belgium" t2="Paris"/>
-	<connection t1="Belgium" t2="Westphalia-Rhineland"/>
+	<connection t1="Belgium" t2="Rhineland"/>
 	<connection t1="Yugoslavia" t2="Cen.Romania"/>
 	<connection t1="Yugoslavia" t2="Montenegro"/>
 	<connection t1="Yugoslavia" t2="Bosnia"/>
@@ -2859,9 +2859,9 @@
 	<connection t1="Bergen" t2="Oslo"/>
 	<connection t1="Bergen" t2="Trondheim"/>
 	<connection t1="Berlin" t2="Danzig-Posen"/>
-	<connection t1="Berlin" t2="Frankfurt-Hesse"/>
+	<connection t1="Berlin" t2="Frankfurt"/>
 	<connection t1="Berlin" t2="Hamburg"/>
-	<connection t1="Berlin" t2="Meckleburg"/>
+	<connection t1="Berlin" t2="Mecklenburg"/>
 	<connection t1="Berlin" t2="Pomerania"/>
 	<connection t1="Berlin" t2="Prague"/>
 	<connection t1="Berlin" t2="Silesia"/>
@@ -3155,8 +3155,8 @@
 <!--	<connection t1="Fezzan" t2="Tibesti"/>	-->
 	<connection t1="Fezzan" t2="E.Algerian-Sahara"/>
 	<connection t1="Florida" t2="Mobile-Alabama"/>
-	<connection t1="Frankfurt-Hesse" t2="Hamburg"/>
-	<connection t1="Frankfurt-Hesse" t2="Westphalia-Rhineland"/>
+	<connection t1="Frankfurt" t2="Hamburg"/>
+	<connection t1="Frankfurt" t2="Rhineland"/>
 	<connection t1="French Dahomey" t2="Gold Coast"/>
 	<connection t1="French Dahomey" t2="Lagos-S.Nigeria"/>
 	<connection t1="French Dahomey" t2="N.Nigeria"/>
@@ -3222,10 +3222,10 @@
 	<connection t1="Halfa" t2="Khartoum-Sudan"/>
 <!--	<connection t1="Halfa" t2="Tibesti"/>	-->
 	<connection t1="Halifax-Nova Scotia" t2="S.Quebec"/>
-	<connection t1="Hamburg" t2="Meckleburg"/>
+	<connection t1="Hamburg" t2="Mecklenburg"/>
 	<connection t1="Hamburg" t2="Netherlands"/>
-	<connection t1="Hamburg" t2="Schleswig-Holstein"/>
-	<connection t1="Hamburg" t2="Westphalia-Rhineland"/>
+	<connection t1="Hamburg" t2="Holstein"/>
+	<connection t1="Hamburg" t2="Rhineland"/>
 	<connection t1="Hanoi-Tonkin" t2="Kunming"/>
 	<connection t1="Hanoi-Tonkin" t2="Kwangsi"/>
 	<connection t1="Hanoi-Tonkin" t2="Laos"/>
@@ -3314,7 +3314,7 @@
 	<connection t1="Juba-S.Sudan" t2="Uganda"/>
 	<connection t1="Juneau" t2="Vancouver-W.British Columbia"/>
 	<connection t1="Juneau" t2="Yukon"/>
-	<connection t1="Juteland" t2="Schleswig-Holstein"/>
+	<connection t1="Juteland" t2="Holstein"/>
 	<connection t1="Kabul" t2="Kandahar"/>
 	<connection t1="Kabul" t2="Konduz"/>
 	<connection t1="Kabul" t2="Punjab"/>
@@ -3550,8 +3550,8 @@
 	<connection t1="Mecca" t2="Medina-Jeddah"/>
 	<connection t1="Mecca" t2="Nejd"/>
 	<connection t1="Mecca" t2="S.Hijaz"/>
-	<connection t1="Meckleburg" t2="Pomerania"/>
-	<connection t1="Meckleburg" t2="Schleswig-Holstein"/>
+	<connection t1="Mecklenburg" t2="Pomerania"/>
+	<connection t1="Mecklenburg" t2="Holstein"/>
 	<connection t1="Medan-W.Sumatra" t2="Palembang-S.Sumatra"/>
 	<connection t1="Medina-Jeddah" t2="Nafud"/>
 	<connection t1="Medina-Jeddah" t2="Palestine"/>
@@ -3634,7 +3634,7 @@
 	<connection t1="Nejd" t2="Rub Al Kali"/>
 	<connection t1="Nenetsia" t2="Yamalia"/>
 <!--	<connection t1="Nepal" t2="W.Tibet"/>	-->
-	<connection t1="Netherlands" t2="Westphalia-Rhineland"/>
+	<connection t1="Netherlands" t2="Rhineland"/>
 	<connection t1="Nevada" t2="Portland-Oregon"/>
 	<connection t1="Nevada" t2="Sacramento-N.California"/>
 	<connection t1="Nevada" t2="Utah"/>
@@ -4808,23 +4808,33 @@
     <attachment name="unitAttachment" attachTo="factory_minor" javaClass="UnitAttachment" type="unitType">
       <option name="isFactory" value="true"/>
       
-      <option name="canOnlyBePlacedInTerritoryValuedAtX" value="1"/>
+      <option name="canOnlyBePlacedInTerritoryValuedAtX" value="3"/>
       <!--<option name="destroyedWhenCapturedBy" value="Chinese"/>-->
       <option name="isAAforBombingThisUnitOnly" value="true"/>
       <option name="canProduceXUnits" value="3"/>
       <option name="maxDamage" value="6"/>
+      <option name="givesMovement" value="1:infantry"/>
+      <option name="givesMovement" value="1:armour"/>
+      <option name="givesMovement" value="1:mech_infantry"/>
+      <option name="givesMovement" value="1:artillery"/>
+      <option name="givesMovement" value="1:aaGun"/>
     </attachment>
     <!-- Factory Major -->
     <attachment name="unitAttachment" attachTo="factory_major" javaClass="UnitAttachment" type="unitType">
       <option name="isFactory" value="true"/>
       
-      <option name="canOnlyBePlacedInTerritoryValuedAtX" value="3"/>
+      <option name="canOnlyBePlacedInTerritoryValuedAtX" value="4"/>
       <!--<option name="destroyedWhenCapturedBy" value="Chinese"/>-->
       <option name="isAAforBombingThisUnitOnly" value="true"/>
       <option name="canProduceXUnits" value="10"/>
       <option name="maxDamage" value="20"/>
       <option name="whenCapturedChangesInto" value="any:any:true:factory_minor:1"/>
       <option name="special" value="canOnlyPlaceInOriginalTerritories"/>
+      <option name="givesMovement" value="1:infantry"/>
+      <option name="givesMovement" value="1:armour"/>
+      <option name="givesMovement" value="1:mech_infantry"/>
+      <option name="givesMovement" value="1:artillery"/>
+      <option name="givesMovement" value="1:aaGun"/>
     </attachment>
     <!-- Factory Upgrade -->
     <attachment name="unitAttachment" attachTo="factory_upgrade" javaClass="UnitAttachment" type="unitType">
@@ -5441,7 +5451,7 @@
 	<territoryOwner territory="Atyrau" 	 	 	 	 	 	owner="Russians"/>			<!-- -->
 	<territoryOwner territory="Auckland-N.New Zealand" 	 	owner="ANZAC"/><!-- -->
 	<territoryOwner territory="Azores Is." 	 	 	 	 	owner="Neutral_True"/>		<!-- -->
-	<territoryOwner territory="Baden-Wurttemburg" 	 	 	owner="Germans"/>		<!-- -->
+	<territoryOwner territory="Wurttemburg" 	 	 	owner="Germans"/>		<!-- -->
 	<territoryOwner territory="Baffin Is." 	 	 	 	 	owner="British"/>		<!-- -->
 	<territoryOwner territory="Baghdad" 	 	 	 	 	owner="British"/>		<!-- Iraq -->
 	<territoryOwner territory="Bahamas" 	 	 	 	 	owner="British"/>		<!-- -->
@@ -5570,7 +5580,7 @@
 	<territoryOwner territory="Fezzan" 	 	 	 	 	 	owner="Italians"/>			<!-- -->
 	<territoryOwner territory="Fiji" 	 	 	 	 	 	owner="ANZAC"/><!-- -->
 	<territoryOwner territory="Florida" 	 	 	 	 	owner="Americans"/>			<!-- -->
-	<territoryOwner territory="Frankfurt-Hesse" 	 	 	owner="Germans"/>		<!-- -->
+	<territoryOwner territory="Frankfurt" 	 	 	owner="Germans"/>		<!-- -->
 	<territoryOwner territory="French Dahomey" 	 	 	 	owner="Germans"/>		<!-- -->
 	<territoryOwner territory="Cameroon" 					owner="British"/>		<!-- France -->
 	<territoryOwner territory="French Guiana" 	 	 	 	owner="Germans"/>		<!-- -->
@@ -5732,7 +5742,7 @@
 	<territoryOwner territory="Mauritania" 	 	 	 	 	owner="Germans"/>		<!-- France -->
 	<territoryOwner territory="Mazandaran" 	 	 	 	 	owner="Russians"/>			<!-- Iran-->
 	<territoryOwner territory="Mecca" 	 	 	 	 	 	owner="Neutral_True"/>		<!-- -->
-	<territoryOwner territory="Meckleburg" 	 	 	 	 	owner="Germans"/>		<!-- -->
+	<territoryOwner territory="Mecklenburg" 	 	 	 	 	owner="Germans"/>		<!-- -->
 	<territoryOwner territory="Medan-W.Sumatra" 	 	 	owner="ANZAC"/><!-- -->
 	<territoryOwner territory="Medina-Jeddah" 	 	 	 	owner="Neutral_True"/>		<!-- -->
 	<territoryOwner territory="Melbourne-Victoria" 	 	 	owner="ANZAC"/><!-- -->
@@ -5874,7 +5884,7 @@
 	<territoryOwner territory="Sarawak-N.Borneo" 	 	 	owner="ANZAC"/><!-- -->
 	<territoryOwner territory="Sardinia" 	 	 	 	 	owner="Italians"/>			<!-- -->
 	<territoryOwner territory="Savo-Ostrobothnia" 	 	 	owner="Germans"/>		<!-- -->
-	<territoryOwner territory="Schleswig-Holstein" 	 	 	owner="Germans"/>		<!-- -->
+	<territoryOwner territory="Holstein" 	 	 	owner="Germans"/>		<!-- -->
 	<territoryOwner territory="Scotland" 	 	 	 	 	owner="British"/>		<!-- -->
 	<territoryOwner territory="Seattle-Washington" 	 	 	owner="Americans"/>			<!-- -->
 	<territoryOwner territory="Seychelles" 	 	 	 	 	owner="British"/>		<!-- -->
@@ -5985,7 +5995,7 @@
 	<territoryOwner territory="Wallachia" 	 	 	 	 	owner="Germans"/>			<!-- -->
 	<territoryOwner territory="Poland" 	 	 	owner="Germans"/>		<!-- -->
 	<territoryOwner territory="Washington D.C." 	 	 	owner="Americans"/>			<!-- -->
-	<territoryOwner territory="Westphalia-Rhineland" 	 	owner="Germans"/>		<!-- -->
+	<territoryOwner territory="Rhineland" 	 	owner="Germans"/>		<!-- -->
 	<territoryOwner territory="Windhoek" 	 	 	 	 	owner="British"/>		<!-- Germans -->
 	<territoryOwner territory="Windward Is." 	 	 	 	owner="British"/>		<!-- -->
 	<territoryOwner territory="Winnipeg" 	 	 	 	 	owner="British"/>		<!-- -->
@@ -6145,7 +6155,7 @@
 		<unitPlacement unitType="infantry" territory="Astrakhan" quantity="1" owner="Russians"/>
 		<unitPlacement unitType="infantry" territory="Greece" quantity="2" owner="Germans"/>
 		<unitPlacement unitType="aaGun" territory="Greece" quantity="1" owner="Germans"/>
-		<unitPlacement unitType="infantry" territory="Baden-Wurttemburg" quantity="1" owner="Germans"/>
+		<unitPlacement unitType="infantry" territory="Wurttemburg" quantity="1" owner="Germans"/>
 		<unitPlacement unitType="infantry" territory="Baku-Azerbaijan" quantity="2" owner="Russians"/>
 		<unitPlacement unitType="infantry" territory="Bangkok-Siam" quantity="1" owner="Japanese"/>
 		<unitPlacement unitType="infantry" territory="Bavaria" quantity="2" owner="Germans"/>
@@ -6227,8 +6237,8 @@
 		<unitPlacement unitType="aaGun" territory="Dutch Harbor-Aleutian Is." quantity="1" owner="Americans"/>
 		<unitPlacement unitType="infantry" territory="Dutch Harbor-Aleutian Is." quantity="1" owner="Americans"/>
 		<unitPlacement unitType="infantry" territory="Estonia" quantity="1" owner="Russians"/>
-		<unitPlacement unitType="infantry" territory="Frankfurt-Hesse" quantity="1" owner="Germans"/>
-		<unitPlacement unitType="factory_minor" territory="Frankfurt-Hesse" quantity="1" owner="Germans"/>
+		<unitPlacement unitType="infantry" territory="Frankfurt" quantity="1" owner="Germans"/>
+		<unitPlacement unitType="factory_minor" territory="Frankfurt" quantity="1" owner="Germans"/>
 		<unitPlacement unitType="fighter" territory="Gibraltar" quantity="1" owner="British"/>
 		<unitPlacement unitType="harbour" territory="Gibraltar" quantity="1" owner="British"/>
 		<unitPlacement unitType="infantry" territory="Gizhiga" quantity="1" owner="Russians"/>
@@ -6384,7 +6394,7 @@
 		<unitPlacement unitType="airfield" territory="Manila-Luzon" quantity="1" owner="Americans"/>
 		<unitPlacement unitType="aaGun" territory="Manila-Luzon" quantity="1" owner="Americans"/>
 		<unitPlacement unitType="infantry" territory="Mariupol" quantity="1" owner="Russians"/>
-		<unitPlacement unitType="infantry" territory="Meckleburg" quantity="1" owner="Germans"/>
+		<unitPlacement unitType="infantry" territory="Mecklenburg" quantity="1" owner="Germans"/>
 		<unitPlacement unitType="airfield" territory="Midway Is." quantity="1" owner="Americans"/>
 		<unitPlacement unitType="aaGun" territory="Midway Is." quantity="1" owner="Americans"/>
 		<unitPlacement unitType="infantry" territory="Midway Is." quantity="2" owner="Americans"/>
@@ -6503,9 +6513,9 @@
 		<unitPlacement unitType="aaGun" territory="San Francisco-Cen.California" quantity="1" owner="Americans"/>
 		<unitPlacement unitType="infantry" territory="Savo-Ostrobothnia" quantity="2" owner="Germans"/>
 		<unitPlacement unitType="artillery" territory="Savo-Ostrobothnia" quantity="1" owner="Germans"/>
-		<unitPlacement unitType="factory_major" territory="Schleswig-Holstein" quantity="1" owner="Germans"/>
-		<unitPlacement unitType="harbour" territory="Schleswig-Holstein" quantity="1" owner="Germans"/>
-		<unitPlacement unitType="infantry" territory="Schleswig-Holstein" quantity="2" owner="Germans"/>
+		<unitPlacement unitType="factory_major" territory="Holstein" quantity="1" owner="Germans"/>
+		<unitPlacement unitType="harbour" territory="Holstein" quantity="1" owner="Germans"/>
+		<unitPlacement unitType="infantry" territory="Holstein" quantity="2" owner="Germans"/>
 		<unitPlacement unitType="harbour" territory="Scotland" quantity="1" owner="British"/>
 		<unitPlacement unitType="aaGun" territory="Seattle-Washington" quantity="1" owner="Americans"/>
 		<unitPlacement unitType="infantry" territory="Seattle-Washington" quantity="2" owner="Americans"/>
@@ -6617,10 +6627,10 @@
 		<unitPlacement unitType="bomber" territory="Poland" quantity="1" owner="Germans"/>
 		<unitPlacement unitType="artillery" territory="Poland" quantity="3" owner="Germans"/>
 		<unitPlacement unitType="airfield" territory="Poland" quantity="1" owner="Germans"/>
-		<unitPlacement unitType="infantry" territory="Westphalia-Rhineland" quantity="2" owner="Germans"/>
-		<unitPlacement unitType="fighter" territory="Westphalia-Rhineland" quantity="1" owner="Germans"/>
-		<unitPlacement unitType="aaGun" territory="Westphalia-Rhineland" quantity="1" owner="Germans"/>
-		<unitPlacement unitType="factory_major" territory="Westphalia-Rhineland" quantity="1" owner="Germans"/>
+		<unitPlacement unitType="infantry" territory="Rhineland" quantity="2" owner="Germans"/>
+		<unitPlacement unitType="fighter" territory="Rhineland" quantity="1" owner="Germans"/>
+		<unitPlacement unitType="aaGun" territory="Rhineland" quantity="1" owner="Germans"/>
+		<unitPlacement unitType="factory_major" territory="Rhineland" quantity="1" owner="Germans"/>
 		<unitPlacement unitType="infantry" territory="Wuhan" quantity="3" owner="Japanese"/>
 		<unitPlacement unitType="infantry" territory="Yakutia" quantity="1" owner="Russians"/>
 		<unitPlacement unitType="infantry" territory="Yakutsk" quantity="2" owner="Russians"/>
