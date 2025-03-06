@@ -5035,7 +5035,7 @@
 			<option name="trigger" value="conditionAttachmentTurn1Check"/>
 			<option name="notification" value="R01"/>
 			<option name="uses" value="1"/>
-			<option name="when" value="before:germansTech"/>
+			<option name="when" value="before:germansPurchase"/>
 		</attachment>
 		<!-- Player Attachments -->
 		<attachment name="playerAttachment" attachTo="Mongolians" javaClass="PlayerAttachment" type="player">
