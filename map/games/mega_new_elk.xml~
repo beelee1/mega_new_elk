@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE game SYSTEM "game.dtd">
 <game>
-	<info name="Mega New Elk" version="1.35"/>
+	<info name="Mega New Elk" version="1.35.2"/>
 	<loader javaClass="games.strategy.triplea.TripleA"/>
 	<triplea minimumVersion="2.5"/>
 	<diceSides value="6"/>
@@ -829,6 +829,17 @@
 			<element name="French"/>
 			<element name="Italians"/>
 			<element name="Chinese"/>
+		</variable>
+		<variable name="AllPlayersNoCaps">
+			<element name="germans"/>
+			<element name="british"/>
+			<element name="russians"/>
+			<element name="anzac"/>
+			<element name="japanese"/>
+			<element name="americans"/>
+			<element name="french"/>
+			<element name="italians"/>
+			<element name="chinese"/>
 		</variable>
 		<variable name="CapitalZones">
 			<element name="$LandZones6$"/>
@@ -3932,20 +3943,20 @@
 		<sequence>
 			<step name="gameInitDelegate" delegate="initDelegate" maxRunCount="1"/>
 			<!-- Bidding Phase -->
-			<step name="germanBid" delegate="bid" player="Germans" maxRunCount="1"/>
-			<step name="germanBidPlace" delegate="placeBid" player="Germans" maxRunCount="1"/>
-			<step name="russianBid" delegate="bid" player="Russians" maxRunCount="1"/>
-			<step name="russianBidPlace" delegate="placeBid" player="Russians" maxRunCount="1"/>
+			<step name="germansBid" delegate="bid" player="Germans" maxRunCount="1"/>
+			<step name="germansBidPlace" delegate="placeBid" player="Germans" maxRunCount="1"/>
+			<step name="russiansBid" delegate="bid" player="Russians" maxRunCount="1"/>
+			<step name="russiansBidPlace" delegate="placeBid" player="Russians" maxRunCount="1"/>
 			<step name="japaneseBid" delegate="bid" player="Japanese" maxRunCount="1"/>
 			<step name="japaneseBidPlace" delegate="placeBid" player="Japanese" maxRunCount="1"/>
-			<step name="americanBid" delegate="bid" player="Americans" maxRunCount="1"/>
-			<step name="americanBidPlace" delegate="placeBid" player="Americans" maxRunCount="1"/>
+			<step name="americansBid" delegate="bid" player="Americans" maxRunCount="1"/>
+			<step name="americansBidPlace" delegate="placeBid" player="Americans" maxRunCount="1"/>
 			<step name="chineseBid" delegate="bid" player="Chinese" maxRunCount="1"/>
 			<step name="chineseBidPlace" delegate="placeBid" player="Chinese" maxRunCount="1"/>
 			<step name="britishBid" delegate="bid" player="British" maxRunCount="1"/>
 			<step name="britishBidPlace" delegate="placeBid" player="British" maxRunCount="1"/>
-			<step name="italianBid" delegate="bid" player="Italians" maxRunCount="1"/>
-			<step name="italianBidPlace" delegate="placeBid" player="Italians" maxRunCount="1"/>
+			<step name="italiansBid" delegate="bid" player="Italians" maxRunCount="1"/>
+			<step name="italiansBidPlace" delegate="placeBid" player="Italians" maxRunCount="1"/>
 			<step name="anzacBid" delegate="bid" player="ANZAC" maxRunCount="1"/>
 			<step name="anzacBidPlace" delegate="placeBid" player="ANZAC" maxRunCount="1"/>
 			<step name="frenchBid" delegate="bid" player="French" maxRunCount="1"/>
@@ -4137,88 +4148,70 @@
 			<cost resource="PUs" quantity="3" />
 			<result resourceOrUnit="infantry" quantity="1"/>
 		</productionRule>
-	 
 		<productionRule name="buyMech_InfantryIndustrialTechnology">
 			<cost resource="PUs" quantity="4" />
 			<result resourceOrUnit="mech_infantry" quantity="1"/>
 		</productionRule>
-	 
 		<productionRule name="buyArtilleryIndustrialTechnology">
 			<cost resource="PUs" quantity="4" />
 			<result resourceOrUnit="artillery" quantity="1"/>
 		</productionRule>
-	 
 		<productionRule name="buyArmourIndustrialTechnology">
 			<cost resource="PUs" quantity="6" />
 			<result resourceOrUnit="armour" quantity="1"/>
 		</productionRule>
-	 
 		<productionRule name="buyFighterIndustrialTechnology">
 			<cost resource="PUs" quantity="10" />
 			<result resourceOrUnit="fighter" quantity="1"/>
 		</productionRule>
-	 
 		<productionRule name="buyTactical_BomberIndustrialTechnology">
 			<cost resource="PUs" quantity="11" />
 			<result resourceOrUnit="tactical_bomber" quantity="1"/>
 		</productionRule>
-	 
 		<productionRule name="buyBomberIndustrialTechnology">
 			<cost resource="PUs" quantity="12" />
 			<result resourceOrUnit="bomber" quantity="1"/>
 		</productionRule>
-	 
 		<productionRule name="buyTransportIndustrialTechnology">
 			<cost resource="PUs" quantity="6" />
 			<result resourceOrUnit="transport" quantity="1"/>
 		</productionRule>
-	 
 		<productionRule name="buyCarrierIndustrialTechnology">
 			<cost resource="PUs" quantity="13" />
 			<result resourceOrUnit="carrier" quantity="1"/>
 		</productionRule>
-	 
 		<productionRule name="buyDestroyerIndustrialTechnology">
 			<cost resource="PUs" quantity="7" />
 			<result resourceOrUnit="destroyer" quantity="1"/>
 		</productionRule>
-
 		<productionRule name="buyCruiserIndustrialTechnology">
 			<cost resource="PUs" quantity="9" />
 			<result resourceOrUnit="destroyer" quantity="1"/>
 		</productionRule>
-	 
 		<productionRule name="buyBattleshipIndustrialTechnology">
 			<cost resource="PUs" quantity="17" />
 			<result resourceOrUnit="battleship" quantity="1"/>
 		</productionRule>
-	 
 		<productionRule name="buySubmarineIndustrialTechnology">
 			<cost resource="PUs" quantity="5" />
 			<result resourceOrUnit="submarine" quantity="1"/>
 		</productionRule>
-	 
-	 
 		<productionRule name="buyFactory_MinorIndustrialTechnology">
 			<cost resource="PUs" quantity="12" />
 			<result resourceOrUnit="factory_minor" quantity="1"/>
 		</productionRule>
-	 
 		<productionRule name="buyFactory_MajorIndustrialTechnology">
 			<cost resource="PUs" quantity="30" />
 			<result resourceOrUnit="factory_major" quantity="1"/>
 		</productionRule>
-	 
 		<productionRule name="buyAirfieldIndustrialTechnology">
 			<cost resource="PUs" quantity="10" />
 			<result resourceOrUnit="airfield" quantity="1"/>
 		</productionRule>
-
 		<productionRule name="buyHarbourIndustrialTechnology">
 			<cost resource="PUs" quantity="10" />
 			<result resourceOrUnit="harbour" quantity="1"/>
 		</productionRule>
-	 
 		<productionRule name="buyAAGunIndustrialTechnology">
 			<cost resource="PUs" quantity="6" />
 			<result resourceOrUnit="aaGun" quantity="1"/>
@@ -4334,20 +4327,20 @@
 		<!--<productionFrontier name="productionIndustrialTechnology">
 			<frontierRules name="buyInfantryIndustrialTechnology"/>
 			<frontierRules name="buyMech_InfantryIndustrialTechnology"/>
-		<frontierRules name="buyArtilleryIndustrialTechnology"/>
+			<frontierRules name="buyArtilleryIndustrialTechnology"/>
 			<frontierRules name="buyArmourIndustrialTechnology"/>
 			<frontierRules name="buyFighterIndustrialTechnology"/>
-		<frontierRules name="buyTactical_BomberIndustrialTechnology"/>
+			<frontierRules name="buyTactical_BomberIndustrialTechnology"/>
 			<frontierRules name="buyBomberIndustrialTechnology"/>
 			<frontierRules name="buyTransportIndustrialTechnology"/>
 			<frontierRules name="buySubmarineIndustrialTechnology"/>
 			<frontierRules name="buyCarrierIndustrialTechnology"/>
 			<frontierRules name="buyDestroyerIndustrialTechnology"/>
-		<frontierRules name="buyCruiserIndustrialTechnology"/>
+			<frontierRules name="buyCruiserIndustrialTechnology"/>
 			<frontierRules name="buyBattleshipIndustrialTechnology"/>
 			<frontierRules name="buyAAGunIndustrialTechnology"/>
-		<frontierRules name="buyFactory_MinorIndustrialTechnology"/>
-		<frontierRules name="buyFactory_MajorIndustrialTechnology"/>
+			<frontierRules name="buyFactory_MinorIndustrialTechnology"/>
+			<frontierRules name="buyFactory_MajorIndustrialTechnology"/>
 			<frontierRules name="buyAirfieldIndustrialTechnology"/>
 			<frontierRules name="buyHarbourIndustrialTechnology"/>
 		</productionFrontier> -->
@@ -4379,20 +4372,20 @@
 		<playerRepair player="Russians" frontier="repair"/>
 		<playerRepair player="Japanese" frontier="repair"/>
 	</production>
-				<technology>
-					<technologies>
-						<techname name="superSub"/>
-						<techname name="jetPower"/>
-						<techname name="shipyards"/>
-						<techname name="aARadar"/>
-						<techname name="longRangeAir"/>
-						<techname name="heavyBomber"/>
-						<techname name="improvedArtillerySupport"/>
-						<techname name="rocket"/>
-						<techname name="Airborne_Forces"/>
-						<techname name="increasedFactoryProduction"/>
-						<techname name="warBonds"/>
-						<techname name="Improved_Mech_Inf"/>
+	<technology>
+		<technologies>
+			<techname name="superSub"/>
+			<techname name="jetPower"/>
+			<techname name="shipyards"/>
+			<techname name="aARadar"/>
+			<techname name="longRangeAir"/>
+			<techname name="heavyBomber"/>
+			<techname name="improvedArtillerySupport"/>
+			<techname name="rocket"/>
+			<techname name="Airborne_Forces"/>
+			<techname name="increasedFactoryProduction"/>
+			<techname name="warBonds"/>
+			<techname name="Improved_Mech_Inf"/>
 			<!-- Airborne_Forces and Improved_Mech_Inf are custom techs... but all will end up being customized -->
 		</technologies>
 		<playerTech player="Germans">
@@ -4638,9 +4631,9 @@
 			<option name="isInfantry" value="true"/>
 			<option name="attack" value="1"/>
 			<option name="defense" value="2"/>
-		<!-- <option name="artillerySupportable" value="true"/> -->
+			<!-- <option name="artillerySupportable" value="true"/> -->
 			<option name="isAirTransportable" value="true"/>
-			<option name="canBeCapturedOnEnteringBy" value="French:Americans:British:Russians:Germans:Italians:Japanese:ANZAC:Chinese"/>
+			<option name="canBeCapturedOnEnteringBy" value="$AllPlayers$"/>
 			<option name="canBeGivenByTerritoryTo" value="British"/>
 		</attachment>
 		<!-- Mech Infantry -->
@@ -4681,6 +4674,7 @@
 			<option name="defense" value="4"/>
 			<option name="canScramble" value="true"/>
 			<option name="maxScrambleDistance" value="1"/>
+			<option name="canAirBattle" value="true"/>
 			<option name="canIntercept" value="true"/>
 			<option name="canEscort" value="true"/>
 			<option name="airDefense" value="1"/>
@@ -4700,6 +4694,7 @@
 			<option name="bombingMaxDieSides" value="6"/>
 			<option name="bombingBonus" value="2"/>
 			<option name="canBeGivenByTerritoryTo" value="British"/>
+			<option name="canAirBattle" value="true"/>
 			<option name="airAttack" value="1"/>
 		</attachment>
 		<!-- Tactical Bomber -->
@@ -4713,6 +4708,7 @@
 			<option name="canScramble" value="true"/>
 			<option name="maxScrambleDistance" value="1"/>
 			<option name="canBeGivenByTerritoryTo" value="British"/>
+			<option name="canAirBattle" value="true"/>
 			<option name="airAttack" value="1"/>
 			<option name="blockade" value="2"/>
 			<option name="bombingMaxDieSides" value="6"/>
@@ -4777,11 +4773,16 @@
 		<!-- Submarine -->
 		<attachment name="unitAttachment" attachTo="submarine" javaClass="UnitAttachment" type="unitType">
 			<option name="movement" value="2"/>
-			<option name="isSea" value="true"/>
-			<option name="isSub" value="true"/>
 			<option name="attack" value="2"/>
 			<option name="defense" value="1"/>
 			<option name="blockade" value="2"/>
+			<option name="isSea" value="true"/>
+			<option name="canEvade" value="true"/>
+			<option name="isFirstStrike" value="true"/>
+			<option name="canMoveThroughEnemies" value="true"/>
+			<option name="canBeMovedThroughByEnemies" value="true"/>
+			<option name="canNotTarget" value="fighter:tactical_bomber:bomber"/>
+			<option name="canNotBeTargetedBy" value="fighter:tactical_bomber:bomber"/>
 			<!-- stuff for targeting unescorted transports (we are using the new-fangled aa-gun code)
 			<option name="isAAforFlyOverOnly" value="true"/>
 			<option name="targetsAA" value="transport"/>
@@ -4795,49 +4796,67 @@
 			<!-- TODO: submarines now prevent amphibious assaults unless there is an owned warship present -->
 		</attachment>
 		<!-- Factory Minor -->
-		<attachment name="unitAttachment" attachTo="factory_minor" javaClass="UnitAttachment" type="unitType">
-			<option name="isFactory" value="true"/>
-
-			<option name="canOnlyBePlacedInTerritoryValuedAtX" value="2"/>
-			<!-- <option name="destroyedWhenCapturedBy" value="Chinese"/> -->
-			<option name="isAAforBombingThisUnitOnly" value="true"/>
-			<option name="canProduceXUnits" value="3"/>
-			<option name="maxDamage" value="6"/>
-			<option name="givesMovement" value="1:infantry"/>
-      <option name="givesMovement" value="1:armour"/>
-      <option name="givesMovement" value="1:mech_infantry"/>
+		<attachment name="unitAttachment" attachTo="factory_minor" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+      <option name="isFactory" value="true"/>
+      
+      <option name="canOnlyBePlacedInTerritoryValuedAtX" value="1"/>
+      <!--<option name="destroyedWhenCapturedBy" value="Chinese"/>-->
+      <option name="isAAforBombingThisUnitOnly" value="true"/>
+      <option name="canProduceXUnits" value="3"/>
+      <option name="maxDamage" value="6"/>
+      <option name="givesMovement" value="1:infantry"/>
       <option name="givesMovement" value="1:artillery"/>
+      <option name="givesMovement" value="1:mech_infantry"/>
+      <option name="givesMovement" value="1:armour"/>
       <option name="givesMovement" value="1:aaGun"/>
-		</attachment>
+    </attachment>
 		<!-- Factory Major -->
 		<attachment name="unitAttachment" attachTo="factory_major" javaClass="UnitAttachment" type="unitType">
-			<option name="isFactory" value="true"/>
-
-			<option name="canOnlyBePlacedInTerritoryValuedAtX" value="3"/>
-			<!-- <option name="destroyedWhenCapturedBy" value="Chinese"/> -->
-			<option name="isAAforBombingThisUnitOnly" value="true"/>
-			<option name="canProduceXUnits" value="10"/>
+			<option name="canBeDamaged" value="true"/>
+			<option name="isInfrastructure" value="true"/>
+			<option name="canProduceUnits" value="true"/>
+			<option name="isConstruction" value="true"/>
+			<option name="constructionType" value="factory"/>
 			<option name="maxDamage" value="20"/>
+			<option name="maxOperationalDamage" value="2"/>
+         <option name="maxConstructionsPerTypePerTerr" value="2"/>
+			<option name="constructionsPerTerrPerTypePerTurn" value="1"/>
+			<option name="canProduceXUnits" value="10"/>
+			<option name="canOnlyBePlacedInTerritoryValuedAtX" value="3"/>
+			<option name="destroyedWhenCapturedBy" value="Chinese"/>
+			<!-- <option name="special" value="canOnlyPlaceInOriginalTerritories"/> -->
+			<option name="isAAforBombingThisUnitOnly" value="true"/>
 			<option name="whenCapturedChangesInto" value="any:any:true:factory_minor:1"/>
-			<option name="special" value="canOnlyPlaceInOriginalTerritories"/>
 			<option name="givesMovement" value="1:infantry"/>
-      <option name="givesMovement" value="1:armour"/>
-      <option name="givesMovement" value="1:mech_infantry"/>
-      <option name="givesMovement" value="1:artillery"/>
-      <option name="givesMovement" value="1:aaGun"/>
+			<option name="givesMovement" value="1:artillery"/>
+			<option name="givesMovement" value="1:mech_infantry"/>
+			<option name="givesMovement" value="1:armour"/>
+			<option name="givesMovement" value="1:aaGun"/>
 		</attachment>
 		<!-- Factory Upgrade -->
 		<attachment name="unitAttachment" attachTo="factory_upgrade" javaClass="UnitAttachment" type="unitType">
-			<option name="isFactory" value="true"/>
-
-			<option name="canOnlyBePlacedInTerritoryValuedAtX" value="3"/>
-			<!-- <option name="destroyedWhenCapturedBy" value="Chinese"/> -->
-			<option name="isAAforBombingThisUnitOnly" value="true"/>
-			<option name="canProduceXUnits" value="10"/>
+			<option name="canBeDamaged" value="true"/>
+			<option name="isInfrastructure" value="true"/>
+			<option name="canProduceUnits" value="true"/>
+			<option name="isConstruction" value="true"/>
+			<option name="constructionType" value="factory"/>
 			<option name="maxDamage" value="20"/>
-			<option name="consumesUnits" value="1:factory_minor"/>
+			<option name="maxOperationalDamage" value="2"/>
+         <option name="maxConstructionsPerTypePerTerr" value="2"/>
+			<option name="constructionsPerTerrPerTypePerTurn" value="1"/>
+			<option name="canProduceXUnits" value="10"/>
+			<option name="canOnlyBePlacedInTerritoryValuedAtX" value="3"/>
+			<option name="destroyedWhenCapturedBy" value="Chinese"/>
+			<!-- <option name="special" value="canOnlyPlaceInOriginalTerritories"/> -->
+			<option name="isAAforBombingThisUnitOnly" value="true"/>
 			<option name="whenCapturedChangesInto" value="any:any:true:factory_minor:1"/>
-			<option name="special" value="canOnlyPlaceInOriginalTerritories"/>
+			<option name="consumesUnits" value="1:factory_minor"/>
+			<option name="createsUnitsList" value="1:factory_major"/>
+			<option name="givesMovement" value="1:infantry"/>
+			<option name="givesMovement" value="1:artillery"/>
+			<option name="givesMovement" value="1:mech_infantry"/>
+			<option name="givesMovement" value="1:armour"/>
+			<option name="givesMovement" value="1:aaGun"/>
 		</attachment>
 		<!-- Airfield -->
 		<attachment name="unitAttachment" attachTo="airfield" javaClass="UnitAttachment" type="unitType">
@@ -4851,12 +4870,10 @@
 			<option name="constructionType" value="airfield_structure"/>
 			<option name="constructionsPerTerrPerTypePerTurn" value="1"/>
 			<option name="maxConstructionsPerTypePerTerr" value="1"/>
-			<option name="movement" value="0"/>
 			<option name="givesMovement" value="1:fighter"/>
 			<option name="givesMovement" value="1:bomber"/>
 			<option name="givesMovement" value="1:tactical_bomber"/>
 			<option name="isAAforBombingThisUnitOnly" value="true"/>
-			<!-- <option name="canBeGivenByTerritoryTo" value="British"/> -->
 			<option name="isRocket" value="true"/>
 			<option name="bombingMaxDieSides" value="6"/>
 			<option name="bombingBonus" value="0"/>
@@ -4872,7 +4889,6 @@
 			<option name="constructionType" value="harbour_structure"/>
 			<option name="constructionsPerTerrPerTypePerTurn" value="1"/>
 			<option name="maxConstructionsPerTypePerTerr" value="1"/>
-			<option name="movement" value="0"/>
 			<option name="givesMovement" value="1:transport"/>
 			<option name="givesMovement" value="1:submarine"/>
 			<option name="givesMovement" value="1:destroyer"/>
@@ -4880,19 +4896,19 @@
 			<option name="givesMovement" value="1:carrier"/>
 			<option name="givesMovement" value="1:battleship"/>
 			<option name="isAAforBombingThisUnitOnly" value="true"/>
-			<!-- <option name="canBeGivenByTerritoryTo" value="British"/> -->
 		</attachment>
 		<!-- AA Gun -->
 		<attachment name="unitAttachment" attachTo="aaGun" javaClass="UnitAttachment" type="unitType">
-			<option name="isAAforCombatOnly" value="true"/>
-			<!-- <option name="isRocket" value="true"/> -->
-			<option name="canNotMoveDuringCombatMove" value="true"/>
-			<!-- <option name="isInfrastructure" value="true"/>
-			<option name="canBeDamaged" value="false"/> -->
 			<option name="movement" value="1"/>
+			<option name="isAAforCombatOnly" value="true"/>
+			<option name="maxAAattacks" value="3"/>
+			<option name="isRocket" value="true"/>
+			<option name="bombingMaxDieSides" value="6"/>
+			<option name="bombingBonus" value="0"/>
+			<option name="canNotMoveDuringCombatMove" value="true"/>
+			<option name="isInfrastructure" value="true"/>
 			<option name="transportCost" value="3"/>
 			<option name="canBeGivenByTerritoryTo" value="British"/>
-			<option name="maxAAattacks" value="3"/>
 		</attachment>
 		<!-- Territory Attachments -->
 		<!-- Sea Zone Attachments -->
@@ -5015,6 +5031,12 @@
 			<option name="support" value="supportAttachmentMechanizedTechnology"/>
 			<option name="uses" value="1"/>
 		</attachment>
+		
+		<attachment foreach="$AllPlayers$:$AllPlayersNoCaps$" name="triggerAttachment@AllPlayers@EndTurnCleanUp" attachTo="@AllPlayers@" javaClass="TriggerAttachment" type="player">
+			<option name="conditions" value="conditionAttachment_AlwaysTrue"/>
+			<option name="removeUnits" value="all:factory_upgrade" count="99"/>
+			<option name="when" value="after:@AllPlayersNoCaps@EndTurn"/>
+		</attachment>
 		<!--  National Objectives (A number of NOs are done with Conditions further down) -->
 
 		<!-- Victory Conditions -->
@@ -5035,7 +5057,7 @@
 			<option name="trigger" value="conditionAttachmentTurn1Check"/>
 			<option name="notification" value="R01"/>
 			<option name="uses" value="1"/>
-			<option name="when" value="before:germansPurchase"/>
+			<option name="when" value="before:germansTech"/>
 		</attachment>
 		<!-- Player Attachments -->
 		<attachment name="playerAttachment" attachTo="Mongolians" javaClass="PlayerAttachment" type="player">
@@ -5050,12 +5072,35 @@
 		<attachment name="playerAttachment" attachTo="Neutral_True" javaClass="PlayerAttachment" type="player">
 			<option name="captureUnitOnEnteringBy" value="Americans:French:British:ANZAC:Chinese:Russians:Germans:Italians:Japanese"/>
 		</attachment>
+		<attachment name="playerAttachment" attachTo="Germans" javaClass="PlayerAttachment" type="player">
+			<option name="placementLimit" value="owned:factory_major:factory_minor" count="1"/>
+		</attachment>
+		<attachment name="playerAttachment" attachTo="Russians" javaClass="PlayerAttachment" type="player">
+			<option name="placementLimit" value="owned:factory_major:factory_minor" count="1"/>
+		</attachment>
+		<attachment name="playerAttachment" attachTo="Americans" javaClass="PlayerAttachment" type="player">
+			<option name="placementLimit" value="owned:factory_major:factory_minor" count="1"/>
+		</attachment>
+		<attachment name="playerAttachment" attachTo="British" javaClass="PlayerAttachment" type="player">
+			<option name="placementLimit" value="owned:factory_major:factory_minor" count="1"/>
+		</attachment>
+		<attachment name="playerAttachment" attachTo="ANZAC" javaClass="PlayerAttachment" type="player">
+			<option name="placementLimit" value="owned:factory_major:factory_minor" count="1"/>
+		</attachment>
+		<attachment name="playerAttachment" attachTo="Italians" javaClass="PlayerAttachment" type="player">
+			<option name="placementLimit" value="owned:factory_major:factory_minor" count="1"/>
+		</attachment>
+		<attachment name="playerAttachment" attachTo="French" javaClass="PlayerAttachment" type="player">
+			<option name="placementLimit" value="owned:factory_major:factory_minor" count="1"/>
+		</attachment>
 		<attachment name="playerAttachment" attachTo="Japanese" javaClass="PlayerAttachment" type="player">
 			<option name="suicideAttackResources" value="SuicideAttackTokens" count="2"/>
+			<option name="placementLimit" value="owned:factory_major:factory_minor" count="1"/>
 		<!-- <option name="suicideAttackTargets" value="battleship:carrier:cruiser:destroyer"/> -->
 		</attachment>
 		<attachment name="playerAttachment" attachTo="Chinese" javaClass="PlayerAttachment" type="player">
 			<option name="immuneToBlockade" value="true"/>
+			<option name="placementLimit" value="owned:factory_major:factory_minor" count="1"/>
 		</attachment>
 		<!--  Rules Restrictions -->
 		<attachment name="rulesAttachment" attachTo="Chinese" javaClass="RulesAttachment" type="player">
