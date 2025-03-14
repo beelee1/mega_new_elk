@@ -1,2 +1,3 @@
 Chicago  (745,2270)
 Washington D.C.  (1270,2495)
+E.Romania  (6694,2917) 
