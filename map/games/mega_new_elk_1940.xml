@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE game SYSTEM "game.dtd">
 <game>
-	<info name="UHD WIP 1940-45" version="1.36.3"/>
+	<info name="UHD WIP 1940-45" version="1.37"/>
 	<loader javaClass="games.strategy.triplea.TripleA"/>
 	<triplea minimumVersion="2.5"/>
 	<diceSides value="6"/>
