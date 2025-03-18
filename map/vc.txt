@@ -1,3 +1,5 @@
-Chicago  (745,2270)
-Washington D.C.  (1270,2495)
-E.Romania  (6694,2917) 
+San Francisco  (15951,2601) 
+E.Romania  (6692,2903) 
+Sydney Canberra  (13204,7399) 
+It.Somaliland  (7426,5451) 
+Washington D.C.  (1208,2498) 
