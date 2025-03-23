@@ -1,2 +1,5 @@
-Sydney Canberra  (13206,7392) 
-Washington D.C.  (1208,2491) 
+Sydney Canberra  (13178,7403) 
+Washington D.C.  (1222,2491)
+Morocco  (4478,4059) 
+Peking  (10991,2974) 
+Tokyo  (12386,3136) 

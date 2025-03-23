@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE game SYSTEM "game.dtd">
 <game>
-	<info name="UHD WIP 1940-45" version="1.37"/>
+	<info name="UHD WIP 1940-45" version="1.38"/>
 	<loader javaClass="games.strategy.triplea.TripleA"/>
 	<triplea minimumVersion="2.5"/>
 	<diceSides value="6"/>
@@ -352,7 +352,6 @@
 			<element name="Gotland"/>
 			<element name="Gran Chaco"/>
 			<element name="Grand Erg"/>
-			<element name="Greenland"/>
 			<element name="Grodno"/>
 			<element name="Guatemala"/>
 			<element name="Gujarat"/>
@@ -417,7 +416,6 @@
 			<element name="Kweichow"/>
 			<element name="Kyrgyzstan"/>
 			<element name="Labrador"/>
-			<element name="Lagos"/>
 			<element name="Lanzhou"/>
 			<element name="Laos"/>
 			<element name="Lapland"/>
@@ -519,7 +517,6 @@
 			<element name="Rabaul"/>
 			<element name="Rajputana"/>
 			<element name="Rangoon"/>
-			<element name="Rio De Janeiro"/>
 			<element name="Rio De Oro"/>
 			<element name="Rio Grande do Sol"/>
 			<element name="Riyadh"/>
@@ -622,9 +619,6 @@
 			<element name="Albania"/>
 			<element name="Alsace"/>
 			<element name="Anchorage"/>
-			<element name="Greece"/>
-			<element name="Bangkok"/>
-			<element name="Benghazi"/>
 			<element name="Brittany"/>
 			<element name="Bryansk"/>
 			<element name="Hungary"/>
@@ -639,11 +633,9 @@
 			<element name="Dovao"/>
 			<element name="Haichow"/>
 			<element name="Hanoi"/>
-			<element name="Helsinki"/>
 			<element name="Hiroshima"/>
 			<element name="Hokkaido"/>
 			<element name="Hollandia"/>
-			<element name="Iwo Jima"/>
 			<element name="Jehol"/>
 			<element name="Jutland"/>
 			<element name="Karachi"/>
@@ -661,14 +653,12 @@
 			<element name="Minsk"/>
 			<element name="N.Korea"/>
 			<element name="Nizhny Novgorod"/>
-			<element name="Panama"/>
 			<element name="Panay Leyte"/>
 			<!-- <element name="Peking"/> Chinese -->
 			<element name="Perm"/>
 			<element name="Poitou"/>
 			<element name="Pomerania"/>
 			<element name="Prague"/>
-			<element name="E.Romania"/>
 			<element name="Saigon"/>
 			<element name="Saipan"/>
 			<element name="Salamaua Lae"/>
@@ -711,6 +701,7 @@
 			<element name="E.Prussia"/>
 			<element name="Gabon"/>
 			<element name="Guadalcanal"/>
+			<element name="Greenland"/>
 			<element name="Grozny"/>
 			<element name="Halifax"/>
 			<element name="Havana"/>
@@ -724,6 +715,7 @@
 			<element name="Kuybysev"/>
 			<element name="Kyiv"/>
 			<element name="Kyoto"/>
+			<element name="Lagos"/>
 			<element name="Malaya"/>
 			<element name="Manila"/>
 			<element name="Marseille"/>
@@ -755,6 +747,7 @@
 			<element name="Palembang"/>
 			<element name="Pt.Moresby"/>
 			<element name="Portland"/>
+			<element name="Rio De Janeiro"/>
 			<element name="Rostov"/>
 			<element name="S.Korea"/>
 			<element name="Sacramento"/>
@@ -785,18 +778,25 @@
 			<element name="Chicago"/>
 			<element name="Baku"/>
 			<element name="Balikpapan"/>
+			<element name="Bangkok"/>
 			<element name="Bavaria"/>
+			<element name="Benghazi"/>
 			<element name="Boston"/>
 			<element name="Calcutta"/>
 			<element name="Charleston"/>
+			<element name="E.Romania"/>
 			<element name="Florida"/>
 			<element name="Frankfurt"/>
+			<element name="Greece"/>
 			<element name="Hamburg"/>
+			<element name="Helsinki"/>
 			<element name="Honolulu"/>
-			<element name="Philadelphia"/>
+			<element name="Iwo Jima"/>
 			<element name="Kyushu"/>
 			<element name="Leningrad"/>
 			<element name="Los Angeles"/>
+			<element name="Panama"/>
+			<element name="Philadelphia"/>
 			<element name="Singapore"/>
 			<element name="Stalingrad"/>
 			<element name="Texas"/>
@@ -4894,6 +4894,7 @@
 			<option name="canProduceXUnits" value="3"/>
 			<option name="canOnlyBePlacedInTerritoryValuedAtX" value="2"/>
 			<option name="destroyedWhenCapturedBy" value="Chinese"/>
+			<!-- <option name="whenCapturedSustainsDamage" value="3"/> -->
 			<option name="isAAforBombingThisUnitOnly" value="true"/>
 			<option name="givesMovement" value="1:infantry"/>
 			<option name="givesMovement" value="1:artillery"/>
@@ -5031,7 +5032,7 @@
 		<attachment foreach="$CapitalZones$:$AllPlayers$" name="territoryAttachment" attachTo="@CapitalZones@"	javaClass="TerritoryAttachment" type="territory">
 			<option name="production" value="3"/>
 			<option name="capital" value="@AllPlayers@"/>
-			<!-- <option name="victoryCity" value="1"/> -->
+			<option name="victoryCity" value="1"/>
 		</attachment>
 
 		<!-- Canals -->
@@ -5114,6 +5115,7 @@
 			<option name="territories" value="$VictoryCities$"/>
 			<option name="territoryProperty" value="victoryCity" count="1"/>
 			<option name="when" value="before:germansTech"/>
+			<option name="when" value="before:germansPurchase"/>
 			<option name="uses" value="1"/>
 		</attachment>
 
@@ -5123,6 +5125,7 @@
 			<option name="territories" value="$NeutralAllies$"/>
 			<option name="territoryProperty" value="captureUnitOnEnteringBy" count="British:Russians:Americans:French"/>
 			<option name="when" value="before:germansTech"/>
+			<option name="when" value="before:germansPurchase"/>
 			<option name="uses" value="1"/>
 		</attachment>
 		<attachment name="territoryAttachmentAddNeutralAxis" attachTo="Germans"	javaClass="TriggerAttachment" type="player">
@@ -5130,6 +5133,7 @@
 			<option name="territories" value="$NeutralAxis$"/>
 			<option name="territoryProperty" value="captureUnitOnEnteringBy" count="Germans:Italians"/>
 			<option name="when" value="before:germansTech"/>
+			<option name="when" value="before:germansPurchase"/>
 			<option name="uses" value="1"/>
 		</attachment>
 
@@ -5139,6 +5143,7 @@
 			<option name="territories" value="Peking:Rome"/>
 			<option name="territoryProperty" value="production" count="2"/>
 			<option name="when" value="before:germansTech"/>
+			<option name="when" value="before:germansPurchase"/>
 			<option name="uses" value="1"/>
 		</attachment>
 		<!-- <attachment name="triggerAttachmentFrenchItalians" attachTo="Italians"	javaClass="TriggerAttachment" type="player">
@@ -5146,6 +5151,7 @@
 			<option name="territories" value="Paris:Rome"/>
 			<option name="territoryProperty" value="production" count="5"/>
 			<option name="when" value="before:germansTech"/>
+			<option name="when" value="before:germansPurchase"/>
 			<option name="uses" value="1"/>
 		</attachment> -->
 
@@ -5155,6 +5161,7 @@
 			<option name="territories" value="$ChineseOwner$"/>
 			<option name="territoryProperty" value="originalOwner" count="Chinese"/>
 			<option name="when" value="before:germansTech"/>
+			<option name="when" value="before:germansPurchase"/>
 			<option name="uses" value="1"/>
 		</attachment>
 
@@ -5256,8 +5263,12 @@
 			<option name="when" value="after:@AllPlayersNoCaps@EndTurn"/>
 		</attachment>
 
+		<attachment name="conditionAttachmenTechDevelopment" attachTo="Germans" javaClass="RulesAttachment" type="player">
+			<option name="gameProperty" value="Tech Development"/>
+		</attachment>
+
 		<attachment name="triggerAttachmentGermanTech" attachTo="Germans" javaClass="TriggerAttachment" type="player">
-			<option name="conditions" value="conditionAttachment_AlwaysTrue"/>
+			<option name="conditions" value="conditionAttachmenTechDevelopment"/>
 			<option name="tech" value="Combined_Armor_Support"/>
 			<option name="uses" value="1"/>
 			<option name="when" value="before:germansTech"/>
@@ -5308,6 +5319,7 @@
          <option name="playerAttachmentName" value="PlayerAttachment" count="playerAttachment"/>
 			<option name="playerProperty" value="suicideAttackResources" count="2:SuicideAttackTokens"/>
 			<option name="when" value="before:germansTech"/>
+			<option name="when" value="before:germansPurchase"/>
 			<option name="uses" value="1"/>
 		</attachment>
 		<attachment name="triggerAttachmentChinesePlayer" attachTo="Chinese"	javaClass="TriggerAttachment" type="player">
@@ -5316,6 +5328,7 @@
          <option name="playerAttachmentName" value="PlayerAttachment" count="playerAttachment"/>
 			<option name="playerProperty" value="immuneToBlockade" count="true"/>
 			<option name="when" value="before:germansTech"/>
+			<option name="when" value="before:germansPurchase"/>
 			<option name="uses" value="1"/>
 		</attachment>
 		
@@ -5366,12 +5379,20 @@
 			<option name="when" value="after:@AllPlayersNoCaps@EndTurn"/>
 		</attachment>
 		<attachment foreach="$AllPlayers$:$AllPlayersNoCaps$" name="triggerAttachmentNot@AllPlayers@Rule" attachTo="@AllPlayers@"	javaClass="TriggerAttachment" type="player">
+			<option name="conditions" value="conditionAttachmentNot@AllPlayers@OwnershipCapital"/>
+         <option name="resource" value="PUs"/>
+         <option name="resourceCount" value="-999"/>
+         <option name="players" value="@AllPlayers@"/>
+			<option name="when" value="after:@AllPlayersNoCaps@Purchase"/>
+		</attachment>
+		<attachment foreach="$AllPlayers$:$AllPlayersNoCaps$" name="triggerAttachmentNot@AllPlayers@Rule" attachTo="@AllPlayers@"	javaClass="TriggerAttachment" type="player">
 			<option name="conditions" value="conditionAttachmentNot@AllPlayers@OwnershipCapital:conditionAttachmentNot@AllPlayers@OwnershipPUs"/>
          <option name="resource" value="PUs"/>
          <option name="resourceCount" value="-999"/>
          <option name="players" value="@AllPlayers@"/>
          <option name="playerAttachmentName" value="RulesAttachment" count="rulesAttachment"/>
 			<option name="playerProperty" value="productionPerXTerritories" count="-reset-2:infantry"/>
+			<option name="playerProperty" value="productionPerXTerritories" count="8:artillery"/>
 			<option name="playerProperty" value="placementPerTerritory" count="8"/>
 			<option name="playerProperty" value="maxPlacePerTerritory" count="3"/>
 			<option name="playerProperty" value="placementAnyTerritory" count="true"/>
@@ -6602,7 +6623,7 @@
 			<unitPlacement unitType="fighter" territory="New York" quantity="1" owner="Americans"/>
 			<unitPlacement unitType="aaGun" territory="New York" quantity="2" owner="Americans"/>
 			<unitPlacement unitType="infantry" territory="New York" quantity="1" owner="Americans"/>
-			<unitPlacement unitType="factory_upgrade" territory="New York" quantity="1" owner="Americans"/>
+			<unitPlacement unitType="factory_major" territory="New York" quantity="1" owner="Americans"/>
 			<unitPlacement unitType="infantry" territory="Nome" quantity="1" owner="Americans"/>
 			<unitPlacement unitType="factory_minor" territory="Normandy" quantity="1" owner="French"/>
 			<unitPlacement unitType="factory_minor" territory="Novosibirsk" quantity="1" owner="Russians"/>
@@ -6634,7 +6655,7 @@
 			<unitPlacement unitType="armour" territory="Paris" quantity="1" owner="French"/>
 			<unitPlacement unitType="aaGun" territory="Paris" quantity="1" owner="French"/>
 			<unitPlacement unitType="artillery" territory="Paris" quantity="1" owner="French"/>
-			<unitPlacement unitType="factory_minor" territory="Peking" quantity="1" owner="Japanese" unitDamage="6"/>
+			<unitPlacement unitType="factory_minor" territory="Peking" quantity="1" owner="Japanese"/>
 			<unitPlacement unitType="infantry" territory="Peking" quantity="2" owner="Japanese"/>
 			<unitPlacement unitType="artillery" territory="Peking" quantity="1" owner="Japanese"/>
 			<unitPlacement unitType="infantry" territory="Peleliu" quantity="2" owner="Japanese"/>
@@ -6700,7 +6721,7 @@
 			<unitPlacement unitType="mech_infantry" territory="Stalingrad" quantity="1" owner="Russians"/>
 			<unitPlacement unitType="armour" territory="Stalingrad" quantity="1" owner="Russians"/>
 			<unitPlacement unitType="harbour" territory="Sydney Canberra" quantity="1" owner="ANZAC"/>
-			<unitPlacement unitType="factory_minor" territory="Sydney Canberra" quantity="1" owner="ANZAC"/>
+			<unitPlacement unitType="factory_major" territory="Sydney Canberra" quantity="1" owner="ANZAC"/>
 			<unitPlacement unitType="aaGun" territory="Sydney Canberra" quantity="2" owner="ANZAC"/>
 			<unitPlacement unitType="infantry" territory="Sydney Canberra" quantity="2" owner="ANZAC"/>
 			<unitPlacement unitType="fighter" territory="Taipei" quantity="1" owner="Japanese"/>
@@ -6782,7 +6803,8 @@
 			<resourceGiven player="Japanese" resource="PUs" quantity="45"/>
 			<resourceGiven player="Japanese" resource="SuicideAttackTokens" quantity="6"/>
 			<resourceGiven player="Americans" resource="PUs" quantity="124"/>
-			<resourceGiven player="Chinese" resource="PUs" quantity="22"/>
+			<!-- Chinese have no capital, and should not receive any income -->
+			<!-- <resourceGiven player="Chinese" resource="PUs" quantity="22"/> -->
 			<resourceGiven player="British" resource="PUs" quantity="120"/>
 			<resourceGiven player="Italians" resource="PUs" quantity="35"/>
 			<resourceGiven player="ANZAC" resource="PUs" quantity="28"/>
